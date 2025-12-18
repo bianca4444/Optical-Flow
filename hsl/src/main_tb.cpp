@@ -1,21 +1,31 @@
-#include <stdio.h>
-#include "horn_schunck_hsl.h"
+#include <iostream>
+#include "pyramidal_hs.h"
+
 
 int main() {
-    fixed_t I1[H][W], I2[H][W];
-    fixed_t u[H][W] = {0};
-    fixed_t v[H][W] = {0};
 
-    for (int i=0;i<H;i++) {
-        for (int j=0;j<W;j++) {
-            I1[i][j] = (fixed_t)((i + j) % 32);
-            I2[i][j] = (fixed_t)((i + (j-1) + W) % 32); // shift la dreapta
+    static pix_t img1[HEIGHT][WIDTH];
+    static pix_t img2[HEIGHT][WIDTH];
+    static pix_t Ix[HEIGHT][WIDTH];
+    static pix_t Iy[HEIGHT][WIDTH];
+    static pix_t It[HEIGHT][WIDTH];
+    static pix_t u[HEIGHT][WIDTH];
+    static pix_t v[HEIGHT][WIDTH];
+
+    // Simple horizontal motion
+    for (int y = 0; y < HEIGHT; y++) {
+        for (int x = 0; x < WIDTH; x++) {
+            img1[y][x] = (x < WIDTH/2) ? 100 : 0;
+            img2[y][x] = (x < WIDTH/2 - 1) ? 100 : 0;
         }
     }
 
-    horn_schunck_hls(I1, I2, u, v);
+    //compute_derivatives(img1, img2, Ix, Iy, It);
+    //horn_schunck(Ix, Iy, It, u, v);
+    pyramidal_hs(img1, img2, u, v);
 
-    printf("u[32][32] = %f\n", (float)u[32][32]);
-    printf("v[32][32] = %f\n", (float)v[32][32]);
+    std::cout << "u[32][32] = " << u[32][32] << std::endl;
+    std::cout << "v[32][32] = " << v[32][32] << std::endl;
+
     return 0;
 }

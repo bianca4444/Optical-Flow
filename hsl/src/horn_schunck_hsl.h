@@ -1,22 +1,35 @@
-// horn_schunck_hsl.h
-#pragma once
-#include <ap_fixed.h>
+#ifndef HORN_SCHUNCK_HLS_H
+#define HORN_SCHUNCK_HLS_H
 
-#define W 64
-#define H 64
-#define N_ITER 10
+#include "derivatives_hls.h"
 
-typedef ap_fixed<16,4> fixed_t;
+#define HS_ITER 5
 
-// constante fixed-point
-const fixed_t ALPHA = fixed_t(1.0);
-const fixed_t ONE_QUARTER = fixed_t(0.25);
-const fixed_t HALF = fixed_t(0.5);
-
-// top function: primește două cadre (I1, I2)
-void horn_schunck_hls(
-    fixed_t I1[H][W],
-    fixed_t I2[H][W],
-    fixed_t u[H][W],
-    fixed_t v[H][W]
+void horn_schunck_64(
+    pix_t Ix[HEIGHT][WIDTH],
+    pix_t Iy[HEIGHT][WIDTH],
+    pix_t It[HEIGHT][WIDTH],
+    pix_t u[HEIGHT][WIDTH],
+    pix_t v[HEIGHT][WIDTH],
+    bool init_zero
 );
+
+void horn_schunck_32(
+    pix_t Ix[HEIGHT/2][WIDTH/2],
+    pix_t Iy[HEIGHT/2][WIDTH/2],
+    pix_t It[HEIGHT/2][WIDTH/2],
+    pix_t u[HEIGHT/2][WIDTH/2],
+    pix_t v[HEIGHT/2][WIDTH/2],
+    bool init_zero
+);
+
+void horn_schunck_16(
+    pix_t Ix[HEIGHT/4][WIDTH/4],
+    pix_t Iy[HEIGHT/4][WIDTH/4],
+    pix_t It[HEIGHT/4][WIDTH/4],
+    pix_t u[HEIGHT/4][WIDTH/4],
+    pix_t v[HEIGHT/4][WIDTH/4],
+    bool init_zero
+);
+
+#endif

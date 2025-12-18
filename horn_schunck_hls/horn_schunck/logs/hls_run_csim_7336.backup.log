@@ -1,0 +1,322 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls/horn_schunck 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls/horn_schunck/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls/horn_schunck'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../hsl/src/derivatives_hls.cpp' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Diaxxa/Desktop/Optical-Flow/hsl/src/derivatives_hls.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../hsl/src/derivatives_hls.h' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Diaxxa/Desktop/Optical-Flow/hsl/src/derivatives_hls.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../hsl/src/horn_schunck_hsl.cpp' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Diaxxa/Desktop/Optical-Flow/hsl/src/horn_schunck_hsl.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../hsl/src/horn_schunck_hsl.h' from hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Diaxxa/Desktop/Optical-Flow/hsl/src/horn_schunck_hsl.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../hsl/src/main_tb.cpp' from hls_config.cfg(12)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/Diaxxa/Desktop/Optical-Flow/hsl/src/main_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=horn_schunck' from hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xcku115-flva1517-3-e' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xcku115-flva1517-3-e'
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(13)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'csim.setup=1' from hls_config.cfg(14)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls/horn_schunck/vitis-comp.json
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [HLS 200-2191] C-Simulation will use clang-16 as the compiler
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../../hsl/src/main_tb.cpp in debug mode
+   Compiling ../../../../../hsl/src/horn_schunck_hsl.cpp in debug mode
+In file included from ../../../../../hsl/src/main_tb.cpp:2:
+In file included from ../../../../../hsl/src/horn_schunck_hsl.h:4:
+In file included from ../../../../../hsl/src/derivatives_hls.h:4:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include\ap_fixed.h:9:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_common.h:668:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_private.h:68:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include\hls_half.h:26:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include/etc/hls_half_fpo.h:19:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include\hls_fpo.h:140:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:150:
+C:/AMDDesignTools/2025.2/Vitis/include\gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+C:/AMDDesignTools/2025.2/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+In file included from ../../../../../hsl/src/horn_schunck_hsl.cpp:1:
+In file included from ../../../../../hsl/src/horn_schunck_hsl.h:4:
+In file included from ../../../../../hsl/src/derivatives_hls.h:4:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include\ap_fixed.h:9:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_common.h:668:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_private.h:68:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include\hls_half.h:26:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include/etc/hls_half_fpo.h:19:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include\hls_fpo.h:140:
+In file included from C:/AMDDesignTools/2025.2/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:150:
+C:/AMDDesignTools/2025.2/Vitis/include\gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+C:/AMDDesignTools/2025.2/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+../../../../../hsl/src/horn_schunck_hsl.cpp:34:73: error: use of overloaded operator '*' is ambiguous (with operand types 'typename RType<16, 6, true>::plus' (aka 'ap_fixed<19, 9>') and 'double')
+                u_avg = (u[y][x-1] + u[y][x+1] + u[y-1][x] + u[y+1][x]) * 0.25;
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2376:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(bool, 1, false)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2377:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(char, 8, CHAR_IS_SIGNED)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2378:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(signed char, 8, true)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2379:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(unsigned char, 8, false)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2380:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(short, _AP_SIZE_short, true)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2381:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(unsigned short, _AP_SIZE_short, false)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2382:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(int, _AP_SIZE_int, true)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2383:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(unsigned int, _AP_SIZE_int, false)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2384:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(long, _AP_SIZE_long, true)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2385:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(unsigned long, _AP_SIZE_long, false)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2386:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(ap_slong, _AP_SIZE_ap_slong, true)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2387:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(ap_ulong, _AP_SIZE_ap_slong, false)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+../../../../../hsl/src/horn_schunck_hsl.cpp:34:73: note: built-in candidate operator*(float, double)
+                u_avg = (u[y][x-1] + u[y][x+1] + u[y-1][x] + u[y+1][x]) * 0.25;
+                                                                        ^
+../../../../../hsl/src/horn_schunck_hsl.cpp:34:73: note: built-in candidate operator*(double, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:34:73: note: built-in candidate operator*(long double, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:34:73: note: built-in candidate operator*(__float128, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:34:73: note: built-in candidate operator*(int, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:34:73: note: built-in candidate operator*(long, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:34:73: note: built-in candidate operator*(long long, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:34:73: note: built-in candidate operator*(__int128, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:34:73: note: built-in candidate operator*(unsigned int, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:34:73: note: built-in candidate operator*(unsigned long, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:34:73: note: built-in candidate operator*(unsigned long long, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:34:73: note: built-in candidate operator*(unsigned __int128, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:35:73: error: use of overloaded operator '*' is ambiguous (with operand types 'typename RType<16, 6, true>::plus' (aka 'ap_fixed<19, 9>') and 'double')
+                v_avg = (v[y][x-1] + v[y][x+1] + v[y-1][x] + v[y+1][x]) * 0.25;
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2376:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(bool, 1, false)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2377:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(char, 8, CHAR_IS_SIGNED)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2378:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(signed char, 8, true)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2379:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(unsigned char, 8, false)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2380:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(short, _AP_SIZE_short, true)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2381:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(unsigned short, _AP_SIZE_short, false)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2382:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(int, _AP_SIZE_int, true)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2383:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(unsigned int, _AP_SIZE_int, false)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2384:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(long, _AP_SIZE_long, true)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2385:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(unsigned long, _AP_SIZE_long, false)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2386:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(ap_slong, _AP_SIZE_ap_slong, true)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2387:1: note: candidate function [with _AP_W = 19, _AP_I = 9, _AP_S = true, _AP_Q = AP_TRN, _AP_O = AP_WRAP, _AP_N = 0]
+ALL_AF_OP_WITH_INT(ap_ulong, _AP_SIZE_ap_slong, false)
+^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2351:3: note: expanded from macro 'ALL_AF_OP_WITH_INT'
+  AF_BIN_OP_WITH_INT(*, C_TYPE, (BITS), (SIGN), mult)     \
+  ^
+C:/AMDDesignTools/2025.2/Vitis/include\etc/ap_fixed_base.h:2297:3: note: expanded from macro 'AF_BIN_OP_WITH_INT'
+  operator BIN_OP(                                                          \
+  ^
+../../../../../hsl/src/horn_schunck_hsl.cpp:35:73: note: built-in candidate operator*(float, double)
+                v_avg = (v[y][x-1] + v[y][x+1] + v[y-1][x] + v[y+1][x]) * 0.25;
+                                                                        ^
+../../../../../hsl/src/horn_schunck_hsl.cpp:35:73: note: built-in candidate operator*(double, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:35:73: note: built-in candidate operator*(long double, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:35:73: note: built-in candidate operator*(__float128, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:35:73: note: built-in candidate operator*(int, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:35:73: note: built-in candidate operator*(long, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:35:73: note: built-in candidate operator*(long long, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:35:73: note: built-in candidate operator*(__int128, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:35:73: note: built-in candidate operator*(unsigned int, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:35:73: note: built-in candidate operator*(unsigned long, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:35:73: note: built-in candidate operator*(unsigned long long, double)
+../../../../../hsl/src/horn_schunck_hsl.cpp:35:73: note: built-in candidate operator*(unsigned __int128, double)
+1 warning and 2 errors generated.
+mingw32-make: *** [csim.mk:97: obj/horn_schunck_hsl.o] Error 1
+ERROR: [SIM 211-100] CSim file generation failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+ERROR: CSIM Failed
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 2 seconds. Total elapsed time: 9.808 seconds; peak allocated memory: 372.387 MB.

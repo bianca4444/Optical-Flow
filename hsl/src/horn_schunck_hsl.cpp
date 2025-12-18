@@ -1,56 +1,139 @@
-// horn_schunck_hsl.cpp
 #include "horn_schunck_hsl.h"
 
-void horn_schunck_hls(
-    fixed_t I1[H][W],
-    fixed_t I2[H][W],
-    fixed_t u[H][W],
-    fixed_t v[H][W]
-) {
-    for (int iter = 0; iter < N_ITER; iter++) {
-        for (int i = 1; i < H-1; i++) {
-            for (int j = 1; j < W-1; j++) {
+void horn_schunck_64(
+    pix_t Ix[HEIGHT][WIDTH],
+    pix_t Iy[HEIGHT][WIDTH],
+    pix_t It[HEIGHT][WIDTH],
+    pix_t u[HEIGHT][WIDTH],
+    pix_t v[HEIGHT][WIDTH],
+    bool init_zero)
+{
+#pragma HLS INLINE off
 
-#pragma HLS PIPELINE II=1
+    pix_t u_avg, v_avg;
+    pix_t P;
+    const pix_t alpha = 1;
+    if (init_zero)
+    {
+        for (int y = 0; y < HEIGHT; y++)
+        {
+            for (int x = 0; x < WIDTH; x++)
+            {
+#pragma HLS PIPELINE II = 1
+                u[y][x] = 0;
+                v[y][x] = 0;
+            }
+        }
+    }
 
-                // --- cache u/v (cum ai deja) ---
-                fixed_t u0 = u[i][j-1];
-                fixed_t u1 = u[i][j+1];
-                fixed_t u2 = u[i-1][j];
-                fixed_t u3 = u[i+1][j];
+    for (int iter = 0; iter < HS_ITER; iter++)
+    {
+        for (int y = 1; y < HEIGHT - 1; y++)
+        {
+            for (int x = 1; x < WIDTH - 1; x++)
+            {
+#pragma HLS PIPELINE II = 1
 
-                fixed_t v0 = v[i][j-1];
-                fixed_t v1 = v[i][j+1];
-                fixed_t v2 = v[i-1][j];
-                fixed_t v3 = v[i+1][j];
+                u_avg = (u[y][x - 1] + u[y][x + 1] + u[y - 1][x] + u[y + 1][x]) / 4;
+                v_avg = (v[y][x - 1] + v[y][x + 1] + v[y - 1][x] + v[y + 1][x]) / 4;
 
-                fixed_t u_bar = (u0 + u1 + u2 + u3) * ONE_QUARTER;
-                fixed_t v_bar = (v0 + v1 + v2 + v3) * ONE_QUARTER;
+                P = (Ix[y][x] * u_avg + Iy[y][x] * v_avg + It[y][x]) /
+                    (alpha * alpha + Ix[y][x] * Ix[y][x] + Iy[y][x] * Iy[y][x]);
 
-                // --- DERIVATE din I1/I2 (pipeline derivatives) ---
-                fixed_t I1_l = I1[i][j-1];
-                fixed_t I1_r = I1[i][j+1];
-                fixed_t I1_u = I1[i-1][j];
-                fixed_t I1_d = I1[i+1][j];
+                u[y][x] = u_avg - Ix[y][x] * P;
+                v[y][x] = v_avg - Iy[y][x] * P;
+            }
+        }
+    }
+}
 
-                fixed_t I2_l = I2[i][j-1];
-                fixed_t I2_r = I2[i][j+1];
-                fixed_t I2_u = I2[i-1][j];
-                fixed_t I2_d = I2[i+1][j];
+void horn_schunck_32(
+    pix_t Ix[HEIGHT / 2][WIDTH / 2],
+    pix_t Iy[HEIGHT / 2][WIDTH / 2],
+    pix_t It[HEIGHT / 2][WIDTH / 2],
+    pix_t u[HEIGHT / 2][WIDTH / 2],
+    pix_t v[HEIGHT / 2][WIDTH / 2],
+    bool init_zero)
+{
+#pragma HLS INLINE off
 
-                fixed_t I1_c = I1[i][j];
-                fixed_t I2_c = I2[i][j];
+    pix_t u_avg, v_avg;
+    pix_t P;
+    const pix_t alpha = 1;
+    if (init_zero)
+    {
+        for (int y = 0; y < HEIGHT / 2; y++)
+        {
+            for (int x = 0; x < WIDTH / 2; x++)
+            {
+#pragma HLS PIPELINE II = 1
+                u[y][x] = 0;
+                v[y][x] = 0;
+            }
+        }
+    }
 
-                fixed_t Ix = ((I1_r - I1_l) + (I2_r - I2_l)) * ONE_QUARTER; // /4
-                fixed_t Iy = ((I1_d - I1_u) + (I2_d - I2_u)) * ONE_QUARTER; // /4
-                fixed_t It = (I2_c - I1_c);
+    for (int iter = 0; iter < HS_ITER; iter++)
+    {
+        for (int y = 1; y < HEIGHT / 2 - 1; y++)
+        {
+            for (int x = 1; x < WIDTH / 2 - 1; x++)
+            {
+#pragma HLS PIPELINE II = 1
 
-                // --- Horn–Schunck update ---
-                fixed_t P = Ix*u_bar + Iy*v_bar + It;
-                fixed_t D = (ALPHA * ALPHA) + Ix*Ix + Iy*Iy;
+                u_avg = (u[y][x - 1] + u[y][x + 1] + u[y - 1][x] + u[y + 1][x]) / 4;
+                v_avg = (v[y][x - 1] + v[y][x + 1] + v[y - 1][x] + v[y + 1][x]) / 4;
 
-                u[i][j] = u_bar - Ix * P / D;
-                v[i][j] = v_bar - Iy * P / D;
+                P = (Ix[y][x] * u_avg + Iy[y][x] * v_avg + It[y][x]) /
+                    (alpha * alpha + Ix[y][x] * Ix[y][x] + Iy[y][x] * Iy[y][x]);
+
+                u[y][x] = u_avg - Ix[y][x] * P;
+                v[y][x] = v_avg - Iy[y][x] * P;
+            }
+        }
+    }
+}
+
+void horn_schunck_16(
+    pix_t Ix[HEIGHT / 4][WIDTH / 4],
+    pix_t Iy[HEIGHT / 4][WIDTH / 4],
+    pix_t It[HEIGHT / 4][WIDTH / 4],
+    pix_t u[HEIGHT / 4][WIDTH / 4],
+    pix_t v[HEIGHT / 4][WIDTH / 4],
+    bool init_zero)
+{
+#pragma HLS INLINE off
+    pix_t u_avg, v_avg, P;
+    const pix_t alpha = 1;
+    if (init_zero)
+    {
+        for (int y = 0; y < HEIGHT / 4; y++)
+        {
+            for (int x = 0; x < WIDTH / 4; x++)
+            {
+#pragma HLS PIPELINE II = 1
+                u[y][x] = 0;
+                v[y][x] = 0;
+            }
+        }
+    }
+
+    for (int iter = 0; iter < HS_ITER; iter++)
+    {
+        for (int y = 1; y < HEIGHT / 4 - 1; y++)
+        {
+            for (int x = 1; x < WIDTH / 4 - 1; x++)
+            {
+#pragma HLS PIPELINE II = 1
+
+                u_avg = (u[y][x - 1] + u[y][x + 1] + u[y - 1][x] + u[y + 1][x]) / 4;
+                v_avg = (v[y][x - 1] + v[y][x + 1] + v[y - 1][x] + v[y + 1][x]) / 4;
+
+                P = (Ix[y][x] * u_avg + Iy[y][x] * v_avg + It[y][x]) /
+                    (alpha * alpha + Ix[y][x] * Ix[y][x] + Iy[y][x] * Iy[y][x]);
+
+                u[y][x] = u_avg - Ix[y][x] * P;
+                v[y][x] = v_avg - Iy[y][x] * P;
             }
         }
     }

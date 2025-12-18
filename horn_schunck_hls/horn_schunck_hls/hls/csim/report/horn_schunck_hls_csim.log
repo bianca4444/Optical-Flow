@@ -1,6 +1,0 @@
-INFO: [SIM 2] *************** CSIM start ***************
-   Compiling ../../../../../hsl/src/main_tb.cpp in debug mode
-   Compiling ../../../../../hsl/src/horn_schunck_hsl.cpp in debug mode
-   Generating csim.exe
-INFO: [SIM 1] CSim file generation done with 0 errors.
-INFO: [SIM 3] *************** CSIM finish ***************
