@@ -13,13 +13,13 @@
     input  [25 - 1:0] in2,
     output [28 - 1:0]  dout);
 
-wire signed [25 - 1:0]     a;
+wire signed [27 - 1:0]     a;
 wire signed [18 - 1:0]     b;
 wire signed [48 - 1:0]     c;
-wire signed [43 - 1:0]     m;
+wire signed [45 - 1:0]     m;
 wire signed [48 - 1:0]     p;
-reg  signed [43 - 1:0]     m_reg;
-reg  signed [25 - 1:0]     a_reg;
+reg  signed [45 - 1:0]     m_reg;
+reg  signed [27 - 1:0]     a_reg;
 reg  signed [18 - 1:0]     b_reg;
 reg  signed [48 - 1:0]     p_reg;
 

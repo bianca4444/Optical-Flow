@@ -390,7 +390,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="10" tracking_level="0" version="0">
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second class_id="11" tracking_level="0" version="0">
                     <count>1</count>
                     <item_version>0</item_version>
@@ -446,7 +446,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -502,7 +502,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -773,7 +773,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -811,7 +811,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.02</m_delay>
+          <m_delay>0.47</m_delay>
           <m_topoIndex>9</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -830,7 +830,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -868,7 +868,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.02</m_delay>
+          <m_delay>0.47</m_delay>
           <m_topoIndex>10</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -887,7 +887,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -925,7 +925,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.02</m_delay>
+          <m_delay>0.47</m_delay>
           <m_topoIndex>11</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -986,7 +986,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1043,7 +1043,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1081,7 +1081,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.35</m_delay>
+          <m_delay>0.97</m_delay>
           <m_topoIndex>14</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -1100,7 +1100,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1158,7 +1158,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1215,7 +1215,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1272,7 +1272,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1330,7 +1330,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1386,7 +1386,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1444,7 +1444,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1502,7 +1502,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1560,7 +1560,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1618,7 +1618,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1674,7 +1674,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1732,7 +1732,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1790,7 +1790,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1846,7 +1846,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1904,7 +1904,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1962,7 +1962,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2020,7 +2020,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2078,7 +2078,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2136,7 +2136,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2174,7 +2174,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.35</m_delay>
+          <m_delay>0.97</m_delay>
           <m_topoIndex>25</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -2193,7 +2193,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2251,7 +2251,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2307,7 +2307,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2365,7 +2365,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2423,7 +2423,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2445,7 +2445,7 @@
               <coreName>RAM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>81</coreId>
+              <coreId>82</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2479,7 +2479,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2501,7 +2501,7 @@
               <coreName>RAM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>81</coreId>
+              <coreId>82</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2535,7 +2535,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2557,7 +2557,7 @@
               <coreName>RAM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>81</coreId>
+              <coreId>82</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2591,7 +2591,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2613,7 +2613,7 @@
               <coreName>RAM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>81</coreId>
+              <coreId>82</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2647,7 +2647,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2669,7 +2669,7 @@
               <coreName>RAM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>81</coreId>
+              <coreId>82</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2703,7 +2703,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2725,7 +2725,7 @@
               <coreName>RAM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>81</coreId>
+              <coreId>82</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2759,7 +2759,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2815,7 +2815,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2871,7 +2871,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2909,7 +2909,7 @@
           <m_isOnCriticalPath>1</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.48</m_delay>
+          <m_delay>1.26</m_delay>
           <m_topoIndex>54</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -2928,7 +2928,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2984,7 +2984,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3040,7 +3040,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3096,7 +3096,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3153,7 +3153,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3191,7 +3191,7 @@
           <m_isOnCriticalPath>1</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>2.55</m_delay>
+          <m_delay>0.87</m_delay>
           <m_topoIndex>59</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -3210,7 +3210,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3269,7 +3269,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3325,7 +3325,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3381,7 +3381,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3419,7 +3419,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>1</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.48</m_delay>
+          <m_delay>1.26</m_delay>
           <m_topoIndex>63</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -3438,7 +3438,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3494,7 +3494,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3550,7 +3550,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3606,7 +3606,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3663,7 +3663,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3701,7 +3701,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>1</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>2.55</m_delay>
+          <m_delay>0.87</m_delay>
           <m_topoIndex>68</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -3720,7 +3720,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3779,7 +3779,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3801,7 +3801,7 @@
               <coreName>RAM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>81</coreId>
+              <coreId>82</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3835,7 +3835,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3891,7 +3891,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3947,7 +3947,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4003,7 +4003,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4025,7 +4025,7 @@
               <coreName>RAM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>81</coreId>
+              <coreId>82</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4059,7 +4059,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4115,7 +4115,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4171,7 +4171,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4227,7 +4227,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4249,7 +4249,7 @@
               <coreName>DSP48</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>116</coreId>
+              <coreId>124</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>28</bitwidth>
@@ -4265,7 +4265,7 @@
           <m_isOnCriticalPath>1</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>2.84</m_delay>
+          <m_delay>0.82</m_delay>
           <m_topoIndex>74</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -4284,7 +4284,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4306,7 +4306,7 @@
               <coreName>DSP48</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>116</coreId>
+              <coreId>124</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>28</bitwidth>
@@ -4322,7 +4322,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>1</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>2.84</m_delay>
+          <m_delay>0.82</m_delay>
           <m_topoIndex>75</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -4341,7 +4341,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4363,7 +4363,7 @@
               <coreName>RAM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>81</coreId>
+              <coreId>82</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4397,7 +4397,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4455,7 +4455,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4477,7 +4477,7 @@
               <coreName>DSP48</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>116</coreId>
+              <coreId>124</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>28</bitwidth>
@@ -4493,7 +4493,7 @@
           <m_isOnCriticalPath>1</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>2.95</m_delay>
+          <m_delay>2.47</m_delay>
           <m_topoIndex>77</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -4512,7 +4512,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4534,7 +4534,7 @@
               <coreName>DSP48</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>116</coreId>
+              <coreId>124</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>28</bitwidth>
@@ -4550,7 +4550,7 @@
           <m_isOnCriticalPath>1</m_isOnCriticalPath>
           <m_isLCDNode>1</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>2.95</m_delay>
+          <m_delay>2.47</m_delay>
           <m_topoIndex>78</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -4569,7 +4569,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4628,7 +4628,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4650,7 +4650,7 @@
               <coreName>DSP48</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>116</coreId>
+              <coreId>124</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>28</bitwidth>
@@ -4666,7 +4666,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.09</m_delay>
+          <m_delay>0.93</m_delay>
           <m_topoIndex>45</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -4685,7 +4685,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4707,7 +4707,7 @@
               <coreName>DSP48</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>116</coreId>
+              <coreId>124</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>28</bitwidth>
@@ -4723,7 +4723,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.78</m_delay>
+          <m_delay>1.06</m_delay>
           <m_topoIndex>48</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -4742,7 +4742,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4764,7 +4764,7 @@
               <coreName>DSP48</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>116</coreId>
+              <coreId>124</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>28</bitwidth>
@@ -4780,7 +4780,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.09</m_delay>
+          <m_delay>0.93</m_delay>
           <m_topoIndex>47</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -4799,7 +4799,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4821,7 +4821,7 @@
               <coreName>DSP48</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>116</coreId>
+              <coreId>124</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>28</bitwidth>
@@ -4837,7 +4837,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.78</m_delay>
+          <m_delay>1.06</m_delay>
           <m_topoIndex>49</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -4856,7 +4856,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4915,7 +4915,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4971,7 +4971,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5009,7 +5009,7 @@
           <m_isOnCriticalPath>1</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>4.45</m_delay>
+          <m_delay>2.98</m_delay>
           <m_topoIndex>82</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -5028,7 +5028,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5086,7 +5086,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5142,7 +5142,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5180,7 +5180,7 @@
           <m_isOnCriticalPath>1</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>1</m_isStartOfPath>
-          <m_delay>2.77</m_delay>
+          <m_delay>1.56</m_delay>
           <m_topoIndex>85</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -5199,7 +5199,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5257,7 +5257,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5313,7 +5313,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5351,7 +5351,7 @@
           <m_isOnCriticalPath>1</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.71</m_delay>
+          <m_delay>1.41</m_delay>
           <m_topoIndex>94</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -5370,7 +5370,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5429,7 +5429,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5451,7 +5451,7 @@
               <coreName>RAM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>81</coreId>
+              <coreId>82</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5486,7 +5486,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5524,7 +5524,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>1</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>4.45</m_delay>
+          <m_delay>2.98</m_delay>
           <m_topoIndex>86</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -5543,7 +5543,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5601,7 +5601,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5639,7 +5639,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>1</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>2.77</m_delay>
+          <m_delay>1.56</m_delay>
           <m_topoIndex>88</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -5658,7 +5658,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5716,7 +5716,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5772,7 +5772,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5810,7 +5810,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>1</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.71</m_delay>
+          <m_delay>1.41</m_delay>
           <m_topoIndex>99</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -5829,7 +5829,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5888,7 +5888,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5910,7 +5910,7 @@
               <coreName>RAM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>81</coreId>
+              <coreId>82</coreId>
               <rtlModuleName></rtlModuleName>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5945,7 +5945,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5985,7 +5985,7 @@
           <m_isOnCriticalPath>1</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.02</m_delay>
+          <m_delay>0.47</m_delay>
           <m_topoIndex>102</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -6004,7 +6004,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6045,7 +6045,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>1</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.02</m_delay>
+          <m_delay>0.47</m_delay>
           <m_topoIndex>103</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -6064,7 +6064,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6104,7 +6104,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.02</m_delay>
+          <m_delay>0.47</m_delay>
           <m_topoIndex>37</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -6123,7 +6123,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+                  <first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6201,7 +6201,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.02</m_delay>
+          <m_delay>0.47</m_delay>
           <m_topoIndex>89</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -10488,7 +10488,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>6</second>
+              <second>5</second>
             </item>
           </second>
         </item>
@@ -10507,7 +10507,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>6</second>
+              <second>5</second>
             </item>
           </second>
         </item>
@@ -10564,7 +10564,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>14</second>
+              <second>13</second>
             </item>
           </second>
         </item>
@@ -10725,7 +10725,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>6</second>
+              <second>2</second>
             </item>
           </second>
         </item>
@@ -10748,7 +10748,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>14</second>
+              <second>13</second>
             </item>
           </second>
         </item>
@@ -11103,7 +11103,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -11130,7 +11130,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -11184,7 +11184,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -11211,7 +11211,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>13</second>
+              <second>14</second>
             </item>
           </second>
         </item>

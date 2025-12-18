@@ -1,13 +1,13 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3'" level="0">
-<item name = "Date">Thu Dec 18 14:23:41 2025
+<item name = "Date">Thu Dec 18 17:59:51 2025
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 12 2025)</item>
 <item name = "Project">horn_schunck_hls</item>
 <item name = "Solution">hls (Vivado IP Flow Target)</item>
-<item name = "Product family">kintex7</item>
-<item name = "Target device">xc7k160t-fbg484-1</item>
+<item name = "Product family">kintexu</item>
+<item name = "Target device">xcku115-flva1517-3-e</item>
 </section>
 
 <section name = "Performance Estimates" level="0">
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 25.518 ns, 2.70 ns</column>
+<column name="ap_clk">10.00 ns, 15.908 ns, 2.70 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">2921, 2921, 74.538 us, 74.538 us, 0, 0, loop pipeline stp</column>
+<column name="">2921, 2921, 46.466 us, 46.466 us, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Detail">

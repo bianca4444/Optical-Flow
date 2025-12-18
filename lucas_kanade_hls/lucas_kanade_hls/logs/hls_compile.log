@@ -1,0 +1,164 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../LK_hls/src/lucas_kanade_hls.cpp' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Diaxxa/Desktop/Optical-Flow/LK_hls/src/lucas_kanade_hls.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../LK_hls/src/lucas_kanade_hls.h' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Diaxxa/Desktop/Optical-Flow/LK_hls/src/lucas_kanade_hls.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../LK_hls/src/main_tb.cpp' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/Diaxxa/Desktop/Optical-Flow/LK_hls/src/main_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=lucas_kanade_hls' from hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xcku115-flva1517-3-e' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xcku115-flva1517-3-e'
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(11)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'csim.setup=0' from hls_config.cfg(12)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 4.928 seconds; current allocated memory: 372.410 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file '../LK_hls/src/lucas_kanade_hls.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 7.564 seconds; current allocated memory: 375.047 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 7,580 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 4,237 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 869 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 856 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 854 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 864 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 861 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 905 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 949 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 939 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 851 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 851 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 851 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 851 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 890 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 884 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_30_3' is marked as complete unroll implied by the pipeline pragma (../LK_hls/src/lucas_kanade_hls.cpp:30:30)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_31_4' is marked as complete unroll implied by the pipeline pragma (../LK_hls/src/lucas_kanade_hls.cpp:31:34)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_30_3' (../LK_hls/src/lucas_kanade_hls.cpp:30:30) in function 'lucas_kanade_hls' completely with a factor of 3 (../LK_hls/src/lucas_kanade_hls.cpp:8:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_31_4' (../LK_hls/src/lucas_kanade_hls.cpp:31:34) in function 'lucas_kanade_hls' completely with a factor of 3 (../LK_hls/src/lucas_kanade_hls.cpp:8:0)
+INFO: [HLS 214-241] Aggregating maxi variable 'v' with compact=none mode in 16-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'u' with compact=none mode in 16-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'I2' with compact=none mode in 16-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'I1' with compact=none mode in 16-bits
+INFO: [HLS 214-115] Multiple burst reads of length 5 and bit width 16 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../LK_hls/src/lucas_kanade_hls.cpp:33:52)
+INFO: [HLS 214-115] Multiple burst reads of length 5 and bit width 16 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../LK_hls/src/lucas_kanade_hls.cpp:33:71)
+INFO: [HLS 214-115] Multiple burst reads of length 5 and bit width 16 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../LK_hls/src/lucas_kanade_hls.cpp:34:52)
+INFO: [HLS 214-115] Multiple burst reads of length 3 and bit width 16 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../LK_hls/src/lucas_kanade_hls.cpp:34:52)
+INFO: [HLS 214-115] Multiple burst reads of length 5 and bit width 16 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../LK_hls/src/lucas_kanade_hls.cpp:34:71)
+INFO: [HLS 214-115] Multiple burst reads of length 3 and bit width 16 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../LK_hls/src/lucas_kanade_hls.cpp:34:90)
+INFO: [HLS 214-115] Multiple burst reads of length 3 and bit width 16 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../LK_hls/src/lucas_kanade_hls.cpp:34:71)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 9.581 seconds; current allocated memory: 378.199 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 378.199 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.101 seconds; current allocated memory: 383.660 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+WARNING: [SYNCHK 200-120] ../LK_hls/src/lucas_kanade_hls.cpp:37: multiplication is assumed not to overflow by default, otherwise, please add option '-fwrapv'.
+INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.056 seconds; current allocated memory: 385.551 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.162 seconds; current allocated memory: 409.949 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_18_1'(../LK_hls/src/lucas_kanade_hls.cpp:18:22) and 'VITIS_LOOP_19_2'(../LK_hls/src/lucas_kanade_hls.cpp:19:26) in function 'lucas_kanade_hls' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_18_1' (../LK_hls/src/lucas_kanade_hls.cpp:18:22) in function 'lucas_kanade_hls'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.158 seconds; current allocated memory: 409.953 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'lucas_kanade_hls' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'lucas_kanade_hls' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=sub_ln46) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln41_7) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln40_7) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln39_7) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln38_7) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln37_7) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln41_6) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln40_6) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln39_6) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln38_6) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln37_6) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln41_5) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln40_5) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln39_5) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln38_5) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln37_5) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln41_4) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln40_4) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln39_4) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln38_4) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln37_4) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln41_3) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln40_3) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln39_3) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln38_3) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln37_3) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln41_2) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln40_2) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln39_2) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln38_2) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln37_2) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln41_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln40_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln39_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln38_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln37_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln41) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln40) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln39) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln38) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln37) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=sub_ln49) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=sub_ln48) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_18_1_VITIS_LOOP_19_2'.
+WARNING: [HLS 200-448] Lower bound of II is 42 due to multiple bus read operation ('gmem_addr_read', ../LK_hls/src/lucas_kanade_hls.cpp:33) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:33), bus read operation ('gmem_addr_read_1', ../LK_hls/src/lucas_kanade_hls.cpp:33) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:33), bus read operation ('gmem_addr_read_2', ../LK_hls/src/lucas_kanade_hls.cpp:33) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:33), bus read operation ('gmem_addr_read_3', ../LK_hls/src/lucas_kanade_hls.cpp:33) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:33), bus read operation ('gmem_addr_read_4', ../LK_hls/src/lucas_kanade_hls.cpp:33) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:33), bus read operation ('gmem_addr_1_read', ../LK_hls/src/lucas_kanade_hls.cpp:33) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:33), bus read operation ('gmem_addr_1_read_1', ../LK_hls/src/lucas_kanade_hls.cpp:33) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:33), bus read operation ('gmem_addr_1_read_2', ../LK_hls/src/lucas_kanade_hls.cpp:33) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:33), bus read operation ('gmem_addr_1_read_3', ../LK_hls/src/lucas_kanade_hls.cpp:33) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:33), bus read operation ('gmem_addr_1_read_4', ../LK_hls/src/lucas_kanade_hls.cpp:33) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:33), bus read operation ('gmem_addr_2_read', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_2_read_1', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_2_read_2', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_2_read_3', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_2_read_4', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_3_read', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_3_read_1', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_3_read_2', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_4_read', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_4_read_1', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_4_read_2', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_4_read_3', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_4_read_4', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_5_read', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_5_read_1', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_5_read_2', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_6_read', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_6_read_1', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_6_read_2', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_6_read_3', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_6_read_4', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_7_read', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_7_read_1', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_7_read_2', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_7_read_3', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_7_read_4', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_8_read', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_8_read_1', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_8_read_2', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_9_read', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_9_read_1', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34), bus read operation ('gmem_addr_9_read_2', ../LK_hls/src/lucas_kanade_hls.cpp:34) on port 'gmem' (../LK_hls/src/lucas_kanade_hls.cpp:34) accessing 'gmem' m_axi read
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 42, Depth = 113, loop 'VITIS_LOOP_18_1_VITIS_LOOP_19_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.838 seconds; current allocated memory: 412.898 MB.
+INFO: [HLS 200-2250] Rewind delay = 40 for the pipelined loop 'VITIS_LOOP_18_1_VITIS_LOOP_19_2' due to a write-after-read dependence on variable 'indvar_flatten4 (no source info)'.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.158 seconds; current allocated memory: 414.039 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'lucas_kanade_hls' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lucas_kanade_hls/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lucas_kanade_hls/I1' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lucas_kanade_hls/I2' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lucas_kanade_hls/u' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'lucas_kanade_hls/v' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'lucas_kanade_hls' to 's_axilite & ap_ctrl_hs'.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'lucas_kanade_hls' pipeline 'VITIS_LOOP_18_1_VITIS_LOOP_19_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Bundling port 'I1', 'I2', 'u' and 'v' to AXI-Lite port control_r.
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_26s_26_4_1': 40 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_mulsub_16s_16s_26s_26_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_mulsub_16s_16s_32s_32_4_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_16s_26_1_1': 6 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_16s_32_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sdiv_42ns_16s_42_46_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'lucas_kanade_hls'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.501 seconds; current allocated memory: 425.484 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.412 seconds; current allocated memory: 439.559 MB.
+INFO: [HLS 200-1603] Design has inferred MAXI bursts and missed bursts, see Vitis HLS GUI synthesis summary report for detailed information.
+INFO: [HLS 200-2225] Wrote inferred directives to file C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/hls/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 1.035 seconds; current allocated memory: 445.805 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for lucas_kanade_hls.
+INFO: [VLOG 209-307] Generating Verilog RTL for lucas_kanade_hls.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 136.99 MHz
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 4 seconds. Total elapsed time: 31.038 seconds; peak allocated memory: 445.875 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 35s

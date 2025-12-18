@@ -1,0 +1,17 @@
+{
+  "0": {
+    "basicblocks": 9,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 43,
+    "file": "lucas_kanade_hls.cpp",
+    "fileloc": 3,
+    "instructions": 884,
+    "memory_accesses": 54,
+    "name": "lucas_kanade_hls",
+    "stores": {
+      "T": 2
+    },
+    "total_instructions": 884
+  }
+}

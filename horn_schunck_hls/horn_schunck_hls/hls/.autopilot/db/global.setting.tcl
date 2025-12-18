@@ -39,11 +39,11 @@ set ExportMCPathFlag 0
 set SCTraceFileName mytrace
 set SCTraceFileFormat vcd
 set SCTraceOption all
-set TargetInfo xc7k160t:-fbg484:-1
+set TargetInfo xcku115:-flva1517:-3-e
 set SourceFiles {sc {} c ../../../hsl/src/horn_schunck_hsl.cpp}
 set SourceFlags {sc {} c {{}}}
 set DirectiveFile {}
-set TBFiles {verilog C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/hsl/src/main_tb.cpp bc C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/hsl/src/main_tb.cpp vhdl C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/hsl/src/main_tb.cpp sc C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/hsl/src/main_tb.cpp cas C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/hsl/src/main_tb.cpp c {}}
+set TBFiles {verilog C:/Users/Diaxxa/Desktop/Optical-Flow/hsl/src/main_tb.cpp bc C:/Users/Diaxxa/Desktop/Optical-Flow/hsl/src/main_tb.cpp vhdl C:/Users/Diaxxa/Desktop/Optical-Flow/hsl/src/main_tb.cpp sc C:/Users/Diaxxa/Desktop/Optical-Flow/hsl/src/main_tb.cpp cas C:/Users/Diaxxa/Desktop/Optical-Flow/hsl/src/main_tb.cpp c {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
@@ -59,5 +59,5 @@ set DefaultPlatform DefaultPlatform
 set multiClockList {}
 set SCPortClockMap {}
 set intNbAccess 0
-set PlatformFiles {{DefaultPlatform {xilinx/kintex7/kintex7}}}
+set PlatformFiles {{DefaultPlatform {xilinx/kintexu/kintexu}}}
 set HPFPO 0

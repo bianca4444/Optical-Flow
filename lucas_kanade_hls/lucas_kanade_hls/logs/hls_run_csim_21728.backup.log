@@ -1,0 +1,26 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/Diaxxa/Desktop/Optical-Flow/lucas_kanade_hls/lucas_kanade_hls'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../LK_hls/src/lucas_kanade_hls.cpp' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Diaxxa/Desktop/Optical-Flow/LK_hls/src/lucas_kanade_hls.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../LK_hls/src/lucas_kanade_hls.h' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Users/Diaxxa/Desktop/Optical-Flow/LK_hls/src/lucas_kanade_hls.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../LK_hls/src/main_tb.cpp' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/Diaxxa/Desktop/Optical-Flow/LK_hls/src/main_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=lucas_kanade_hls' from hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xcku115-flva1517-3-e' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xcku115-flva1517-3-e'
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(11)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'clock_uncertainty=100MHz' from hls_config.cfg(12)
+ERROR: [SYN 201-202] Setting up clock 'default': uncertainty (100ns) must be smaller than the period (10ns).
+ERROR: [HLS 200-1912] Problem with config ini entry 'clock_uncertainty=100MHz' from hls_config.cfg(12): command 'ap_set_clock' returned error code
+ERROR: problem with 'clock_uncertainty=100MHz' from hls_config.cfg(12): command 'ap_set_clock' returned error code
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 2.506 seconds; peak allocated memory: 370.156 MB.

@@ -3,13 +3,13 @@
 ================================================================
 == Vitis HLS Report for 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3'
 ================================================================
-* Date:           Thu Dec 18 14:23:43 2025
+* Date:           Thu Dec 18 17:59:53 2025
 
 * Version:        2025.2 (Build 6295257 on Nov 12 2025)
 * Project:        horn_schunck_hls
 * Solution:       hls (Vivado IP Flow Target)
-* Product family: kintex7
-* Target device:  xc7k160t-fbg484-1
+* Product family: kintexu
+* Target device:  xcku115-flva1517-3-e
 
 
 ================================================================
@@ -20,7 +20,7 @@
     +--------+----------+-----------+------------+
     |  Clock |  Target  | Estimated | Uncertainty|
     +--------+----------+-----------+------------+
-    |ap_clk  |  10.00 ns|  25.518 ns|     2.70 ns|
+    |ap_clk  |  10.00 ns|  15.908 ns|     2.70 ns|
     +--------+----------+-----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |  Latency (cycles) |   Latency (absolute)  |  Interval |      Pipeline     |
     |   min   |   max   |    min    |    max    | min | max |        Type       |
     +---------+---------+-----------+-----------+-----+-----+-------------------+
-    |     2921|     2921|  74.538 us|  74.538 us|    0|    0|  loop pipeline stp|
+    |     2921|     2921|  46.466 us|  46.466 us|    0|    0|  loop pipeline stp|
     +---------+---------+-----------+-----------+-----+-----+-------------------+
 
     + Detail: 
@@ -50,35 +50,39 @@
 == Utilization Estimates
 ================================================================
 * Summary: 
-+-----------------+---------+-----+--------+--------+-----+
-|       Name      | BRAM_18K| DSP |   FF   |   LUT  | URAM|
-+-----------------+---------+-----+--------+--------+-----+
-|DSP              |        -|    4|       -|       -|    -|
-|Expression       |        -|    -|       0|     224|    -|
-|FIFO             |        -|    -|       -|       -|    -|
-|Instance         |        -|    2|    8478|    6488|    -|
-|Memory           |        -|    -|       -|       -|    -|
-|Multiplexer      |        -|    -|       0|     351|    -|
-|Register         |        -|    -|     351|       -|    -|
-+-----------------+---------+-----+--------+--------+-----+
-|Total            |        0|    6|    8829|    7063|    0|
-+-----------------+---------+-----+--------+--------+-----+
-|Available        |      650|  600|  202800|  101400|    0|
-+-----------------+---------+-----+--------+--------+-----+
-|Utilization (%)  |        0|    1|       4|       6|    0|
-+-----------------+---------+-----+--------+--------+-----+
++---------------------+---------+------+---------+--------+-----+
+|         Name        | BRAM_18K|  DSP |    FF   |   LUT  | URAM|
++---------------------+---------+------+---------+--------+-----+
+|DSP                  |        -|     4|        -|       -|    -|
+|Expression           |        -|     -|        0|     218|    -|
+|FIFO                 |        -|     -|        -|       -|    -|
+|Instance             |        -|     2|     8478|    6486|    -|
+|Memory               |        -|     -|        -|       -|    -|
+|Multiplexer          |        -|     -|        0|     355|    -|
+|Register             |        -|     -|      351|       -|    -|
++---------------------+---------+------+---------+--------+-----+
+|Total                |        0|     6|     8829|    7059|    0|
++---------------------+---------+------+---------+--------+-----+
+|Available SLR        |     2160|  2760|   663360|  331680|    0|
++---------------------+---------+------+---------+--------+-----+
+|Utilization SLR (%)  |        0|    ~0|        1|       2|  100|
++---------------------+---------+------+---------+--------+-----+
+|Available            |     4320|  5520|  1326720|  663360|    0|
++---------------------+---------+------+---------+--------+-----+
+|Utilization (%)      |        0|    ~0|       ~0|       1|    0|
++---------------------+---------+------+---------+--------+-----+
 
 + Detail: 
     * Instance: 
     +--------------------------+-----------------------+---------+----+------+------+-----+
     |         Instance         |         Module        | BRAM_18K| DSP|  FF  |  LUT | URAM|
     +--------------------------+-----------------------+---------+----+------+------+-----+
-    |mul_16s_16s_32_1_1_U1     |mul_16s_16s_32_1_1     |        0|   1|     0|     6|    0|
-    |mul_16s_16s_32_1_1_U3     |mul_16s_16s_32_1_1     |        0|   1|     0|     6|    0|
+    |mul_16s_16s_32_1_1_U1     |mul_16s_16s_32_1_1     |        0|   1|     0|     5|    0|
+    |mul_16s_16s_32_1_1_U3     |mul_16s_16s_32_1_1     |        0|   1|     0|     5|    0|
     |sdiv_44ns_16s_28_48_1_U2  |sdiv_44ns_16s_28_48_1  |        0|   0|  4239|  3238|    0|
     |sdiv_44ns_16s_28_48_1_U4  |sdiv_44ns_16s_28_48_1  |        0|   0|  4239|  3238|    0|
     +--------------------------+-----------------------+---------+----+------+------+-----+
-    |Total                     |                       |        0|   2|  8478|  6488|    0|
+    |Total                     |                       |        0|   2|  8478|  6486|    0|
     +--------------------------+-----------------------+---------+----+------+------+-----+
 
     * DSP: 
@@ -101,7 +105,7 @@
     +----------------------+----------+----+---+----+------------+------------+
     |     Variable Name    | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +----------------------+----------+----+---+----+------------+------------+
-    |add_ln19_fu_290_p2    |         +|   0|  0|  14|           6|           1|
+    |add_ln19_fu_290_p2    |         +|   0|  0|  13|           6|           1|
     |add_ln29_1_fu_363_p2  |         +|   0|  0|  18|          18|          18|
     |add_ln29_2_fu_369_p2  |         +|   0|  0|  18|          18|          18|
     |add_ln29_fu_347_p2    |         +|   0|  0|  24|          17|          17|
@@ -110,10 +114,10 @@
     |add_ln30_fu_392_p2    |         +|   0|  0|  24|          17|          17|
     |sub_ln37_fu_528_p2    |         -|   0|  0|  35|          28|          28|
     |sub_ln38_fu_556_p2    |         -|   0|  0|  35|          28|          28|
-    |icmp_ln13_fu_255_p2   |      icmp|   0|  0|  14|           6|           2|
-    |ap_enable_pp0         |       xor|   0|  0|   6|           1|           2|
+    |icmp_ln13_fu_255_p2   |      icmp|   0|  0|  13|           6|           2|
+    |ap_enable_pp0         |       xor|   0|  0|   2|           1|           2|
     +----------------------+----------+----+---+----+------------+------------+
-    |Total                 |          |   0|  0| 224|         175|         167|
+    |Total                 |          |   0|  0| 218|         175|         167|
     +----------------------+----------+----+---+----+------------+------------+
 
     * Multiplexer: 
@@ -130,13 +134,13 @@
     |ap_sig_allocacmp_v0_load     |    9|          2|   16|         32|
     |j_fu_74                      |    9|          2|    6|         12|
     |u0_fu_82                     |    9|          2|   16|         32|
-    |u_address0_local             |   13|          3|   12|         36|
-    |u_address1_local             |   13|          3|   12|         36|
+    |u_address0_local             |   14|          3|   12|         36|
+    |u_address1_local             |   14|          3|   12|         36|
     |v0_fu_78                     |    9|          2|   16|         32|
-    |v_address0_local             |   13|          3|   12|         36|
-    |v_address1_local             |   13|          3|   12|         36|
+    |v_address0_local             |   14|          3|   12|         36|
+    |v_address1_local             |   14|          3|   12|         36|
     +-----------------------------+-----+-----------+-----+-----------+
-    |Total                        |  351|         80|  129|        352|
+    |Total                        |  355|         80|  129|        352|
     +-----------------------------+-----+-----------+-----+-----------+
 
     * Register: 
@@ -309,7 +313,7 @@ IsGatedGlobalClock: 0
 
 * FSM state operations: 
 
-State 1 <SV = 0> <Delay = 3.41>
+State 1 <SV = 0> <Delay = 1.93>
 ST_1 : Operation 56 [1/1] (0.00ns)   --->   "%j = alloca i32 1" [../hsl/src/horn_schunck_hsl.cpp:13]   --->   Operation 56 'alloca' 'j' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 57 [1/1] (0.00ns)   --->   "%v0 = alloca i32 1" [../hsl/src/horn_schunck_hsl.cpp:23]   --->   Operation 57 'alloca' 'v0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 58 [1/1] (0.00ns)   --->   "%u0 = alloca i32 1" [../hsl/src/horn_schunck_hsl.cpp:18]   --->   Operation 58 'alloca' 'u0' <Predicate = true> <Delay = 0.00>
@@ -323,12 +327,12 @@ ST_1 : Operation 65 [1/1] (0.00ns)   --->   "%add_ln20_read = read i6 @_ssdm_op_
 ST_1 : Operation 66 [1/1] (0.00ns)   --->   "%i_read = read i6 @_ssdm_op_Read.ap_auto.i6, i6 %i"   --->   Operation 66 'read' 'i_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 67 [1/1] (0.00ns)   --->   "%v_load_read = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %v_load"   --->   Operation 67 'read' 'v_load_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 68 [1/1] (0.00ns)   --->   "%u_load_read = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %u_load"   --->   Operation 68 'read' 'u_load_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 69 [1/1] (1.02ns)   --->   "%store_ln18 = store i16 %u_load_read, i16 %u0" [../hsl/src/horn_schunck_hsl.cpp:18]   --->   Operation 69 'store' 'store_ln18' <Predicate = true> <Delay = 1.02>
-ST_1 : Operation 70 [1/1] (1.02ns)   --->   "%store_ln23 = store i16 %v_load_read, i16 %v0" [../hsl/src/horn_schunck_hsl.cpp:23]   --->   Operation 70 'store' 'store_ln23' <Predicate = true> <Delay = 1.02>
-ST_1 : Operation 71 [1/1] (1.02ns)   --->   "%store_ln13 = store i6 1, i6 %j" [../hsl/src/horn_schunck_hsl.cpp:13]   --->   Operation 71 'store' 'store_ln13' <Predicate = true> <Delay = 1.02>
+ST_1 : Operation 69 [1/1] (0.47ns)   --->   "%store_ln18 = store i16 %u_load_read, i16 %u0" [../hsl/src/horn_schunck_hsl.cpp:18]   --->   Operation 69 'store' 'store_ln18' <Predicate = true> <Delay = 0.47>
+ST_1 : Operation 70 [1/1] (0.47ns)   --->   "%store_ln23 = store i16 %v_load_read, i16 %v0" [../hsl/src/horn_schunck_hsl.cpp:23]   --->   Operation 70 'store' 'store_ln23' <Predicate = true> <Delay = 0.47>
+ST_1 : Operation 71 [1/1] (0.47ns)   --->   "%store_ln13 = store i6 1, i6 %j" [../hsl/src/horn_schunck_hsl.cpp:13]   --->   Operation 71 'store' 'store_ln13' <Predicate = true> <Delay = 0.47>
 ST_1 : Operation 72 [1/1] (0.00ns)   --->   "%br_ln0 = br void %for.body8"   --->   Operation 72 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 73 [1/1] (0.00ns)   --->   "%j_1 = load i6 %j" [../hsl/src/horn_schunck_hsl.cpp:19]   --->   Operation 73 'load' 'j_1' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 74 [1/1] (1.35ns)   --->   "%icmp_ln13 = icmp_eq  i6 %j_1, i6 63" [../hsl/src/horn_schunck_hsl.cpp:13]   --->   Operation 74 'icmp' 'icmp_ln13' <Predicate = true> <Delay = 1.35> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.35> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 74 [1/1] (0.97ns)   --->   "%icmp_ln13 = icmp_eq  i6 %j_1, i6 63" [../hsl/src/horn_schunck_hsl.cpp:13]   --->   Operation 74 'icmp' 'icmp_ln13' <Predicate = true> <Delay = 0.97> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 75 [1/1] (0.00ns)   --->   "%br_ln13 = br i1 %icmp_ln13, void %for.body8.split, void %for.inc113.exitStub" [../hsl/src/horn_schunck_hsl.cpp:13]   --->   Operation 75 'br' 'br_ln13' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 76 [1/1] (0.00ns)   --->   "%tmp_1 = bitconcatenate i12 @_ssdm_op_BitConcatenate.i12.i6.i6, i6 %i_read, i6 %j_1" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 76 'bitconcatenate' 'tmp_1' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_1 : Operation 77 [1/1] (0.00ns)   --->   "%zext_ln32 = zext i12 %tmp_1" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 77 'zext' 'zext_ln32' <Predicate = (!icmp_ln13)> <Delay = 0.00>
@@ -339,301 +343,301 @@ ST_1 : Operation 81 [1/1] (0.00ns)   --->   "%tmp_2 = bitconcatenate i12 @_ssdm_
 ST_1 : Operation 82 [1/1] (0.00ns)   --->   "%zext_ln20 = zext i12 %tmp_2" [../hsl/src/horn_schunck_hsl.cpp:20]   --->   Operation 82 'zext' 'zext_ln20' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_1 : Operation 83 [1/1] (0.00ns)   --->   "%u_addr = getelementptr i16 %u, i64 0, i64 %zext_ln20" [../hsl/src/horn_schunck_hsl.cpp:20]   --->   Operation 83 'getelementptr' 'u_addr' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_1 : Operation 84 [1/1] (0.00ns)   --->   "%v_addr = getelementptr i16 %v, i64 0, i64 %zext_ln20" [../hsl/src/horn_schunck_hsl.cpp:25]   --->   Operation 84 'getelementptr' 'v_addr' <Predicate = (!icmp_ln13)> <Delay = 0.00>
-ST_1 : Operation 85 [1/1] (1.35ns)   --->   "%add_ln19 = add i6 %j_1, i6 1" [../hsl/src/horn_schunck_hsl.cpp:19]   --->   Operation 85 'add' 'add_ln19' <Predicate = (!icmp_ln13)> <Delay = 1.35> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.35> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 85 [1/1] (0.97ns)   --->   "%add_ln19 = add i6 %j_1, i6 1" [../hsl/src/horn_schunck_hsl.cpp:19]   --->   Operation 85 'add' 'add_ln19' <Predicate = (!icmp_ln13)> <Delay = 0.97> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 86 [1/1] (0.00ns)   --->   "%tmp_4 = bitconcatenate i12 @_ssdm_op_BitConcatenate.i12.i6.i6, i6 %i_read, i6 %add_ln19" [../hsl/src/horn_schunck_hsl.cpp:19]   --->   Operation 86 'bitconcatenate' 'tmp_4' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_1 : Operation 87 [1/1] (0.00ns)   --->   "%zext_ln19 = zext i12 %tmp_4" [../hsl/src/horn_schunck_hsl.cpp:19]   --->   Operation 87 'zext' 'zext_ln19' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_1 : Operation 88 [1/1] (0.00ns)   --->   "%u_addr_1 = getelementptr i16 %u, i64 0, i64 %zext_ln19" [../hsl/src/horn_schunck_hsl.cpp:19]   --->   Operation 88 'getelementptr' 'u_addr_1' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_1 : Operation 89 [1/1] (0.00ns)   --->   "%v_addr_1 = getelementptr i16 %v, i64 0, i64 %zext_ln19" [../hsl/src/horn_schunck_hsl.cpp:24]   --->   Operation 89 'getelementptr' 'v_addr_1' <Predicate = (!icmp_ln13)> <Delay = 0.00>
-ST_1 : Operation 90 [2/2] (0.00ns)   --->   "%u1 = load i12 %u_addr_1" [../hsl/src/horn_schunck_hsl.cpp:19]   --->   Operation 90 'load' 'u1' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_1 : Operation 91 [2/2] (0.00ns)   --->   "%u2 = load i12 %u_addr" [../hsl/src/horn_schunck_hsl.cpp:20]   --->   Operation 91 'load' 'u2' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_1 : Operation 92 [2/2] (0.00ns)   --->   "%v1 = load i12 %v_addr_1" [../hsl/src/horn_schunck_hsl.cpp:24]   --->   Operation 92 'load' 'v1' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_1 : Operation 93 [2/2] (0.00ns)   --->   "%v2 = load i12 %v_addr" [../hsl/src/horn_schunck_hsl.cpp:25]   --->   Operation 93 'load' 'v2' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_1 : Operation 94 [2/2] (0.00ns)   --->   "%Ix_load = load i12 %Ix_addr" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 94 'load' 'Ix_load' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_1 : Operation 95 [2/2] (0.00ns)   --->   "%Iy_load = load i12 %Iy_addr" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 95 'load' 'Iy_load' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_1 : Operation 96 [2/2] (0.00ns)   --->   "%It_load = load i12 %It_addr" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 96 'load' 'It_load' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_1 : Operation 97 [1/1] (1.02ns)   --->   "%store_ln13 = store i6 %add_ln19, i6 %j" [../hsl/src/horn_schunck_hsl.cpp:13]   --->   Operation 97 'store' 'store_ln13' <Predicate = (!icmp_ln13)> <Delay = 1.02>
+ST_1 : Operation 90 [2/2] (0.00ns)   --->   "%u1 = load i12 %u_addr_1" [../hsl/src/horn_schunck_hsl.cpp:19]   --->   Operation 90 'load' 'u1' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_1 : Operation 91 [2/2] (0.00ns)   --->   "%u2 = load i12 %u_addr" [../hsl/src/horn_schunck_hsl.cpp:20]   --->   Operation 91 'load' 'u2' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_1 : Operation 92 [2/2] (0.00ns)   --->   "%v1 = load i12 %v_addr_1" [../hsl/src/horn_schunck_hsl.cpp:24]   --->   Operation 92 'load' 'v1' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_1 : Operation 93 [2/2] (0.00ns)   --->   "%v2 = load i12 %v_addr" [../hsl/src/horn_schunck_hsl.cpp:25]   --->   Operation 93 'load' 'v2' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_1 : Operation 94 [2/2] (0.00ns)   --->   "%Ix_load = load i12 %Ix_addr" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 94 'load' 'Ix_load' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_1 : Operation 95 [2/2] (0.00ns)   --->   "%Iy_load = load i12 %Iy_addr" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 95 'load' 'Iy_load' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_1 : Operation 96 [2/2] (0.00ns)   --->   "%It_load = load i12 %It_addr" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 96 'load' 'It_load' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_1 : Operation 97 [1/1] (0.47ns)   --->   "%store_ln13 = store i6 %add_ln19, i6 %j" [../hsl/src/horn_schunck_hsl.cpp:13]   --->   Operation 97 'store' 'store_ln13' <Predicate = (!icmp_ln13)> <Delay = 0.47>
 
-State 2 <SV = 1> <Delay = 1.09>
+State 2 <SV = 1> <Delay = 0.93>
 ST_2 : Operation 98 [1/1] (0.00ns)   --->   "%tmp_3 = bitconcatenate i12 @_ssdm_op_BitConcatenate.i12.i6.i6, i6 %add_ln21_read, i6 %j_1" [../hsl/src/horn_schunck_hsl.cpp:21]   --->   Operation 98 'bitconcatenate' 'tmp_3' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_2 : Operation 99 [1/1] (0.00ns)   --->   "%zext_ln21 = zext i12 %tmp_3" [../hsl/src/horn_schunck_hsl.cpp:21]   --->   Operation 99 'zext' 'zext_ln21' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_2 : Operation 100 [1/1] (0.00ns)   --->   "%u_addr_2 = getelementptr i16 %u, i64 0, i64 %zext_ln21" [../hsl/src/horn_schunck_hsl.cpp:21]   --->   Operation 100 'getelementptr' 'u_addr_2' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_2 : Operation 101 [1/1] (0.00ns)   --->   "%v_addr_2 = getelementptr i16 %v, i64 0, i64 %zext_ln21" [../hsl/src/horn_schunck_hsl.cpp:26]   --->   Operation 101 'getelementptr' 'v_addr_2' <Predicate = (!icmp_ln13)> <Delay = 0.00>
-ST_2 : Operation 102 [1/2] ( I:0.00ns O:0.00ns )   --->   "%u1 = load i12 %u_addr_1" [../hsl/src/horn_schunck_hsl.cpp:19]   --->   Operation 102 'load' 'u1' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_2 : Operation 103 [1/2] ( I:0.00ns O:0.00ns )   --->   "%u2 = load i12 %u_addr" [../hsl/src/horn_schunck_hsl.cpp:20]   --->   Operation 103 'load' 'u2' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_2 : Operation 104 [2/2] (0.00ns)   --->   "%u3 = load i12 %u_addr_2" [../hsl/src/horn_schunck_hsl.cpp:21]   --->   Operation 104 'load' 'u3' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_2 : Operation 105 [1/2] ( I:0.00ns O:0.00ns )   --->   "%v1 = load i12 %v_addr_1" [../hsl/src/horn_schunck_hsl.cpp:24]   --->   Operation 105 'load' 'v1' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_2 : Operation 106 [1/2] ( I:0.00ns O:0.00ns )   --->   "%v2 = load i12 %v_addr" [../hsl/src/horn_schunck_hsl.cpp:25]   --->   Operation 106 'load' 'v2' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_2 : Operation 107 [2/2] (0.00ns)   --->   "%v3 = load i12 %v_addr_2" [../hsl/src/horn_schunck_hsl.cpp:26]   --->   Operation 107 'load' 'v3' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_2 : Operation 108 [1/2] ( I:0.00ns O:0.00ns )   --->   "%Ix_load = load i12 %Ix_addr" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 108 'load' 'Ix_load' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_2 : Operation 102 [1/2] ( I:0.00ns O:0.00ns )   --->   "%u1 = load i12 %u_addr_1" [../hsl/src/horn_schunck_hsl.cpp:19]   --->   Operation 102 'load' 'u1' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_2 : Operation 103 [1/2] ( I:0.00ns O:0.00ns )   --->   "%u2 = load i12 %u_addr" [../hsl/src/horn_schunck_hsl.cpp:20]   --->   Operation 103 'load' 'u2' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_2 : Operation 104 [2/2] (0.00ns)   --->   "%u3 = load i12 %u_addr_2" [../hsl/src/horn_schunck_hsl.cpp:21]   --->   Operation 104 'load' 'u3' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_2 : Operation 105 [1/2] ( I:0.00ns O:0.00ns )   --->   "%v1 = load i12 %v_addr_1" [../hsl/src/horn_schunck_hsl.cpp:24]   --->   Operation 105 'load' 'v1' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_2 : Operation 106 [1/2] ( I:0.00ns O:0.00ns )   --->   "%v2 = load i12 %v_addr" [../hsl/src/horn_schunck_hsl.cpp:25]   --->   Operation 106 'load' 'v2' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_2 : Operation 107 [2/2] (0.00ns)   --->   "%v3 = load i12 %v_addr_2" [../hsl/src/horn_schunck_hsl.cpp:26]   --->   Operation 107 'load' 'v3' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_2 : Operation 108 [1/2] ( I:0.00ns O:0.00ns )   --->   "%Ix_load = load i12 %Ix_addr" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 108 'load' 'Ix_load' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
 ST_2 : Operation 109 [1/1] (0.00ns)   --->   "%sext_ln32_1 = sext i16 %Ix_load" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 109 'sext' 'sext_ln32_1' <Predicate = (!icmp_ln13)> <Delay = 0.00>
-ST_2 : Operation 110 [1/2] ( I:0.00ns O:0.00ns )   --->   "%Iy_load = load i12 %Iy_addr" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 110 'load' 'Iy_load' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_2 : Operation 111 [1/2] ( I:0.00ns O:0.00ns )   --->   "%It_load = load i12 %It_addr" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 111 'load' 'It_load' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_2 : Operation 112 [3/3] (1.09ns) (grouped into DSP with root node add_ln34)   --->   "%mul_ln34 = mul i28 %sext_ln32_1, i28 %sext_ln32_1" [../hsl/src/horn_schunck_hsl.cpp:34]   --->   Operation 112 'mul' 'mul_ln34' <Predicate = (!icmp_ln13)> <Delay = 1.09> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 0> <II = 1> <Delay = 5.79> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 110 [1/2] ( I:0.00ns O:0.00ns )   --->   "%Iy_load = load i12 %Iy_addr" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 110 'load' 'Iy_load' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_2 : Operation 111 [1/2] ( I:0.00ns O:0.00ns )   --->   "%It_load = load i12 %It_addr" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 111 'load' 'It_load' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_2 : Operation 112 [3/3] (0.93ns) (grouped into DSP with root node add_ln34)   --->   "%mul_ln34 = mul i28 %sext_ln32_1, i28 %sext_ln32_1" [../hsl/src/horn_schunck_hsl.cpp:34]   --->   Operation 112 'mul' 'mul_ln34' <Predicate = (!icmp_ln13)> <Delay = 0.93> <CoreInst = "DSP48">   --->   Core 124 'DSP48' <Latency = 0> <II = 1> <Delay = 3.29> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
 
-State 3 <SV = 2> <Delay = 1.09>
-ST_3 : Operation 113 [1/2] ( I:0.00ns O:0.00ns )   --->   "%u3 = load i12 %u_addr_2" [../hsl/src/horn_schunck_hsl.cpp:21]   --->   Operation 113 'load' 'u3' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_3 : Operation 114 [1/2] ( I:0.00ns O:0.00ns )   --->   "%v3 = load i12 %v_addr_2" [../hsl/src/horn_schunck_hsl.cpp:26]   --->   Operation 114 'load' 'v3' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+State 3 <SV = 2> <Delay = 0.93>
+ST_3 : Operation 113 [1/2] ( I:0.00ns O:0.00ns )   --->   "%u3 = load i12 %u_addr_2" [../hsl/src/horn_schunck_hsl.cpp:21]   --->   Operation 113 'load' 'u3' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_3 : Operation 114 [1/2] ( I:0.00ns O:0.00ns )   --->   "%v3 = load i12 %v_addr_2" [../hsl/src/horn_schunck_hsl.cpp:26]   --->   Operation 114 'load' 'v3' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
 ST_3 : Operation 115 [1/1] (0.00ns)   --->   "%sext_ln32_5 = sext i16 %Iy_load" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 115 'sext' 'sext_ln32_5' <Predicate = (!icmp_ln13)> <Delay = 0.00>
-ST_3 : Operation 116 [2/3] (1.09ns) (grouped into DSP with root node add_ln34)   --->   "%mul_ln34 = mul i28 %sext_ln32_1, i28 %sext_ln32_1" [../hsl/src/horn_schunck_hsl.cpp:34]   --->   Operation 116 'mul' 'mul_ln34' <Predicate = (!icmp_ln13)> <Delay = 1.09> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 0> <II = 1> <Delay = 5.79> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
-ST_3 : Operation 117 [3/3] (1.09ns) (grouped into DSP with root node add_ln35)   --->   "%mul_ln35 = mul i28 %sext_ln32_5, i28 %sext_ln32_5" [../hsl/src/horn_schunck_hsl.cpp:35]   --->   Operation 117 'mul' 'mul_ln35' <Predicate = (!icmp_ln13)> <Delay = 1.09> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 0> <II = 1> <Delay = 5.79> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_3 : Operation 116 [2/3] (0.93ns) (grouped into DSP with root node add_ln34)   --->   "%mul_ln34 = mul i28 %sext_ln32_1, i28 %sext_ln32_1" [../hsl/src/horn_schunck_hsl.cpp:34]   --->   Operation 116 'mul' 'mul_ln34' <Predicate = (!icmp_ln13)> <Delay = 0.93> <CoreInst = "DSP48">   --->   Core 124 'DSP48' <Latency = 0> <II = 1> <Delay = 3.29> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_3 : Operation 117 [3/3] (0.93ns) (grouped into DSP with root node add_ln35)   --->   "%mul_ln35 = mul i28 %sext_ln32_5, i28 %sext_ln32_5" [../hsl/src/horn_schunck_hsl.cpp:35]   --->   Operation 117 'mul' 'mul_ln35' <Predicate = (!icmp_ln13)> <Delay = 0.93> <CoreInst = "DSP48">   --->   Core 124 'DSP48' <Latency = 0> <II = 1> <Delay = 3.29> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
 
-State 4 <SV = 3> <Delay = 1.78>
-ST_4 : Operation 118 [1/3] (0.00ns) (grouped into DSP with root node add_ln34)   --->   "%mul_ln34 = mul i28 %sext_ln32_1, i28 %sext_ln32_1" [../hsl/src/horn_schunck_hsl.cpp:34]   --->   Operation 118 'mul' 'mul_ln34' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 0> <II = 1> <Delay = 5.79> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
-ST_4 : Operation 119 [2/2] (1.78ns) (root node of the DSP)   --->   "%add_ln34 = add i28 %mul_ln34, i28 16777216" [../hsl/src/horn_schunck_hsl.cpp:34]   --->   Operation 119 'add' 'add_ln34' <Predicate = (!icmp_ln13)> <Delay = 1.78> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 0> <II = 1> <Delay = 5.79> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
-ST_4 : Operation 120 [2/3] (1.09ns) (grouped into DSP with root node add_ln35)   --->   "%mul_ln35 = mul i28 %sext_ln32_5, i28 %sext_ln32_5" [../hsl/src/horn_schunck_hsl.cpp:35]   --->   Operation 120 'mul' 'mul_ln35' <Predicate = (!icmp_ln13)> <Delay = 1.09> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 0> <II = 1> <Delay = 5.79> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+State 4 <SV = 3> <Delay = 1.06>
+ST_4 : Operation 118 [1/3] (0.00ns) (grouped into DSP with root node add_ln34)   --->   "%mul_ln34 = mul i28 %sext_ln32_1, i28 %sext_ln32_1" [../hsl/src/horn_schunck_hsl.cpp:34]   --->   Operation 118 'mul' 'mul_ln34' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "DSP48">   --->   Core 124 'DSP48' <Latency = 0> <II = 1> <Delay = 3.29> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_4 : Operation 119 [2/2] (1.06ns) (root node of the DSP)   --->   "%add_ln34 = add i28 %mul_ln34, i28 16777216" [../hsl/src/horn_schunck_hsl.cpp:34]   --->   Operation 119 'add' 'add_ln34' <Predicate = (!icmp_ln13)> <Delay = 1.06> <CoreInst = "DSP48">   --->   Core 124 'DSP48' <Latency = 0> <II = 1> <Delay = 3.29> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_4 : Operation 120 [2/3] (0.93ns) (grouped into DSP with root node add_ln35)   --->   "%mul_ln35 = mul i28 %sext_ln32_5, i28 %sext_ln32_5" [../hsl/src/horn_schunck_hsl.cpp:35]   --->   Operation 120 'mul' 'mul_ln35' <Predicate = (!icmp_ln13)> <Delay = 0.93> <CoreInst = "DSP48">   --->   Core 124 'DSP48' <Latency = 0> <II = 1> <Delay = 3.29> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
 
-State 5 <SV = 4> <Delay = 3.56>
-ST_5 : Operation 121 [1/2] (1.78ns) (root node of the DSP)   --->   "%add_ln34 = add i28 %mul_ln34, i28 16777216" [../hsl/src/horn_schunck_hsl.cpp:34]   --->   Operation 121 'add' 'add_ln34' <Predicate = (!icmp_ln13)> <Delay = 1.78> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 0> <II = 1> <Delay = 5.79> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
-ST_5 : Operation 122 [1/3] (0.00ns) (grouped into DSP with root node add_ln35)   --->   "%mul_ln35 = mul i28 %sext_ln32_5, i28 %sext_ln32_5" [../hsl/src/horn_schunck_hsl.cpp:35]   --->   Operation 122 'mul' 'mul_ln35' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 0> <II = 1> <Delay = 5.79> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
-ST_5 : Operation 123 [2/2] (1.78ns) (root node of the DSP)   --->   "%add_ln35 = add i28 %add_ln34, i28 %mul_ln35" [../hsl/src/horn_schunck_hsl.cpp:35]   --->   Operation 123 'add' 'add_ln35' <Predicate = (!icmp_ln13)> <Delay = 1.78> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 0> <II = 1> <Delay = 5.79> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+State 5 <SV = 4> <Delay = 2.13>
+ST_5 : Operation 121 [1/2] (1.06ns) (root node of the DSP)   --->   "%add_ln34 = add i28 %mul_ln34, i28 16777216" [../hsl/src/horn_schunck_hsl.cpp:34]   --->   Operation 121 'add' 'add_ln34' <Predicate = (!icmp_ln13)> <Delay = 1.06> <CoreInst = "DSP48">   --->   Core 124 'DSP48' <Latency = 0> <II = 1> <Delay = 3.29> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_5 : Operation 122 [1/3] (0.00ns) (grouped into DSP with root node add_ln35)   --->   "%mul_ln35 = mul i28 %sext_ln32_5, i28 %sext_ln32_5" [../hsl/src/horn_schunck_hsl.cpp:35]   --->   Operation 122 'mul' 'mul_ln35' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "DSP48">   --->   Core 124 'DSP48' <Latency = 0> <II = 1> <Delay = 3.29> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_5 : Operation 123 [2/2] (1.06ns) (root node of the DSP)   --->   "%add_ln35 = add i28 %add_ln34, i28 %mul_ln35" [../hsl/src/horn_schunck_hsl.cpp:35]   --->   Operation 123 'add' 'add_ln35' <Predicate = (!icmp_ln13)> <Delay = 1.06> <CoreInst = "DSP48">   --->   Core 124 'DSP48' <Latency = 0> <II = 1> <Delay = 3.29> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
 
-State 6 <SV = 5> <Delay = 20.0>
+State 6 <SV = 5> <Delay = 12.4>
 ST_6 : Operation 124 [1/1] (0.00ns)   --->   "%v0_load = load i16 %v0" [../hsl/src/horn_schunck_hsl.cpp:30]   --->   Operation 124 'load' 'v0_load' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_6 : Operation 125 [1/1] (0.00ns)   --->   "%u0_load = load i16 %u0" [../hsl/src/horn_schunck_hsl.cpp:29]   --->   Operation 125 'load' 'u0_load' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_6 : Operation 126 [1/1] (0.00ns)   --->   "%sext_ln29 = sext i16 %u0_load" [../hsl/src/horn_schunck_hsl.cpp:29]   --->   Operation 126 'sext' 'sext_ln29' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_6 : Operation 127 [1/1] (0.00ns)   --->   "%sext_ln29_1 = sext i16 %u1" [../hsl/src/horn_schunck_hsl.cpp:29]   --->   Operation 127 'sext' 'sext_ln29_1' <Predicate = (!icmp_ln13)> <Delay = 0.00>
-ST_6 : Operation 128 [1/1] (1.48ns)   --->   "%add_ln29 = add i17 %sext_ln29_1, i17 %sext_ln29" [../hsl/src/horn_schunck_hsl.cpp:29]   --->   Operation 128 'add' 'add_ln29' <Predicate = (!icmp_ln13)> <Delay = 1.48> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.50> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 128 [1/1] (1.26ns)   --->   "%add_ln29 = add i17 %sext_ln29_1, i17 %sext_ln29" [../hsl/src/horn_schunck_hsl.cpp:29]   --->   Operation 128 'add' 'add_ln29' <Predicate = (!icmp_ln13)> <Delay = 1.26> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.27> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_6 : Operation 129 [1/1] (0.00ns)   --->   "%sext_ln29_2 = sext i17 %add_ln29" [../hsl/src/horn_schunck_hsl.cpp:29]   --->   Operation 129 'sext' 'sext_ln29_2' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_6 : Operation 130 [1/1] (0.00ns)   --->   "%sext_ln29_3 = sext i16 %u2" [../hsl/src/horn_schunck_hsl.cpp:29]   --->   Operation 130 'sext' 'sext_ln29_3' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_6 : Operation 131 [1/1] (0.00ns)   --->   "%sext_ln29_4 = sext i16 %u3" [../hsl/src/horn_schunck_hsl.cpp:29]   --->   Operation 131 'sext' 'sext_ln29_4' <Predicate = (!icmp_ln13)> <Delay = 0.00>
-ST_6 : Operation 132 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln29_1 = add i18 %sext_ln29_4, i18 %sext_ln29_3" [../hsl/src/horn_schunck_hsl.cpp:29]   --->   Operation 132 'add' 'add_ln29_1' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.28> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
-ST_6 : Operation 133 [1/1] (2.55ns) (root node of TernaryAdder)   --->   "%add_ln29_2 = add i18 %add_ln29_1, i18 %sext_ln29_2" [../hsl/src/horn_schunck_hsl.cpp:29]   --->   Operation 133 'add' 'add_ln29_2' <Predicate = (!icmp_ln13)> <Delay = 2.55> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.28> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_6 : Operation 132 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln29_1 = add i18 %sext_ln29_4, i18 %sext_ln29_3" [../hsl/src/horn_schunck_hsl.cpp:29]   --->   Operation 132 'add' 'add_ln29_1' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.44> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_6 : Operation 133 [1/1] (0.87ns) (root node of TernaryAdder)   --->   "%add_ln29_2 = add i18 %add_ln29_1, i18 %sext_ln29_2" [../hsl/src/horn_schunck_hsl.cpp:29]   --->   Operation 133 'add' 'add_ln29_2' <Predicate = (!icmp_ln13)> <Delay = 0.87> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.44> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 ST_6 : Operation 134 [1/1] (0.00ns)   --->   "%u_bar = partselect i16 @_ssdm_op_PartSelect.i16.i18.i32.i32, i18 %add_ln29_2, i32 2, i32 17" [../hsl/src/horn_schunck_hsl.cpp:29]   --->   Operation 134 'partselect' 'u_bar' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_6 : Operation 135 [1/1] (0.00ns)   --->   "%sext_ln30 = sext i16 %v0_load" [../hsl/src/horn_schunck_hsl.cpp:30]   --->   Operation 135 'sext' 'sext_ln30' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_6 : Operation 136 [1/1] (0.00ns)   --->   "%sext_ln30_1 = sext i16 %v1" [../hsl/src/horn_schunck_hsl.cpp:30]   --->   Operation 136 'sext' 'sext_ln30_1' <Predicate = (!icmp_ln13)> <Delay = 0.00>
-ST_6 : Operation 137 [1/1] (1.48ns)   --->   "%add_ln30 = add i17 %sext_ln30_1, i17 %sext_ln30" [../hsl/src/horn_schunck_hsl.cpp:30]   --->   Operation 137 'add' 'add_ln30' <Predicate = (!icmp_ln13)> <Delay = 1.48> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.50> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 137 [1/1] (1.26ns)   --->   "%add_ln30 = add i17 %sext_ln30_1, i17 %sext_ln30" [../hsl/src/horn_schunck_hsl.cpp:30]   --->   Operation 137 'add' 'add_ln30' <Predicate = (!icmp_ln13)> <Delay = 1.26> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.27> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_6 : Operation 138 [1/1] (0.00ns)   --->   "%sext_ln30_2 = sext i17 %add_ln30" [../hsl/src/horn_schunck_hsl.cpp:30]   --->   Operation 138 'sext' 'sext_ln30_2' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_6 : Operation 139 [1/1] (0.00ns)   --->   "%sext_ln30_3 = sext i16 %v2" [../hsl/src/horn_schunck_hsl.cpp:30]   --->   Operation 139 'sext' 'sext_ln30_3' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_6 : Operation 140 [1/1] (0.00ns)   --->   "%sext_ln30_4 = sext i16 %v3" [../hsl/src/horn_schunck_hsl.cpp:30]   --->   Operation 140 'sext' 'sext_ln30_4' <Predicate = (!icmp_ln13)> <Delay = 0.00>
-ST_6 : Operation 141 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln30_1 = add i18 %sext_ln30_4, i18 %sext_ln30_3" [../hsl/src/horn_schunck_hsl.cpp:30]   --->   Operation 141 'add' 'add_ln30_1' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.28> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
-ST_6 : Operation 142 [1/1] (2.55ns) (root node of TernaryAdder)   --->   "%add_ln30_2 = add i18 %add_ln30_1, i18 %sext_ln30_2" [../hsl/src/horn_schunck_hsl.cpp:30]   --->   Operation 142 'add' 'add_ln30_2' <Predicate = (!icmp_ln13)> <Delay = 2.55> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.28> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_6 : Operation 141 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln30_1 = add i18 %sext_ln30_4, i18 %sext_ln30_3" [../hsl/src/horn_schunck_hsl.cpp:30]   --->   Operation 141 'add' 'add_ln30_1' <Predicate = (!icmp_ln13)> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.44> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_6 : Operation 142 [1/1] (0.87ns) (root node of TernaryAdder)   --->   "%add_ln30_2 = add i18 %add_ln30_1, i18 %sext_ln30_2" [../hsl/src/horn_schunck_hsl.cpp:30]   --->   Operation 142 'add' 'add_ln30_2' <Predicate = (!icmp_ln13)> <Delay = 0.87> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.44> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 ST_6 : Operation 143 [1/1] (0.00ns)   --->   "%v_bar = partselect i16 @_ssdm_op_PartSelect.i16.i18.i32.i32, i18 %add_ln30_2, i32 2, i32 17" [../hsl/src/horn_schunck_hsl.cpp:30]   --->   Operation 143 'partselect' 'v_bar' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_6 : Operation 144 [1/1] (0.00ns)   --->   "%sext_ln32 = sext i16 %Ix_load" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 144 'sext' 'sext_ln32' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_6 : Operation 145 [1/1] (0.00ns)   --->   "%sext_ln32_3 = sext i16 %u_bar" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 145 'sext' 'sext_ln32_3' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_6 : Operation 146 [1/1] (0.00ns)   --->   "%sext_ln32_2 = sext i16 %Iy_load" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 146 'sext' 'sext_ln32_2' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_6 : Operation 147 [1/1] (0.00ns)   --->   "%sext_ln32_4 = sext i16 %v_bar" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 147 'sext' 'sext_ln32_4' <Predicate = (!icmp_ln13)> <Delay = 0.00>
-ST_6 : Operation 148 [1/1] (2.84ns) (grouped into DSP with root node add_ln32)   --->   "%mul_ln32 = mul i28 %sext_ln32_1, i28 %sext_ln32_3" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 148 'mul' 'mul_ln32' <Predicate = (!icmp_ln13)> <Delay = 2.84> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 0> <II = 1> <Delay = 5.79> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
-ST_6 : Operation 149 [1/1] (2.84ns) (grouped into DSP with root node add_ln32_1)   --->   "%mul_ln32_1 = mul i28 %sext_ln32_4, i28 %sext_ln32_5" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 149 'mul' 'mul_ln32_1' <Predicate = (!icmp_ln13)> <Delay = 2.84> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 0> <II = 1> <Delay = 5.79> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_6 : Operation 148 [1/1] (0.82ns) (grouped into DSP with root node add_ln32)   --->   "%mul_ln32 = mul i28 %sext_ln32_1, i28 %sext_ln32_3" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 148 'mul' 'mul_ln32' <Predicate = (!icmp_ln13)> <Delay = 0.82> <CoreInst = "DSP48">   --->   Core 124 'DSP48' <Latency = 0> <II = 1> <Delay = 3.29> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_6 : Operation 149 [1/1] (0.82ns) (grouped into DSP with root node add_ln32_1)   --->   "%mul_ln32_1 = mul i28 %sext_ln32_4, i28 %sext_ln32_5" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 149 'mul' 'mul_ln32_1' <Predicate = (!icmp_ln13)> <Delay = 0.82> <CoreInst = "DSP48">   --->   Core 124 'DSP48' <Latency = 0> <II = 1> <Delay = 3.29> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
 ST_6 : Operation 150 [1/1] (0.00ns)   --->   "%shl_ln = bitconcatenate i28 @_ssdm_op_BitConcatenate.i28.i16.i12, i16 %It_load, i12 0" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 150 'bitconcatenate' 'shl_ln' <Predicate = (!icmp_ln13)> <Delay = 0.00>
-ST_6 : Operation 151 [1/1] (2.95ns) (root node of the DSP)   --->   "%add_ln32 = add i28 %mul_ln32, i28 %shl_ln" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 151 'add' 'add_ln32' <Predicate = (!icmp_ln13)> <Delay = 2.95> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 0> <II = 1> <Delay = 5.79> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
-ST_6 : Operation 152 [1/1] (2.95ns) (root node of the DSP)   --->   "%add_ln32_1 = add i28 %add_ln32, i28 %mul_ln32_1" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 152 'add' 'add_ln32_1' <Predicate = (!icmp_ln13)> <Delay = 2.95> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 0> <II = 1> <Delay = 5.79> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_6 : Operation 151 [1/1] (2.47ns) (root node of the DSP)   --->   "%add_ln32 = add i28 %mul_ln32, i28 %shl_ln" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 151 'add' 'add_ln32' <Predicate = (!icmp_ln13)> <Delay = 2.47> <CoreInst = "DSP48">   --->   Core 124 'DSP48' <Latency = 0> <II = 1> <Delay = 3.29> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_6 : Operation 152 [1/1] (2.47ns) (root node of the DSP)   --->   "%add_ln32_1 = add i28 %add_ln32, i28 %mul_ln32_1" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 152 'add' 'add_ln32_1' <Predicate = (!icmp_ln13)> <Delay = 2.47> <CoreInst = "DSP48">   --->   Core 124 'DSP48' <Latency = 0> <II = 1> <Delay = 3.29> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
 ST_6 : Operation 153 [1/1] (0.00ns)   --->   "%P = partselect i16 @_ssdm_op_PartSelect.i16.i28.i32.i32, i28 %add_ln32_1, i32 12, i32 27" [../hsl/src/horn_schunck_hsl.cpp:32]   --->   Operation 153 'partselect' 'P' <Predicate = (!icmp_ln13)> <Delay = 0.00>
-ST_6 : Operation 154 [1/2] (1.78ns) (root node of the DSP)   --->   "%add_ln35 = add i28 %add_ln34, i28 %mul_ln35" [../hsl/src/horn_schunck_hsl.cpp:35]   --->   Operation 154 'add' 'add_ln35' <Predicate = (!icmp_ln13)> <Delay = 1.78> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 0> <II = 1> <Delay = 5.79> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_6 : Operation 154 [1/2] (1.06ns) (root node of the DSP)   --->   "%add_ln35 = add i28 %add_ln34, i28 %mul_ln35" [../hsl/src/horn_schunck_hsl.cpp:35]   --->   Operation 154 'add' 'add_ln35' <Predicate = (!icmp_ln13)> <Delay = 1.06> <CoreInst = "DSP48">   --->   Core 124 'DSP48' <Latency = 0> <II = 1> <Delay = 3.29> <IPBlock> <Opcode : 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
 ST_6 : Operation 155 [1/1] (0.00ns)   --->   "%D = partselect i16 @_ssdm_op_PartSelect.i16.i28.i32.i32, i28 %add_ln35, i32 12, i32 27" [../hsl/src/horn_schunck_hsl.cpp:33]   --->   Operation 155 'partselect' 'D' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_6 : Operation 156 [1/1] (0.00ns)   --->   "%sext_ln37 = sext i16 %P" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 156 'sext' 'sext_ln37' <Predicate = (!icmp_ln13)> <Delay = 0.00>
-ST_6 : Operation 157 [1/1] (4.45ns)   --->   "%mul_ln37 = mul i32 %sext_ln37, i32 %sext_ln32" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 157 'mul' 'mul_ln37' <Predicate = (!icmp_ln13)> <Delay = 4.45> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 4.45> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 157 [1/1] (2.98ns)   --->   "%mul_ln37 = mul i32 %sext_ln37, i32 %sext_ln32" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 157 'mul' 'mul_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.98> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 2.98> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_6 : Operation 158 [1/1] (0.00ns)   --->   "%shl_ln1 = bitconcatenate i44 @_ssdm_op_BitConcatenate.i44.i32.i12, i32 %mul_ln37, i12 0" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 158 'bitconcatenate' 'shl_ln1' <Predicate = (!icmp_ln13)> <Delay = 0.00>
 ST_6 : Operation 159 [1/1] (0.00ns)   --->   "%sext_ln37_1 = sext i16 %D" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 159 'sext' 'sext_ln37_1' <Predicate = (!icmp_ln13)> <Delay = 0.00>
-ST_6 : Operation 160 [48/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 160 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 161 [1/1] (4.45ns)   --->   "%mul_ln38 = mul i32 %sext_ln37, i32 %sext_ln32_2" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 161 'mul' 'mul_ln38' <Predicate = (!icmp_ln13)> <Delay = 4.45> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 4.45> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 160 [48/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 160 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 161 [1/1] (2.98ns)   --->   "%mul_ln38 = mul i32 %sext_ln37, i32 %sext_ln32_2" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 161 'mul' 'mul_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.98> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 2.98> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 ST_6 : Operation 162 [1/1] (0.00ns)   --->   "%shl_ln2 = bitconcatenate i44 @_ssdm_op_BitConcatenate.i44.i32.i12, i32 %mul_ln38, i12 0" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 162 'bitconcatenate' 'shl_ln2' <Predicate = (!icmp_ln13)> <Delay = 0.00>
-ST_6 : Operation 163 [48/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 163 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 276 [1/1] (1.02ns)   --->   "%ret_ln0 = ret"   --->   Operation 276 'ret' 'ret_ln0' <Predicate = (icmp_ln13)> <Delay = 1.02>
+ST_6 : Operation 163 [48/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 163 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 276 [1/1] (0.47ns)   --->   "%ret_ln0 = ret"   --->   Operation 276 'ret' 'ret_ln0' <Predicate = (icmp_ln13)> <Delay = 0.47>
 
-State 7 <SV = 6> <Delay = 2.77>
-ST_7 : Operation 164 [47/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 164 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_7 : Operation 165 [47/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 165 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 7 <SV = 6> <Delay = 1.56>
+ST_7 : Operation 164 [47/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 164 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 165 [47/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 165 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 8 <SV = 7> <Delay = 2.77>
-ST_8 : Operation 166 [46/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 166 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_8 : Operation 167 [46/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 167 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 8 <SV = 7> <Delay = 1.56>
+ST_8 : Operation 166 [46/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 166 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 167 [46/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 167 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 9 <SV = 8> <Delay = 2.77>
-ST_9 : Operation 168 [45/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 168 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_9 : Operation 169 [45/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 169 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 9 <SV = 8> <Delay = 1.56>
+ST_9 : Operation 168 [45/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 168 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 169 [45/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 169 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 10 <SV = 9> <Delay = 2.77>
-ST_10 : Operation 170 [44/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 170 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_10 : Operation 171 [44/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 171 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 10 <SV = 9> <Delay = 1.56>
+ST_10 : Operation 170 [44/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 170 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 171 [44/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 171 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 11 <SV = 10> <Delay = 2.77>
-ST_11 : Operation 172 [43/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 172 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_11 : Operation 173 [43/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 173 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 11 <SV = 10> <Delay = 1.56>
+ST_11 : Operation 172 [43/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 172 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 173 [43/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 173 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 12 <SV = 11> <Delay = 2.77>
-ST_12 : Operation 174 [42/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 174 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_12 : Operation 175 [42/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 175 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 12 <SV = 11> <Delay = 1.56>
+ST_12 : Operation 174 [42/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 174 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 175 [42/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 175 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 13 <SV = 12> <Delay = 2.77>
-ST_13 : Operation 176 [41/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 176 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_13 : Operation 177 [41/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 177 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 13 <SV = 12> <Delay = 1.56>
+ST_13 : Operation 176 [41/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 176 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_13 : Operation 177 [41/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 177 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 14 <SV = 13> <Delay = 2.77>
-ST_14 : Operation 178 [40/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 178 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_14 : Operation 179 [40/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 179 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 14 <SV = 13> <Delay = 1.56>
+ST_14 : Operation 178 [40/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 178 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_14 : Operation 179 [40/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 179 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 15 <SV = 14> <Delay = 2.77>
-ST_15 : Operation 180 [39/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 180 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_15 : Operation 181 [39/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 181 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 15 <SV = 14> <Delay = 1.56>
+ST_15 : Operation 180 [39/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 180 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_15 : Operation 181 [39/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 181 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 16 <SV = 15> <Delay = 2.77>
-ST_16 : Operation 182 [38/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 182 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_16 : Operation 183 [38/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 183 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 16 <SV = 15> <Delay = 1.56>
+ST_16 : Operation 182 [38/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 182 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_16 : Operation 183 [38/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 183 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 17 <SV = 16> <Delay = 2.77>
-ST_17 : Operation 184 [37/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 184 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_17 : Operation 185 [37/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 185 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 17 <SV = 16> <Delay = 1.56>
+ST_17 : Operation 184 [37/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 184 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_17 : Operation 185 [37/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 185 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 18 <SV = 17> <Delay = 2.77>
-ST_18 : Operation 186 [36/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 186 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_18 : Operation 187 [36/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 187 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 18 <SV = 17> <Delay = 1.56>
+ST_18 : Operation 186 [36/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 186 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_18 : Operation 187 [36/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 187 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 19 <SV = 18> <Delay = 2.77>
-ST_19 : Operation 188 [35/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 188 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_19 : Operation 189 [35/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 189 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 19 <SV = 18> <Delay = 1.56>
+ST_19 : Operation 188 [35/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 188 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_19 : Operation 189 [35/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 189 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 20 <SV = 19> <Delay = 2.77>
-ST_20 : Operation 190 [34/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 190 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_20 : Operation 191 [34/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 191 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 20 <SV = 19> <Delay = 1.56>
+ST_20 : Operation 190 [34/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 190 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_20 : Operation 191 [34/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 191 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 21 <SV = 20> <Delay = 2.77>
-ST_21 : Operation 192 [33/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 192 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_21 : Operation 193 [33/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 193 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 21 <SV = 20> <Delay = 1.56>
+ST_21 : Operation 192 [33/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 192 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_21 : Operation 193 [33/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 193 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 22 <SV = 21> <Delay = 2.77>
-ST_22 : Operation 194 [32/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 194 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_22 : Operation 195 [32/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 195 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 22 <SV = 21> <Delay = 1.56>
+ST_22 : Operation 194 [32/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 194 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_22 : Operation 195 [32/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 195 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 23 <SV = 22> <Delay = 2.77>
-ST_23 : Operation 196 [31/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 196 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_23 : Operation 197 [31/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 197 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 23 <SV = 22> <Delay = 1.56>
+ST_23 : Operation 196 [31/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 196 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_23 : Operation 197 [31/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 197 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 24 <SV = 23> <Delay = 2.77>
-ST_24 : Operation 198 [30/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 198 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_24 : Operation 199 [30/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 199 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 24 <SV = 23> <Delay = 1.56>
+ST_24 : Operation 198 [30/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 198 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_24 : Operation 199 [30/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 199 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 25 <SV = 24> <Delay = 2.77>
-ST_25 : Operation 200 [29/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 200 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_25 : Operation 201 [29/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 201 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 25 <SV = 24> <Delay = 1.56>
+ST_25 : Operation 200 [29/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 200 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_25 : Operation 201 [29/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 201 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 26 <SV = 25> <Delay = 2.77>
-ST_26 : Operation 202 [28/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 202 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_26 : Operation 203 [28/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 203 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 26 <SV = 25> <Delay = 1.56>
+ST_26 : Operation 202 [28/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 202 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_26 : Operation 203 [28/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 203 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 27 <SV = 26> <Delay = 2.77>
-ST_27 : Operation 204 [27/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 204 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_27 : Operation 205 [27/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 205 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 27 <SV = 26> <Delay = 1.56>
+ST_27 : Operation 204 [27/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 204 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_27 : Operation 205 [27/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 205 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 28 <SV = 27> <Delay = 2.77>
-ST_28 : Operation 206 [26/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 206 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_28 : Operation 207 [26/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 207 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 28 <SV = 27> <Delay = 1.56>
+ST_28 : Operation 206 [26/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 206 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_28 : Operation 207 [26/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 207 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 29 <SV = 28> <Delay = 2.77>
-ST_29 : Operation 208 [25/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 208 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_29 : Operation 209 [25/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 209 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 29 <SV = 28> <Delay = 1.56>
+ST_29 : Operation 208 [25/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 208 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_29 : Operation 209 [25/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 209 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 30 <SV = 29> <Delay = 2.77>
-ST_30 : Operation 210 [24/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 210 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_30 : Operation 211 [24/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 211 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 30 <SV = 29> <Delay = 1.56>
+ST_30 : Operation 210 [24/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 210 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_30 : Operation 211 [24/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 211 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 31 <SV = 30> <Delay = 2.77>
-ST_31 : Operation 212 [23/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 212 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_31 : Operation 213 [23/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 213 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 31 <SV = 30> <Delay = 1.56>
+ST_31 : Operation 212 [23/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 212 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_31 : Operation 213 [23/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 213 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 32 <SV = 31> <Delay = 2.77>
-ST_32 : Operation 214 [22/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 214 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_32 : Operation 215 [22/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 215 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 32 <SV = 31> <Delay = 1.56>
+ST_32 : Operation 214 [22/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 214 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_32 : Operation 215 [22/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 215 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 33 <SV = 32> <Delay = 2.77>
-ST_33 : Operation 216 [21/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 216 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_33 : Operation 217 [21/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 217 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 33 <SV = 32> <Delay = 1.56>
+ST_33 : Operation 216 [21/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 216 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_33 : Operation 217 [21/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 217 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 34 <SV = 33> <Delay = 2.77>
-ST_34 : Operation 218 [20/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 218 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_34 : Operation 219 [20/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 219 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 34 <SV = 33> <Delay = 1.56>
+ST_34 : Operation 218 [20/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 218 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_34 : Operation 219 [20/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 219 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 35 <SV = 34> <Delay = 2.77>
-ST_35 : Operation 220 [19/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 220 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_35 : Operation 221 [19/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 221 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 35 <SV = 34> <Delay = 1.56>
+ST_35 : Operation 220 [19/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 220 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_35 : Operation 221 [19/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 221 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 36 <SV = 35> <Delay = 2.77>
-ST_36 : Operation 222 [18/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 222 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_36 : Operation 223 [18/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 223 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 36 <SV = 35> <Delay = 1.56>
+ST_36 : Operation 222 [18/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 222 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_36 : Operation 223 [18/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 223 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 37 <SV = 36> <Delay = 2.77>
-ST_37 : Operation 224 [17/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 224 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_37 : Operation 225 [17/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 225 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 37 <SV = 36> <Delay = 1.56>
+ST_37 : Operation 224 [17/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 224 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_37 : Operation 225 [17/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 225 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 38 <SV = 37> <Delay = 2.77>
-ST_38 : Operation 226 [16/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 226 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_38 : Operation 227 [16/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 227 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 38 <SV = 37> <Delay = 1.56>
+ST_38 : Operation 226 [16/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 226 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_38 : Operation 227 [16/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 227 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 39 <SV = 38> <Delay = 2.77>
-ST_39 : Operation 228 [15/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 228 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_39 : Operation 229 [15/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 229 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 39 <SV = 38> <Delay = 1.56>
+ST_39 : Operation 228 [15/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 228 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_39 : Operation 229 [15/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 229 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 40 <SV = 39> <Delay = 2.77>
-ST_40 : Operation 230 [14/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 230 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_40 : Operation 231 [14/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 231 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 40 <SV = 39> <Delay = 1.56>
+ST_40 : Operation 230 [14/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 230 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_40 : Operation 231 [14/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 231 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 41 <SV = 40> <Delay = 2.77>
-ST_41 : Operation 232 [13/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 232 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_41 : Operation 233 [13/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 233 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 41 <SV = 40> <Delay = 1.56>
+ST_41 : Operation 232 [13/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 232 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_41 : Operation 233 [13/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 233 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 42 <SV = 41> <Delay = 2.77>
-ST_42 : Operation 234 [12/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 234 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_42 : Operation 235 [12/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 235 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 42 <SV = 41> <Delay = 1.56>
+ST_42 : Operation 234 [12/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 234 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_42 : Operation 235 [12/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 235 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 43 <SV = 42> <Delay = 2.77>
-ST_43 : Operation 236 [11/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 236 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_43 : Operation 237 [11/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 237 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 43 <SV = 42> <Delay = 1.56>
+ST_43 : Operation 236 [11/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 236 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_43 : Operation 237 [11/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 237 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 44 <SV = 43> <Delay = 2.77>
-ST_44 : Operation 238 [10/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 238 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_44 : Operation 239 [10/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 239 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 44 <SV = 43> <Delay = 1.56>
+ST_44 : Operation 238 [10/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 238 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_44 : Operation 239 [10/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 239 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 45 <SV = 44> <Delay = 2.77>
-ST_45 : Operation 240 [9/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 240 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_45 : Operation 241 [9/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 241 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 45 <SV = 44> <Delay = 1.56>
+ST_45 : Operation 240 [9/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 240 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_45 : Operation 241 [9/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 241 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 46 <SV = 45> <Delay = 2.77>
-ST_46 : Operation 242 [8/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 242 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_46 : Operation 243 [8/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 243 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 46 <SV = 45> <Delay = 1.56>
+ST_46 : Operation 242 [8/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 242 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_46 : Operation 243 [8/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 243 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 47 <SV = 46> <Delay = 2.77>
-ST_47 : Operation 244 [7/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 244 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_47 : Operation 245 [7/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 245 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 47 <SV = 46> <Delay = 1.56>
+ST_47 : Operation 244 [7/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 244 'sdiv' 'sdiv_ln37' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_47 : Operation 245 [7/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 245 'sdiv' 'sdiv_ln38' <Predicate = (!icmp_ln13)> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 48 <SV = 47> <Delay = 2.77>
-ST_48 : Operation 246 [6/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 246 'sdiv' 'sdiv_ln37' <Predicate = true> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_48 : Operation 247 [6/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 247 'sdiv' 'sdiv_ln38' <Predicate = true> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 48 <SV = 47> <Delay = 1.56>
+ST_48 : Operation 246 [6/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 246 'sdiv' 'sdiv_ln37' <Predicate = true> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_48 : Operation 247 [6/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 247 'sdiv' 'sdiv_ln38' <Predicate = true> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 49 <SV = 48> <Delay = 2.77>
-ST_49 : Operation 248 [5/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 248 'sdiv' 'sdiv_ln37' <Predicate = true> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_49 : Operation 249 [5/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 249 'sdiv' 'sdiv_ln38' <Predicate = true> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 49 <SV = 48> <Delay = 1.56>
+ST_49 : Operation 248 [5/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 248 'sdiv' 'sdiv_ln37' <Predicate = true> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_49 : Operation 249 [5/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 249 'sdiv' 'sdiv_ln38' <Predicate = true> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 50 <SV = 49> <Delay = 2.77>
-ST_50 : Operation 250 [4/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 250 'sdiv' 'sdiv_ln37' <Predicate = true> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_50 : Operation 251 [4/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 251 'sdiv' 'sdiv_ln38' <Predicate = true> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 50 <SV = 49> <Delay = 1.56>
+ST_50 : Operation 250 [4/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 250 'sdiv' 'sdiv_ln37' <Predicate = true> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_50 : Operation 251 [4/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 251 'sdiv' 'sdiv_ln38' <Predicate = true> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 51 <SV = 50> <Delay = 2.77>
-ST_51 : Operation 252 [3/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 252 'sdiv' 'sdiv_ln37' <Predicate = true> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_51 : Operation 253 [3/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 253 'sdiv' 'sdiv_ln38' <Predicate = true> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 51 <SV = 50> <Delay = 1.56>
+ST_51 : Operation 252 [3/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 252 'sdiv' 'sdiv_ln37' <Predicate = true> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_51 : Operation 253 [3/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 253 'sdiv' 'sdiv_ln38' <Predicate = true> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 52 <SV = 51> <Delay = 2.77>
-ST_52 : Operation 254 [2/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 254 'sdiv' 'sdiv_ln37' <Predicate = true> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
-ST_52 : Operation 255 [2/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 255 'sdiv' 'sdiv_ln38' <Predicate = true> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+State 52 <SV = 51> <Delay = 1.56>
+ST_52 : Operation 254 [2/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 254 'sdiv' 'sdiv_ln37' <Predicate = true> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_52 : Operation 255 [2/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 255 'sdiv' 'sdiv_ln38' <Predicate = true> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 
-State 53 <SV = 52> <Delay = 25.5>
+State 53 <SV = 52> <Delay = 15.9>
 ST_53 : Operation 256 [1/1] (0.00ns)   --->   "%u_addr_3 = getelementptr i16 %u, i64 0, i64 %zext_ln32" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 256 'getelementptr' 'u_addr_3' <Predicate = true> <Delay = 0.00>
 ST_53 : Operation 257 [1/1] (0.00ns)   --->   "%v_addr_3 = getelementptr i16 %v, i64 0, i64 %zext_ln32" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 257 'getelementptr' 'v_addr_3' <Predicate = true> <Delay = 0.00>
 ST_53 : Operation 258 [1/1] (0.00ns)   --->   "%specpipeline_ln15 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, i32 4294967295, void @empty_0" [../hsl/src/horn_schunck_hsl.cpp:15]   --->   Operation 258 'specpipeline' 'specpipeline_ln15' <Predicate = true> <Delay = 0.00>
 ST_53 : Operation 259 [1/1] (0.00ns)   --->   "%speclooptripcount_ln13 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 62, i64 62, i64 62" [../hsl/src/horn_schunck_hsl.cpp:13]   --->   Operation 259 'speclooptripcount' 'speclooptripcount_ln13' <Predicate = true> <Delay = 0.00>
 ST_53 : Operation 260 [1/1] (0.00ns)   --->   "%specloopname_ln13 = specloopname void @_ssdm_op_SpecLoopName, void @empty_2" [../hsl/src/horn_schunck_hsl.cpp:13]   --->   Operation 260 'specloopname' 'specloopname_ln13' <Predicate = true> <Delay = 0.00>
-ST_53 : Operation 261 [1/48] (2.77ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 261 'sdiv' 'sdiv_ln37' <Predicate = true> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_53 : Operation 261 [1/48] (1.56ns)   --->   "%sdiv_ln37 = sdiv i44 %shl_ln1, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 261 'sdiv' 'sdiv_ln37' <Predicate = true> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 ST_53 : Operation 262 [1/1] (0.00ns)   --->   "%shl_ln37_1 = bitconcatenate i28 @_ssdm_op_BitConcatenate.i28.i16.i12, i16 %u_bar, i12 0" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 262 'bitconcatenate' 'shl_ln37_1' <Predicate = true> <Delay = 0.00>
 ST_53 : Operation 263 [1/1] (0.00ns)   --->   "%trunc_ln37 = trunc i28 %sdiv_ln37" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 263 'trunc' 'trunc_ln37' <Predicate = true> <Delay = 0.00>
-ST_53 : Operation 264 [1/1] (1.71ns)   --->   "%sub_ln37 = sub i28 %shl_ln37_1, i28 %trunc_ln37" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 264 'sub' 'sub_ln37' <Predicate = true> <Delay = 1.71> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.71> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_53 : Operation 264 [1/1] (1.41ns)   --->   "%sub_ln37 = sub i28 %shl_ln37_1, i28 %trunc_ln37" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 264 'sub' 'sub_ln37' <Predicate = true> <Delay = 1.41> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.41> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_53 : Operation 265 [1/1] (0.00ns)   --->   "%trunc_ln = partselect i16 @_ssdm_op_PartSelect.i16.i28.i32.i32, i28 %sub_ln37, i32 12, i32 27" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 265 'partselect' 'trunc_ln' <Predicate = true> <Delay = 0.00>
-ST_53 : Operation 266 [1/1] ( I:0.00ns O:0.00ns )   --->   "%store_ln37 = store i16 %trunc_ln, i12 %u_addr_3" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 266 'store' 'store_ln37' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_53 : Operation 267 [1/48] (2.77ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 267 'sdiv' 'sdiv_ln38' <Predicate = true> <Delay = 2.77> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 2.77> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_53 : Operation 266 [1/1] ( I:0.00ns O:0.00ns )   --->   "%store_ln37 = store i16 %trunc_ln, i12 %u_addr_3" [../hsl/src/horn_schunck_hsl.cpp:37]   --->   Operation 266 'store' 'store_ln37' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_53 : Operation 267 [1/48] (1.56ns)   --->   "%sdiv_ln38 = sdiv i44 %shl_ln2, i44 %sext_ln37_1" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 267 'sdiv' 'sdiv_ln38' <Predicate = true> <Delay = 1.56> <CoreInst = "Divider">   --->   Core 6 'Divider' <Latency = 47> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
 ST_53 : Operation 268 [1/1] (0.00ns)   --->   "%shl_ln38_1 = bitconcatenate i28 @_ssdm_op_BitConcatenate.i28.i16.i12, i16 %v_bar, i12 0" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 268 'bitconcatenate' 'shl_ln38_1' <Predicate = true> <Delay = 0.00>
 ST_53 : Operation 269 [1/1] (0.00ns)   --->   "%trunc_ln38 = trunc i28 %sdiv_ln38" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 269 'trunc' 'trunc_ln38' <Predicate = true> <Delay = 0.00>
-ST_53 : Operation 270 [1/1] (1.71ns)   --->   "%sub_ln38 = sub i28 %shl_ln38_1, i28 %trunc_ln38" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 270 'sub' 'sub_ln38' <Predicate = true> <Delay = 1.71> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.71> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_53 : Operation 270 [1/1] (1.41ns)   --->   "%sub_ln38 = sub i28 %shl_ln38_1, i28 %trunc_ln38" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 270 'sub' 'sub_ln38' <Predicate = true> <Delay = 1.41> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.41> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_53 : Operation 271 [1/1] (0.00ns)   --->   "%trunc_ln1 = partselect i16 @_ssdm_op_PartSelect.i16.i28.i32.i32, i28 %sub_ln38, i32 12, i32 27" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 271 'partselect' 'trunc_ln1' <Predicate = true> <Delay = 0.00>
-ST_53 : Operation 272 [1/1] ( I:0.00ns O:0.00ns )   --->   "%store_ln38 = store i16 %trunc_ln1, i12 %v_addr_3" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 272 'store' 'store_ln38' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
-ST_53 : Operation 273 [1/1] (1.02ns)   --->   "%store_ln18 = store i16 %trunc_ln, i16 %u0" [../hsl/src/horn_schunck_hsl.cpp:18]   --->   Operation 273 'store' 'store_ln18' <Predicate = true> <Delay = 1.02>
-ST_53 : Operation 274 [1/1] (1.02ns)   --->   "%store_ln23 = store i16 %trunc_ln1, i16 %v0" [../hsl/src/horn_schunck_hsl.cpp:23]   --->   Operation 274 'store' 'store_ln23' <Predicate = true> <Delay = 1.02>
+ST_53 : Operation 272 [1/1] ( I:0.00ns O:0.00ns )   --->   "%store_ln38 = store i16 %trunc_ln1, i12 %v_addr_3" [../hsl/src/horn_schunck_hsl.cpp:38]   --->   Operation 272 'store' 'store_ln38' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 1.42> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4096> <RAM>
+ST_53 : Operation 273 [1/1] (0.47ns)   --->   "%store_ln18 = store i16 %trunc_ln, i16 %u0" [../hsl/src/horn_schunck_hsl.cpp:18]   --->   Operation 273 'store' 'store_ln18' <Predicate = true> <Delay = 0.47>
+ST_53 : Operation 274 [1/1] (0.47ns)   --->   "%store_ln23 = store i16 %trunc_ln1, i16 %v0" [../hsl/src/horn_schunck_hsl.cpp:23]   --->   Operation 274 'store' 'store_ln23' <Predicate = true> <Delay = 0.47>
 ST_53 : Operation 275 [1/1] (0.00ns)   --->   "%br_ln13 = br void %for.body8" [../hsl/src/horn_schunck_hsl.cpp:13]   --->   Operation 275 'br' 'br_ln13' <Predicate = true> <Delay = 0.00>
 
 
@@ -3195,7 +3199,7 @@ ret_ln0                (ret              ) [ 00000000000000000000000000000000000
 |   sdiv   |        grp_fu_491        |    0    |   4239  |   3238  |
 |          |        grp_fu_511        |    0    |   4239  |   3238  |
 |----------|--------------------------|---------|---------|---------|
-|          |      add_ln19_fu_290     |    0    |    0    |    14   |
+|          |      add_ln19_fu_290     |    0    |    0    |    13   |
 |          |      add_ln29_fu_347     |    0    |    0    |    23   |
 |          |     add_ln29_1_fu_363    |    0    |    0    |    16   |
 |    add   |     add_ln29_2_fu_369    |    0    |    0    |    17   |
@@ -3206,10 +3210,10 @@ ret_ln0                (ret              ) [ 00000000000000000000000000000000000
 |    sub   |      sub_ln37_fu_528     |    0    |    0    |    35   |
 |          |      sub_ln38_fu_556     |    0    |    0    |    35   |
 |----------|--------------------------|---------|---------|---------|
-|   icmp   |     icmp_ln13_fu_255     |    0    |    0    |    14   |
+|   icmp   |     icmp_ln13_fu_255     |    0    |    0    |    13   |
 |----------|--------------------------|---------|---------|---------|
-|    mul   |      mul_ln37_fu_473     |    1    |    0    |    6    |
-|          |      mul_ln38_fu_497     |    1    |    0    |    6    |
+|    mul   |      mul_ln37_fu_473     |    1    |    0    |    5    |
+|          |      mul_ln38_fu_497     |    1    |    0    |    5    |
 |----------|--------------------------|---------|---------|---------|
 |          |        grp_fu_583        |    1    |    0    |    0    |
 |  muladd  |        grp_fu_591        |    1    |    0    |    0    |
@@ -3266,7 +3270,7 @@ ret_ln0                (ret              ) [ 00000000000000000000000000000000000
 |   trunc  |     trunc_ln37_fu_524    |    0    |    0    |    0    |
 |          |     trunc_ln38_fu_552    |    0    |    0    |    0    |
 |----------|--------------------------|---------|---------|---------|
-|   Total  |                          |    6    |   8478  |   6698  |
+|   Total  |                          |    6    |   8478  |   6694  |
 |----------|--------------------------|---------|---------|---------|
 
 Memories:
@@ -3317,10 +3321,10 @@ N/A
 |-------------------|------|------|------|--------||---------||---------||---------|
 |        Comp       |  Pin | Size |  BW  | S x BW ||  Delay  ||    FF   ||   LUT   |
 |-------------------|------|------|------|--------||---------||---------||---------|
-| grp_access_fu_165 |  p0  |   4  |  12  |   48   ||    0    ||    17   |
-| grp_access_fu_165 |  p2  |   3  |   0  |    0   ||    0    ||    13   |
-| grp_access_fu_176 |  p0  |   4  |  12  |   48   ||    0    ||    17   |
-| grp_access_fu_176 |  p2  |   3  |   0  |    0   ||    0    ||    13   |
+| grp_access_fu_165 |  p0  |   4  |  12  |   48   ||    0    ||    20   |
+| grp_access_fu_165 |  p2  |   3  |   0  |    0   ||    0    ||    14   |
+| grp_access_fu_176 |  p0  |   4  |  12  |   48   ||    0    ||    20   |
+| grp_access_fu_176 |  p2  |   3  |   0  |    0   ||    0    ||    14   |
 | grp_access_fu_187 |  p0  |   2  |  12  |   24   ||    0    ||    9    |
 | grp_access_fu_193 |  p0  |   2  |  12  |   24   ||    0    ||    9    |
 | grp_access_fu_199 |  p0  |   2  |  12  |   24   ||    0    ||    9    |
@@ -3330,10 +3334,10 @@ N/A
 |     grp_fu_511    |  p1  |   2  |  16  |   32   ||    0    ||    9    |
 |     grp_fu_583    |  p0  |   2  |  16  |   32   ||    0    ||    9    |
 |     grp_fu_583    |  p1  |   2  |  16  |   32   ||    0    ||    9    |
-|     grp_fu_591    |  p0  |   3  |  16  |   48   ||    0    ||    13   |
+|     grp_fu_591    |  p0  |   3  |  16  |   48   ||    0    ||    14   |
 |     grp_fu_591    |  p1  |   2  |  16  |   32   ||    0    ||    9    |
 |-------------------|------|------|------|--------||---------||---------||---------|
-|       Total       |      |      |      |   552  || 15.5635 ||    0    ||   163   |
+|       Total       |      |      |      |   552  ||  7.487  ||    0    ||   172   |
 |-------------------|------|------|------|--------||---------||---------||---------|
 
 
@@ -3342,10 +3346,10 @@ N/A
 +-----------+--------+--------+--------+--------+
 |           |   DSP  |  Delay |   FF   |   LUT  |
 +-----------+--------+--------+--------+--------+
-|  Function |    6   |    -   |  8478  |  6698  |
+|  Function |    6   |    -   |  8478  |  6694  |
 |   Memory  |    -   |    -   |    -   |    -   |
-|Multiplexer|    -   |   15   |    0   |   163  |
+|Multiplexer|    -   |    7   |    0   |   172  |
 |  Register |    -   |    -   |   615  |    -   |
 +-----------+--------+--------+--------+--------+
-|   Total   |    6   |   15   |  9093  |  6861  |
+|   Total   |    6   |    7   |  9093  |  6866  |
 +-----------+--------+--------+--------+--------+

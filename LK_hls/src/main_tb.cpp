@@ -7,11 +7,11 @@ int main() {
     fixed_t u[HEIGHT][WIDTH];
     fixed_t v[HEIGHT][WIDTH];
 
-    // Inițializare imagini cu valori test
+    // Inițializare imagini test
     for (int i=0;i<HEIGHT;i++) {
         for (int j=0;j<WIDTH;j++) {
-            I1[i][j] = (i+j) % 256;
-            I2[i][j] = (i+j+1) % 256; // mic shift pentru simulare mișcare
+            I1[i][j] = i+j;
+            I2[i][j] = i+j+10; // deplasare simplă
             u[i][j] = 0;
             v[i][j] = 0;
         }

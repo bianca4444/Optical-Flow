@@ -382,7 +382,7 @@
 						<id>11</id>
 						<name>j</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -390,7 +390,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="10" tracking_level="0" version="0">
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second class_id="11" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -438,7 +438,7 @@
 						<id>12</id>
 						<name>v0</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>23</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -446,7 +446,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -494,7 +494,7 @@
 						<id>13</id>
 						<name>u0</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>18</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -502,7 +502,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -765,7 +765,7 @@
 						<id>24</id>
 						<name>u0_write_ln18</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>18</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -773,7 +773,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -811,7 +811,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.02</m_delay>
+				<m_delay>0.47</m_delay>
 				<m_topoIndex>9</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -822,7 +822,7 @@
 						<id>25</id>
 						<name>v0_write_ln23</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>23</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -830,7 +830,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -868,7 +868,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.02</m_delay>
+				<m_delay>0.47</m_delay>
 				<m_topoIndex>10</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -879,7 +879,7 @@
 						<id>26</id>
 						<name>j_write_ln13</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -887,7 +887,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -925,7 +925,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.02</m_delay>
+				<m_delay>0.47</m_delay>
 				<m_topoIndex>11</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -978,7 +978,7 @@
 						<id>29</id>
 						<name>j_1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>19</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -986,7 +986,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1035,7 +1035,7 @@
 						<id>30</id>
 						<name>icmp_ln13</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1043,7 +1043,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1081,7 +1081,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.35</m_delay>
+				<m_delay>0.97</m_delay>
 				<m_topoIndex>14</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1092,7 +1092,7 @@
 						<id>31</id>
 						<name>br_ln13</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1100,7 +1100,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1150,7 +1150,7 @@
 						<id>33</id>
 						<name>v0_load</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>30</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1158,7 +1158,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1207,7 +1207,7 @@
 						<id>34</id>
 						<name>u0_load</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>29</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1215,7 +1215,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1264,7 +1264,7 @@
 						<id>35</id>
 						<name>tmp_1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1272,7 +1272,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1322,7 +1322,7 @@
 						<id>36</id>
 						<name>zext_ln32</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1330,7 +1330,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1378,7 +1378,7 @@
 						<id>37</id>
 						<name>Ix_addr</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1386,7 +1386,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1436,7 +1436,7 @@
 						<id>38</id>
 						<name>Iy_addr</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1444,7 +1444,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1494,7 +1494,7 @@
 						<id>39</id>
 						<name>It_addr</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1502,7 +1502,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1552,7 +1552,7 @@
 						<id>40</id>
 						<name>tmp_2</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1560,7 +1560,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1610,7 +1610,7 @@
 						<id>41</id>
 						<name>zext_ln20</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1618,7 +1618,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1666,7 +1666,7 @@
 						<id>42</id>
 						<name>u_addr</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1674,7 +1674,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1724,7 +1724,7 @@
 						<id>43</id>
 						<name>tmp_3</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1732,7 +1732,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1782,7 +1782,7 @@
 						<id>44</id>
 						<name>zext_ln21</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1790,7 +1790,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1838,7 +1838,7 @@
 						<id>45</id>
 						<name>u_addr_2</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1846,7 +1846,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1896,7 +1896,7 @@
 						<id>46</id>
 						<name>u_addr_3</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1904,7 +1904,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1954,7 +1954,7 @@
 						<id>47</id>
 						<name>v_addr</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>25</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -1962,7 +1962,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2012,7 +2012,7 @@
 						<id>48</id>
 						<name>v_addr_2</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>26</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2020,7 +2020,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2070,7 +2070,7 @@
 						<id>49</id>
 						<name>v_addr_3</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2078,7 +2078,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2128,7 +2128,7 @@
 						<id>53</id>
 						<name>add_ln19</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>19</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2136,7 +2136,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2174,7 +2174,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.35</m_delay>
+				<m_delay>0.97</m_delay>
 				<m_topoIndex>25</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2185,7 +2185,7 @@
 						<id>54</id>
 						<name>tmp_4</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>19</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2193,7 +2193,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2243,7 +2243,7 @@
 						<id>55</id>
 						<name>zext_ln19</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>19</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2251,7 +2251,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2299,7 +2299,7 @@
 						<id>56</id>
 						<name>u_addr_1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>19</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2307,7 +2307,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2357,7 +2357,7 @@
 						<id>57</id>
 						<name>v_addr_1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2365,7 +2365,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2415,7 +2415,7 @@
 						<id>58</id>
 						<name>u1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>19</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2423,7 +2423,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2445,7 +2445,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>81</coreId>
+						<coreId>82</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2471,7 +2471,7 @@
 						<id>59</id>
 						<name>u2</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2479,7 +2479,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2501,7 +2501,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>81</coreId>
+						<coreId>82</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2527,7 +2527,7 @@
 						<id>60</id>
 						<name>u3</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2535,7 +2535,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2557,7 +2557,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>81</coreId>
+						<coreId>82</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2583,7 +2583,7 @@
 						<id>61</id>
 						<name>v1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2591,7 +2591,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2613,7 +2613,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>81</coreId>
+						<coreId>82</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2639,7 +2639,7 @@
 						<id>62</id>
 						<name>v2</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>25</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2647,7 +2647,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2669,7 +2669,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>81</coreId>
+						<coreId>82</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2695,7 +2695,7 @@
 						<id>63</id>
 						<name>v3</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>26</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2703,7 +2703,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2725,7 +2725,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>81</coreId>
+						<coreId>82</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2751,7 +2751,7 @@
 						<id>64</id>
 						<name>sext_ln29</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>29</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2759,7 +2759,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2807,7 +2807,7 @@
 						<id>65</id>
 						<name>sext_ln29_1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>29</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2815,7 +2815,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2863,7 +2863,7 @@
 						<id>66</id>
 						<name>add_ln29</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>29</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2871,7 +2871,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2909,7 +2909,7 @@
 				<m_isOnCriticalPath>1</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.48</m_delay>
+				<m_delay>1.26</m_delay>
 				<m_topoIndex>54</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2920,7 +2920,7 @@
 						<id>67</id>
 						<name>sext_ln29_2</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>29</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2928,7 +2928,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2976,7 +2976,7 @@
 						<id>68</id>
 						<name>sext_ln29_3</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>29</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -2984,7 +2984,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3032,7 +3032,7 @@
 						<id>69</id>
 						<name>sext_ln29_4</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>29</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3040,7 +3040,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3088,7 +3088,7 @@
 						<id>70</id>
 						<name>add_ln29_1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>29</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3096,7 +3096,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3145,7 +3145,7 @@
 						<id>71</id>
 						<name>add_ln29_2</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>29</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3153,7 +3153,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3191,7 +3191,7 @@
 				<m_isOnCriticalPath>1</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.55</m_delay>
+				<m_delay>0.87</m_delay>
 				<m_topoIndex>59</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3202,7 +3202,7 @@
 						<id>72</id>
 						<name>u_bar</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>29</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3210,7 +3210,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3261,7 +3261,7 @@
 						<id>73</id>
 						<name>sext_ln30</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>30</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3269,7 +3269,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3317,7 +3317,7 @@
 						<id>74</id>
 						<name>sext_ln30_1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>30</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3325,7 +3325,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3373,7 +3373,7 @@
 						<id>75</id>
 						<name>add_ln30</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>30</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3381,7 +3381,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3419,7 +3419,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>1</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.48</m_delay>
+				<m_delay>1.26</m_delay>
 				<m_topoIndex>63</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3430,7 +3430,7 @@
 						<id>76</id>
 						<name>sext_ln30_2</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>30</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3438,7 +3438,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3486,7 +3486,7 @@
 						<id>77</id>
 						<name>sext_ln30_3</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>30</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3494,7 +3494,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3542,7 +3542,7 @@
 						<id>78</id>
 						<name>sext_ln30_4</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>30</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3550,7 +3550,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3598,7 +3598,7 @@
 						<id>79</id>
 						<name>add_ln30_1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>30</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3606,7 +3606,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3655,7 +3655,7 @@
 						<id>80</id>
 						<name>add_ln30_2</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>30</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3663,7 +3663,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3701,7 +3701,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>1</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.55</m_delay>
+				<m_delay>0.87</m_delay>
 				<m_topoIndex>68</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3712,7 +3712,7 @@
 						<id>81</id>
 						<name>v_bar</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>30</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3720,7 +3720,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3771,7 +3771,7 @@
 						<id>82</id>
 						<name>Ix_load</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3779,7 +3779,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3801,7 +3801,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>81</coreId>
+						<coreId>82</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -3827,7 +3827,7 @@
 						<id>83</id>
 						<name>sext_ln32</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3835,7 +3835,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3883,7 +3883,7 @@
 						<id>84</id>
 						<name>sext_ln32_1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3891,7 +3891,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3939,7 +3939,7 @@
 						<id>85</id>
 						<name>sext_ln32_3</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -3947,7 +3947,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3995,7 +3995,7 @@
 						<id>86</id>
 						<name>Iy_load</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4003,7 +4003,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4025,7 +4025,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>81</coreId>
+						<coreId>82</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -4051,7 +4051,7 @@
 						<id>87</id>
 						<name>sext_ln32_2</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4059,7 +4059,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4107,7 +4107,7 @@
 						<id>88</id>
 						<name>sext_ln32_4</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4115,7 +4115,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4163,7 +4163,7 @@
 						<id>89</id>
 						<name>sext_ln32_5</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4171,7 +4171,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4219,7 +4219,7 @@
 						<id>90</id>
 						<name>mul_ln32</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4227,7 +4227,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4249,7 +4249,7 @@
 						<coreName>DSP48</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>116</coreId>
+						<coreId>124</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>28</bitwidth>
@@ -4265,7 +4265,7 @@
 				<m_isOnCriticalPath>1</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.84</m_delay>
+				<m_delay>0.82</m_delay>
 				<m_topoIndex>74</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -4276,7 +4276,7 @@
 						<id>91</id>
 						<name>mul_ln32_1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4284,7 +4284,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4306,7 +4306,7 @@
 						<coreName>DSP48</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>116</coreId>
+						<coreId>124</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>28</bitwidth>
@@ -4322,7 +4322,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>1</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.84</m_delay>
+				<m_delay>0.82</m_delay>
 				<m_topoIndex>75</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -4333,7 +4333,7 @@
 						<id>92</id>
 						<name>It_load</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4341,7 +4341,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4363,7 +4363,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>81</coreId>
+						<coreId>82</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -4389,7 +4389,7 @@
 						<id>93</id>
 						<name>shl_ln</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4397,7 +4397,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4447,7 +4447,7 @@
 						<id>94</id>
 						<name>add_ln32</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4455,7 +4455,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4477,7 +4477,7 @@
 						<coreName>DSP48</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>116</coreId>
+						<coreId>124</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>28</bitwidth>
@@ -4493,7 +4493,7 @@
 				<m_isOnCriticalPath>1</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.95</m_delay>
+				<m_delay>2.47</m_delay>
 				<m_topoIndex>77</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -4504,7 +4504,7 @@
 						<id>95</id>
 						<name>add_ln32_1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4512,7 +4512,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4534,7 +4534,7 @@
 						<coreName>DSP48</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>116</coreId>
+						<coreId>124</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>28</bitwidth>
@@ -4550,7 +4550,7 @@
 				<m_isOnCriticalPath>1</m_isOnCriticalPath>
 				<m_isLCDNode>1</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.95</m_delay>
+				<m_delay>2.47</m_delay>
 				<m_topoIndex>78</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -4561,7 +4561,7 @@
 						<id>96</id>
 						<name>P</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4569,7 +4569,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4620,7 +4620,7 @@
 						<id>97</id>
 						<name>mul_ln34</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>34</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4628,7 +4628,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4650,7 +4650,7 @@
 						<coreName>DSP48</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>116</coreId>
+						<coreId>124</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>28</bitwidth>
@@ -4666,7 +4666,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
+				<m_delay>0.93</m_delay>
 				<m_topoIndex>45</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -4677,7 +4677,7 @@
 						<id>98</id>
 						<name>add_ln34</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>34</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4685,7 +4685,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4707,7 +4707,7 @@
 						<coreName>DSP48</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>116</coreId>
+						<coreId>124</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>28</bitwidth>
@@ -4723,7 +4723,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.78</m_delay>
+				<m_delay>1.06</m_delay>
 				<m_topoIndex>48</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -4734,7 +4734,7 @@
 						<id>99</id>
 						<name>mul_ln35</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>35</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4742,7 +4742,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4764,7 +4764,7 @@
 						<coreName>DSP48</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>116</coreId>
+						<coreId>124</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>28</bitwidth>
@@ -4780,7 +4780,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
+				<m_delay>0.93</m_delay>
 				<m_topoIndex>47</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -4791,7 +4791,7 @@
 						<id>100</id>
 						<name>add_ln35</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>35</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4799,7 +4799,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4821,7 +4821,7 @@
 						<coreName>DSP48</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>116</coreId>
+						<coreId>124</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>28</bitwidth>
@@ -4837,7 +4837,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.78</m_delay>
+				<m_delay>1.06</m_delay>
 				<m_topoIndex>49</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -4848,7 +4848,7 @@
 						<id>101</id>
 						<name>D</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>33</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4856,7 +4856,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4907,7 +4907,7 @@
 						<id>102</id>
 						<name>sext_ln37</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4915,7 +4915,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4963,7 +4963,7 @@
 						<id>103</id>
 						<name>mul_ln37</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -4971,7 +4971,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5009,7 +5009,7 @@
 				<m_isOnCriticalPath>1</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>4.45</m_delay>
+				<m_delay>2.98</m_delay>
 				<m_topoIndex>82</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -5020,7 +5020,7 @@
 						<id>104</id>
 						<name>shl_ln1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5028,7 +5028,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5078,7 +5078,7 @@
 						<id>105</id>
 						<name>sext_ln37_1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5086,7 +5086,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5134,7 +5134,7 @@
 						<id>106</id>
 						<name>sdiv_ln37</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5142,7 +5142,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5180,7 +5180,7 @@
 				<m_isOnCriticalPath>1</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>1</m_isStartOfPath>
-				<m_delay>2.77</m_delay>
+				<m_delay>1.56</m_delay>
 				<m_topoIndex>85</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -5191,7 +5191,7 @@
 						<id>107</id>
 						<name>shl_ln37_1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5199,7 +5199,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5249,7 +5249,7 @@
 						<id>108</id>
 						<name>trunc_ln37</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5257,7 +5257,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5305,7 +5305,7 @@
 						<id>109</id>
 						<name>sub_ln37</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5313,7 +5313,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5351,7 +5351,7 @@
 				<m_isOnCriticalPath>1</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.71</m_delay>
+				<m_delay>1.41</m_delay>
 				<m_topoIndex>94</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -5362,7 +5362,7 @@
 						<id>110</id>
 						<name>trunc_ln</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5370,7 +5370,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5421,7 +5421,7 @@
 						<id>111</id>
 						<name>u_addr_3_write_ln37</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>37</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5429,7 +5429,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5451,7 +5451,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>81</coreId>
+						<coreId>82</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5478,7 +5478,7 @@
 						<id>112</id>
 						<name>mul_ln38</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5486,7 +5486,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5524,7 +5524,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>1</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>4.45</m_delay>
+				<m_delay>2.98</m_delay>
 				<m_topoIndex>86</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -5535,7 +5535,7 @@
 						<id>113</id>
 						<name>shl_ln2</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5543,7 +5543,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5593,7 +5593,7 @@
 						<id>114</id>
 						<name>sdiv_ln38</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5601,7 +5601,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5639,7 +5639,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>1</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.77</m_delay>
+				<m_delay>1.56</m_delay>
 				<m_topoIndex>88</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -5650,7 +5650,7 @@
 						<id>115</id>
 						<name>shl_ln38_1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5658,7 +5658,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5708,7 +5708,7 @@
 						<id>116</id>
 						<name>trunc_ln38</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5716,7 +5716,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5764,7 +5764,7 @@
 						<id>117</id>
 						<name>sub_ln38</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5772,7 +5772,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5810,7 +5810,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>1</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.71</m_delay>
+				<m_delay>1.41</m_delay>
 				<m_topoIndex>99</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -5821,7 +5821,7 @@
 						<id>118</id>
 						<name>trunc_ln1</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5829,7 +5829,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5880,7 +5880,7 @@
 						<id>119</id>
 						<name>v_addr_3_write_ln38</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>38</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5888,7 +5888,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5910,7 +5910,7 @@
 						<coreName>RAM</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>81</coreId>
+						<coreId>82</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5937,7 +5937,7 @@
 						<id>120</id>
 						<name>u0_write_ln18</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>18</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -5945,7 +5945,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5985,7 +5985,7 @@
 				<m_isOnCriticalPath>1</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.02</m_delay>
+				<m_delay>0.47</m_delay>
 				<m_topoIndex>102</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -5996,7 +5996,7 @@
 						<id>121</id>
 						<name>v0_write_ln23</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>23</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -6004,7 +6004,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6045,7 +6045,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>1</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.02</m_delay>
+				<m_delay>0.47</m_delay>
 				<m_topoIndex>103</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -6056,7 +6056,7 @@
 						<id>122</id>
 						<name>j_write_ln13</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -6064,7 +6064,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6104,7 +6104,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.02</m_delay>
+				<m_delay>0.47</m_delay>
 				<m_topoIndex>37</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -6115,7 +6115,7 @@
 						<id>123</id>
 						<name>br_ln13</name>
 						<fileName>../hsl/src/horn_schunck_hsl.cpp</fileName>
-						<fileDirectory>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</fileDirectory>
+						<fileDirectory>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>horn_schunck_hls</contextFuncName>
 						<contextNormFuncName>horn_schunck_hls</contextNormFuncName>
@@ -6123,7 +6123,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls</first>
+								<first>C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6201,7 +6201,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.02</m_delay>
+				<m_delay>0.47</m_delay>
 				<m_topoIndex>89</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>

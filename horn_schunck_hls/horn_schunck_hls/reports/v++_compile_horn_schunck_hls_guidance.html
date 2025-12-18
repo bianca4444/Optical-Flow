@@ -3407,16 +3407,16 @@ window.onload = function () { addSorting(); }
 <center><h1>Design Guidance Report</h1></center><center><table class="header" border="0">
 <tr><td><b>Copyright</b></td><td>Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.</td></tr>
 <tr><td><b>Tool Version</b></td><td>xcd v.2025.2 (win64) Build 0 </td></tr>
-<tr><td><b>Date</b></td><td>Thu Dec 18 14:23:49 2025</td></tr>
-<tr><td><b>Host</b></td><td>DESKTOP-B running 64-bit major release  (build 9200)</td></tr>
-<tr><td><b>Command</b></td><td>C:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\hls_config.cfg --work_dir horn_schunck_hls </td></tr>
+<tr><td><b>Date</b></td><td>Thu Dec 18 17:59:55 2025</td></tr>
+<tr><td><b>Host</b></td><td>CoraPC running 64-bit major release  (build 9200)</td></tr>
+<tr><td><b>Command</b></td><td>C:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config C:\Users\Diaxxa\Desktop\Optical-Flow\horn_schunck_hls\hls_config.cfg --work_dir horn_schunck_hls </td></tr>
 </table></center><br>
 <table class="toc" border="1"><tr><td><b>Table of Contents</b></td></tr>
 <tr><td><a href="#REPORT SUMMARY">1 REPORT SUMMARY</a></tr></td>
 <tr><td><a href="#VIOLATION DETAILS">2 VIOLATION DETAILS</a></tr></td>
 </table>
 <a name="REPORT SUMMARY"></a><h1>1 REPORT SUMMARY</h1>
-<pre>Violations found: 15
+<pre>Violations found: 14
 </pre>
 <pre>Rule Specs Violated: 2
 </pre>
@@ -3440,46 +3440,25 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Throughput Related</td>
 <td align="left">Accelerator.horn_schunck_hls.Throughput</td>
-<td align="left">The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>) of variable 'trunc_ln1', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=38">horn_schunck_hsl.cpp</a> 16 bit on local variable 'v0', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a> and 'load' operation 16 bit ('v0_load', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) on local variable 'v0', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>.
+<td align="left">The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>) of variable 'trunc_ln1', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=38">horn_schunck_hsl.cpp</a> 16 bit on local variable 'v0', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a> and 'load' operation 16 bit ('v0_load', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) on local variable 'v0', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>.
+</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">2</td>
+<td align="left">Throughput</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Throughput Related</td>
+<td align="left">Accelerator.horn_schunck_hls.Throughput</td>
+<td align="left">The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>) of variable 'trunc_ln1', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=38">horn_schunck_hsl.cpp</a> 16 bit on local variable 'v0', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a> and 'load' operation 16 bit ('v0_load', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) on local variable 'v0', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>.
 </td>
 <td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
 <td align="left">11</td>
-<td align="left">Throughput</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Throughput Related</td>
-<td align="left">Accelerator.horn_schunck_hls.Throughput</td>
-<td align="left">%s</td>
-<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">4</td>
-<td align="left">Throughput</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Throughput Related</td>
-<td align="left">Accelerator.horn_schunck_hls.Throughput</td>
-<td align="left">The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 5, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>) of variable 'trunc_ln1', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=38">horn_schunck_hsl.cpp</a> 16 bit on local variable 'v0', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a> and 'load' operation 16 bit ('v0_load', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) on local variable 'v0', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>.
-</td>
-<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">1</td>
-<td align="left">Throughput</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Throughput Related</td>
-<td align="left">Accelerator.horn_schunck_hls.Throughput</td>
-<td align="left">The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>) of variable 'trunc_ln1', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=38">horn_schunck_hsl.cpp</a> 16 bit on local variable 'v0', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a> and 'load' operation 16 bit ('v0_load', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) on local variable 'v0', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>.
-</td>
-<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">15</td>
 <td align="left">Kernel</td>
-<td align="left">ADVISORY</td>
+<td align="left">WARNING</td>
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.horn_schunck_hls.Kernel</td>
@@ -3487,36 +3466,13 @@ window.onload = function () { addSorting(); }
 <td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
-<td align="left">6</td>
-<td align="left">Throughput</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Throughput Related</td>
-<td align="left">Accelerator.horn_schunck_hls.Throughput</td>
-<td align="left">The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 44, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>) of variable 'trunc_ln1', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=38">horn_schunck_hsl.cpp</a> 16 bit on local variable 'v0', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a> and 'load' operation 16 bit ('v0_load', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) on local variable 'v0', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>.
-</td>
-<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">13</td>
+<td align="left">7</td>
 <td align="left">Kernel</td>
 <td align="left">WARNING</td>
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.horn_schunck_hls.Kernel</td>
-<td align="left">The critical path in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' consists of the following:
-	'sdiv' operation 28 bit ('sdiv_ln37', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=37">horn_schunck_hsl.cpp</a>) [106]  (2.771 ns)
-	'sub' operation 28 bit ('sub_ln37', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=37">horn_schunck_hsl.cpp</a>) [109]  (1.711 ns)
-	'store' operation ('u0_write_ln18', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=18">horn_schunck_hsl.cpp</a>) of variable 'trunc_ln', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=37">horn_schunck_hsl.cpp</a> 16 bit on local variable 'u0', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=18">horn_schunck_hsl.cpp</a> [120]  (1.029 ns)
-	'load' operation 16 bit ('u0_load', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=29">horn_schunck_hsl.cpp</a>) on local variable 'u0', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=18">horn_schunck_hsl.cpp</a> [34]  (0.000 ns)
-	'add' operation 17 bit ('add_ln29', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=29">horn_schunck_hsl.cpp</a>) [66]  (1.488 ns)
-	'add' operation 18 bit ('add_ln29_2', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=29">horn_schunck_hsl.cpp</a>) [71]  (2.558 ns)
-	'mul' operation 28 bit of DSP[94] ('mul_ln32', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=32">horn_schunck_hsl.cpp</a>) [90]  (2.840 ns)
-	'add' operation 28 bit of DSP[94] ('add_ln32', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=32">horn_schunck_hsl.cpp</a>) [94]  (2.950 ns)
-	'add' operation 28 bit of DSP[95] ('add_ln32_1', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=32">horn_schunck_hsl.cpp</a>) [95]  (2.950 ns)
-	'mul' operation 32 bit ('mul_ln37', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=37">horn_schunck_hsl.cpp</a>) [103]  (4.450 ns)
-	'sdiv' operation 28 bit ('sdiv_ln37', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=37">horn_schunck_hsl.cpp</a>) [106]  (2.771 ns)
-
+<td align="left">Cannot meet target clock period from 'add' operation 18 bit ('add_ln30_2', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) to 'sdiv' operation 28 bit ('sdiv_ln37', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=37">horn_schunck_hsl.cpp</a>) (combination delay: 8.71469 ns) to honor II or Latency constraint in region 'VITIS_LOOP_13_3'.
 </td>
 <td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3537,28 +3493,19 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.horn_schunck_hls.Kernel</td>
-<td align="left">%s</td>
-<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">2</td>
-<td align="left">Throughput</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Throughput Related</td>
-<td align="left">Accelerator.horn_schunck_hls.Throughput</td>
-<td align="left">The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>) of variable 'trunc_ln1', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=38">horn_schunck_hsl.cpp</a> 16 bit on local variable 'v0', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a> and 'load' operation 16 bit ('v0_load', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) on local variable 'v0', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>.
-</td>
-<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">7</td>
-<td align="left">Kernel</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Kernel Related</td>
-<td align="left">Accelerator.horn_schunck_hls.Kernel</td>
-<td align="left">Cannot meet target clock period from 'add' operation 17 bit ('add_ln30', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) to 'add' operation 28 bit of DSP[95] ('add_ln32_1', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=32">horn_schunck_hsl.cpp</a>) (combination delay: 9.8365 ns) to honor II or Latency constraint in region 'VITIS_LOOP_13_3'.
+<td align="left">The critical path in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' consists of the following:
+	'sdiv' operation 28 bit ('sdiv_ln37', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=37">horn_schunck_hsl.cpp</a>) [106]  (1.565 ns)
+	'sub' operation 28 bit ('sub_ln37', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=37">horn_schunck_hsl.cpp</a>) [109]  (1.419 ns)
+	'store' operation ('u0_write_ln18', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=18">horn_schunck_hsl.cpp</a>) of variable 'trunc_ln', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=37">horn_schunck_hsl.cpp</a> 16 bit on local variable 'u0', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=18">horn_schunck_hsl.cpp</a> [120]  (0.478 ns)
+	'load' operation 16 bit ('u0_load', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=29">horn_schunck_hsl.cpp</a>) on local variable 'u0', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=18">horn_schunck_hsl.cpp</a> [34]  (0.000 ns)
+	'add' operation 17 bit ('add_ln29', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=29">horn_schunck_hsl.cpp</a>) [66]  (1.260 ns)
+	'add' operation 18 bit ('add_ln29_2', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=29">horn_schunck_hsl.cpp</a>) [71]  (0.878 ns)
+	'mul' operation 28 bit of DSP[94] ('mul_ln32', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=32">horn_schunck_hsl.cpp</a>) [90]  (0.821 ns)
+	'add' operation 28 bit of DSP[94] ('add_ln32', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=32">horn_schunck_hsl.cpp</a>) [94]  (2.471 ns)
+	'add' operation 28 bit of DSP[95] ('add_ln32_1', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=32">horn_schunck_hsl.cpp</a>) [95]  (2.471 ns)
+	'mul' operation 32 bit ('mul_ln37', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=37">horn_schunck_hsl.cpp</a>) [103]  (2.980 ns)
+	'sdiv' operation 28 bit ('sdiv_ln37', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=37">horn_schunck_hsl.cpp</a>) [106]  (1.565 ns)
+
 </td>
 <td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3569,7 +3516,50 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Throughput Related</td>
 <td align="left">Accelerator.horn_schunck_hls.Throughput</td>
-<td align="left">The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 36, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>) of variable 'trunc_ln1', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=38">horn_schunck_hsl.cpp</a> 16 bit on local variable 'v0', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a> and 'load' operation 16 bit ('v0_load', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) on local variable 'v0', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>.
+<td align="left">The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 36, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>) of variable 'trunc_ln1', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=38">horn_schunck_hsl.cpp</a> 16 bit on local variable 'v0', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a> and 'load' operation 16 bit ('v0_load', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) on local variable 'v0', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>.
+</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">Throughput</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Throughput Related</td>
+<td align="left">Accelerator.horn_schunck_hls.Throughput</td>
+<td align="left">The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>) of variable 'trunc_ln1', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=38">horn_schunck_hsl.cpp</a> 16 bit on local variable 'v0', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a> and 'load' operation 16 bit ('v0_load', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) on local variable 'v0', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>.
+</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">4</td>
+<td align="left">Throughput</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Throughput Related</td>
+<td align="left">Accelerator.horn_schunck_hls.Throughput</td>
+<td align="left">The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 5, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>) of variable 'trunc_ln1', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=38">horn_schunck_hsl.cpp</a> 16 bit on local variable 'v0', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a> and 'load' operation 16 bit ('v0_load', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) on local variable 'v0', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>.
+</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">10</td>
+<td align="left">Throughput</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Throughput Related</td>
+<td align="left">Accelerator.horn_schunck_hls.Throughput</td>
+<td align="left">%s</td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">6</td>
+<td align="left">Throughput</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Throughput Related</td>
+<td align="left">Accelerator.horn_schunck_hls.Throughput</td>
+<td align="left">The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 44, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>) of variable 'trunc_ln1', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=38">horn_schunck_hsl.cpp</a> 16 bit on local variable 'v0', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a> and 'load' operation 16 bit ('v0_load', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) on local variable 'v0', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>.
 </td>
 <td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3580,30 +3570,29 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.horn_schunck_hls.Kernel</td>
-<td align="left">Cannot meet target clock period from 'add' operation 17 bit ('add_ln30', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) to 'mul' operation 32 bit ('mul_ln37', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=37">horn_schunck_hsl.cpp</a>) (combination delay: 14.2865 ns) to honor II or Latency constraint in region 'VITIS_LOOP_13_3'.
+<td align="left">Cannot meet target clock period from 'add' operation 28 bit of DSP[94] ('add_ln32', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=32">horn_schunck_hsl.cpp</a>) to 'sdiv' operation 28 bit ('sdiv_ln37', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=37">horn_schunck_hsl.cpp</a>) (combination delay: 9.9812 ns) to honor II or Latency constraint in region 'VITIS_LOOP_13_3'.
 </td>
 <td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
 <td align="left">9</td>
-<td align="left">Kernel</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Kernel Related</td>
-<td align="left">Accelerator.horn_schunck_hls.Kernel</td>
-<td align="left">Cannot meet target clock period from 'add' operation 17 bit ('add_ln30', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) to 'sdiv' operation 28 bit ('sdiv_ln37', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=37">horn_schunck_hsl.cpp</a>) (combination delay: 17.0573 ns) to honor II or Latency constraint in region 'VITIS_LOOP_13_3'.
-</td>
-<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">10</td>
 <td align="left">Throughput</td>
 <td align="left">WARNING</td>
 <td align="left"><undefined></td>
 <td align="left">HLS Throughput Related</td>
 <td align="left">Accelerator.horn_schunck_hls.Throughput</td>
-<td align="left">The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 46, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>) of variable 'trunc_ln1', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=38">horn_schunck_hsl.cpp</a> 16 bit on local variable 'v0', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a> and 'load' operation 16 bit ('v0_load', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) on local variable 'v0', <a href="file:///C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>.
+<td align="left">The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 46, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>) of variable 'trunc_ln1', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=38">horn_schunck_hsl.cpp</a> 16 bit on local variable 'v0', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a> and 'load' operation 16 bit ('v0_load', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=30">horn_schunck_hsl.cpp</a>) on local variable 'v0', <a href="file:///C:/Users/Diaxxa/Desktop/Optical-Flow/horn_schunck_hls\../hsl/src/horn_schunck_hsl.cpp#line=23">horn_schunck_hsl.cpp</a>.
 </td>
+<td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">13</td>
+<td align="left">Kernel</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.horn_schunck_hls.Kernel</td>
+<td align="left">%s</td>
 <td align="left"><a href="http:///docs.amd.com/access/sources/dita/map?Doc_Version=2025.2%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 </table>

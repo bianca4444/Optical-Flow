@@ -21,7 +21,7 @@
   },
   "1": {
     "basicblocks": 1,
-    "calls": "2 3",
+    "calls": "3 2",
     "control_depth": 0,
     "def_use_depth": 0,
     "file": "horn_schunck_hsl.pp.0.cpp",
@@ -40,7 +40,7 @@
     "fileloc": 0,
     "instructions": 2,
     "memory_accesses": 0,
-    "name": "__cxx_global_var_init",
+    "name": "__cxx_global_var_init.1",
     "total_instructions": 387
   },
   "3": {
@@ -52,7 +52,7 @@
     "fileloc": 0,
     "instructions": 2,
     "memory_accesses": 0,
-    "name": "__cxx_global_var_init.1",
+    "name": "__cxx_global_var_init",
     "total_instructions": 387
   }
 }

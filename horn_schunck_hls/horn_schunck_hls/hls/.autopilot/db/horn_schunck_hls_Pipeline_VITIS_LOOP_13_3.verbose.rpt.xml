@@ -1,13 +1,13 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3'" level="0">
-<item name = "Date">Thu Dec 18 14:23:43 2025
+<item name = "Date">Thu Dec 18 17:59:53 2025
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 12 2025)</item>
 <item name = "Project">horn_schunck_hls</item>
 <item name = "Solution">hls (Vivado IP Flow Target)</item>
-<item name = "Product family">kintex7</item>
-<item name = "Target device">xc7k160t-fbg484-1</item>
+<item name = "Product family">kintexu</item>
+<item name = "Target device">xcku115-flva1517-3-e</item>
 </section>
 
 <section name = "Performance Estimates" level="0">
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 25.518 ns, 2.70 ns</column>
+<column name="ap_clk">10.00 ns, 15.908 ns, 2.70 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">2921, 2921, 74.538 us, 74.538 us, 0, 0, loop pipeline stp</column>
+<column name="">2921, 2921, 46.466 us, 46.466 us, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Detail">
@@ -48,22 +48,24 @@
 <item name = "Summary"><table name="" hasTotal="1">
 <keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
 <column name="DSP">-, 4, -, -, -</column>
-<column name="Expression">-, -, 0, 224, -</column>
+<column name="Expression">-, -, 0, 218, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">-, 2, 8478, 6488, -</column>
+<column name="Instance">-, 2, 8478, 6486, -</column>
 <column name="Memory">-, -, -, -, -</column>
-<column name="Multiplexer">-, -, 0, 351, -</column>
+<column name="Multiplexer">-, -, 0, 355, -</column>
 <column name="Register">-, -, 351, -, -</column>
-<specialColumn name="Available">650, 600, 202800, 101400, 0</specialColumn>
-<specialColumn name="Utilization (%)">0, 1, 4, 6, 0</specialColumn>
+<specialColumn name="Available SLR">2160, 2760, 663360, 331680, 0</specialColumn>
+<specialColumn name="Utilization SLR (%)">0, ~0, 1, 2, 100</specialColumn>
+<specialColumn name="Available">4320, 5520, 1326720, 663360, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, ~0, ~0, 1, 0</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="mul_16s_16s_32_1_1_U1">mul_16s_16s_32_1_1, 0, 1, 0, 6, 0</column>
-<column name="mul_16s_16s_32_1_1_U3">mul_16s_16s_32_1_1, 0, 1, 0, 6, 0</column>
+<column name="mul_16s_16s_32_1_1_U1">mul_16s_16s_32_1_1, 0, 1, 0, 5, 0</column>
+<column name="mul_16s_16s_32_1_1_U3">mul_16s_16s_32_1_1, 0, 1, 0, 5, 0</column>
 <column name="sdiv_44ns_16s_28_48_1_U2">sdiv_44ns_16s_28_48_1, 0, 0, 4239, 3238, 0</column>
 <column name="sdiv_44ns_16s_28_48_1_U4">sdiv_44ns_16s_28_48_1, 0, 0, 4239, 3238, 0</column>
 </table>
@@ -86,7 +88,7 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="add_ln19_fu_290_p2">+, 0, 0, 14, 6, 1</column>
+<column name="add_ln19_fu_290_p2">+, 0, 0, 13, 6, 1</column>
 <column name="add_ln29_1_fu_363_p2">+, 0, 0, 18, 18, 18</column>
 <column name="add_ln29_2_fu_369_p2">+, 0, 0, 18, 18, 18</column>
 <column name="add_ln29_fu_347_p2">+, 0, 0, 24, 17, 17</column>
@@ -95,8 +97,8 @@
 <column name="add_ln30_fu_392_p2">+, 0, 0, 24, 17, 17</column>
 <column name="sub_ln37_fu_528_p2">-, 0, 0, 35, 28, 28</column>
 <column name="sub_ln38_fu_556_p2">-, 0, 0, 35, 28, 28</column>
-<column name="icmp_ln13_fu_255_p2">icmp, 0, 0, 14, 6, 2</column>
-<column name="ap_enable_pp0">xor, 0, 0, 6, 1, 2</column>
+<column name="icmp_ln13_fu_255_p2">icmp, 0, 0, 13, 6, 2</column>
+<column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
@@ -111,11 +113,11 @@
 <column name="ap_sig_allocacmp_v0_load">9, 2, 16, 32</column>
 <column name="j_fu_74">9, 2, 6, 12</column>
 <column name="u0_fu_82">9, 2, 16, 32</column>
-<column name="u_address0_local">13, 3, 12, 36</column>
-<column name="u_address1_local">13, 3, 12, 36</column>
+<column name="u_address0_local">14, 3, 12, 36</column>
+<column name="u_address1_local">14, 3, 12, 36</column>
 <column name="v0_fu_78">9, 2, 16, 32</column>
-<column name="v_address0_local">13, 3, 12, 36</column>
-<column name="v_address1_local">13, 3, 12, 36</column>
+<column name="v_address0_local">14, 3, 12, 36</column>
+<column name="v_address1_local">14, 3, 12, 36</column>
 </table>
 </item>
 <item name = "Register"><table name="" hasTotal="1">

@@ -6,8 +6,8 @@
 
 <UserAssignments>
 <unit>ns</unit>
-<ProductFamily>kintex7</ProductFamily>
-<Part>xc7k160t-fbg484-1</Part>
+<ProductFamily>kintexu</ProductFamily>
+<Part>xcku115-flva1517-3-e</Part>
 <TopModelName>horn_schunck_hls</TopModelName>
 <TargetClockPeriod>10.00</TargetClockPeriod>
 <ClockUncertainty>2.70</ClockUncertainty>
@@ -18,16 +18,16 @@
 <PipelineType>no</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>25.518</EstimatedClockPeriod>
+<EstimatedClockPeriod>15.908</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
 <Best-caseLatency>1813521</Best-caseLatency>
 <Average-caseLatency>1813521</Average-caseLatency>
 <Worst-caseLatency>1813521</Worst-caseLatency>
-<Best-caseRealTimeLatency>46.277 ms</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>46.277 ms</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>46.277 ms</Worst-caseRealTimeLatency>
+<Best-caseRealTimeLatency>28.849 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>28.849 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>28.849 ms</Worst-caseRealTimeLatency>
 <Interval-min>1813522</Interval-min>
 <Interval-max>1813522</Interval-max>
 <PerformancePragma>-</PerformancePragma>
@@ -38,7 +38,7 @@
 <TripCount>10</TripCount>
 <isPerfectNested>0</isPerfectNested>
 <Latency>1813520</Latency>
-<AbsoluteTimeLatency>46277131</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>28848909</AbsoluteTimeLatency>
 <IterationLatency>181352</IterationLatency>
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
@@ -48,7 +48,7 @@
 <TripCount>62</TripCount>
 <isPerfectNested>1</isPerfectNested>
 <Latency>181350</Latency>
-<AbsoluteTimeLatency>4627662</AbsoluteTimeLatency>
+<AbsoluteTimeLatency>2884859</AbsoluteTimeLatency>
 <IterationLatency>2925</IterationLatency>
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
@@ -81,15 +81,15 @@
 <Resources>
 <DSP>6</DSP>
 <FF>8894</FF>
-<LUT>7250</LUT>
+<LUT>7249</LUT>
 <BRAM_18K>0</BRAM_18K>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
-<BRAM_18K>650</BRAM_18K>
-<DSP>600</DSP>
-<FF>202800</FF>
-<LUT>101400</LUT>
+<BRAM_18K>4320</BRAM_18K>
+<DSP>5520</DSP>
+<FF>1326720</FF>
+<LUT>663360</LUT>
 <URAM>0</URAM>
 </AvailableResources>
 </AreaEstimates>

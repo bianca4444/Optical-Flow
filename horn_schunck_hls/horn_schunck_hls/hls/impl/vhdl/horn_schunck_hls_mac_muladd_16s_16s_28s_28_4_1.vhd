@@ -22,17 +22,17 @@ end entity;
 architecture behav of horn_schunck_hls_mac_muladd_16s_16s_28s_28_4_1_DSP48_0 is
 attribute DowngradeIPIdentifiedWarnings : string;
 attribute DowngradeIPIdentifiedWarnings of behav: architecture is "yes";
-    signal a       : signed(25-1 downto 0);
+    signal a       : signed(27-1 downto 0);
     signal b       : signed(18-1 downto 0);
     signal c       : signed(48-1 downto 0);
-    signal m       : signed(43-1 downto 0);
+    signal m       : signed(45-1 downto 0);
     signal p       : signed(48-1 downto 0);
-    signal m_reg   : signed(43-1 downto 0);
-    signal a_reg   : signed(25-1 downto 0);
+    signal m_reg   : signed(45-1 downto 0);
+    signal a_reg   : signed(27-1 downto 0);
     signal b_reg   : signed(18-1 downto 0);
     signal p_reg   : signed(48-1 downto 0);
 begin
-a  <= signed(resize(signed(in0), 25));
+a  <= signed(resize(signed(in0), 27));
 b  <= signed(resize(signed(in1), 18));
 c  <= signed(resize(signed(in2), 48));
 

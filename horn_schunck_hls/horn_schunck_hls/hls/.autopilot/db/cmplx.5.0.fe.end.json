@@ -1,27 +1,4 @@
 {
-    "1": {
-        "name": "horn_schunck_hls_Pipeline_VITIS_LOOP_13_3",
-        "file": "..\/hsl\/src\/horn_schunck_hsl.cpp",
-        "fileloc": "13",
-        "instructions": "112",
-        "total_instructions": "112",
-        "calls": "",
-        "basicblocks": "4",
-        "memory_accesses": "17",
-        "control_depth": "1",
-        "def_use_depth": "1",
-        "loads": {
-            "L": "3",
-            "T": "9"
-        },
-        "stores": {
-            "L": "6",
-            "T": "2"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
     "0": {
         "name": "horn_schunck_hls",
         "file": "..\/hsl\/src\/horn_schunck_hsl.cpp",
@@ -43,6 +20,29 @@
         "loops": {
             "L": "1",
             "N": "1"
+        }
+    },
+    "1": {
+        "name": "horn_schunck_hls_Pipeline_VITIS_LOOP_13_3",
+        "file": "..\/hsl\/src\/horn_schunck_hsl.cpp",
+        "fileloc": "13",
+        "instructions": "112",
+        "total_instructions": "112",
+        "calls": "",
+        "basicblocks": "4",
+        "memory_accesses": "17",
+        "control_depth": "1",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "3",
+            "T": "9"
+        },
+        "stores": {
+            "L": "6",
+            "T": "2"
+        },
+        "loops": {
+            "L": "1"
         }
     }
 }

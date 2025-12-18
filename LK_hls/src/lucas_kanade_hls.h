@@ -1,13 +1,11 @@
-#ifndef LUCAS_KANADE_HLS_H
-#define LUCAS_KANADE_HLS_H
+#pragma once
+#include "ap_fixed.h"
 
-#include <ap_fixed.h>
-
-#define WIDTH  128   // lățimea imaginii
-#define HEIGHT 128   // înălțimea imaginii
+#define HEIGHT 64
+#define WIDTH 64
 #define WINDOW_SIZE 3
 
-typedef ap_fixed<16,6> fixed_t; // 16 biți, 6 biți pentru partea întreagă
+typedef ap_fixed<16,4> fixed_t;
 
 void lucas_kanade_hls(
     fixed_t I1[HEIGHT][WIDTH],
@@ -15,5 +13,3 @@ void lucas_kanade_hls(
     fixed_t u[HEIGHT][WIDTH],
     fixed_t v[HEIGHT][WIDTH]
 );
-
-#endif

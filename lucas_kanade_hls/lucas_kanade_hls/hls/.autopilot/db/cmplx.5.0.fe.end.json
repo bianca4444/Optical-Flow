@@ -1,0 +1,23 @@
+{
+    "0": {
+        "name": "lucas_kanade_hls",
+        "file": "lucas_kanade_hls.cpp",
+        "fileloc": "3",
+        "instructions": "652",
+        "total_instructions": "652",
+        "calls": "",
+        "basicblocks": "5",
+        "memory_accesses": "72",
+        "control_depth": "2",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "7"
+        },
+        "stores": {
+            "L": "13"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}
