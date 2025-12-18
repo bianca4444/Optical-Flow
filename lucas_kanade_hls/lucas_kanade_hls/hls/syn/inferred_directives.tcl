@@ -1,0 +1,3 @@
+# Inferred from performance & pipeline pragmas/directives
+set_directive_loop_flatten lucas_kanade_hls/VITIS_LOOP_27_1
+set_directive_loop_flatten lucas_kanade_hls/VITIS_LOOP_43_3

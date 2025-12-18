@@ -9,10 +9,10 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "12/18/25 15:58:39",
- "timestampMillis": "1766066319620",
+ "dateTimestamp": "12/18/25 21:10:24",
+ "timestampMillis": "1766085024787",
  "buildStep": {
-  "cmdId": "c19f22a6-c49e-49e0-be15-b210e3a843b8",
+  "cmdId": "6fb199bc-1208-46ae-8308-c7da0c828126",
   "name": "vitis-run",
   "logFile": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\lucas_kanade_hls\\lucas_kanade_hls\\logs\\lucas_kanade_hls.steps.log",
   "commandLine": "C:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\lucas_kanade_hls\\hls_config.cfg --work_dir lucas_kanade_hls ",
@@ -33,10 +33,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "12/18/25 15:58:39",
- "timestampMillis": "1766066319620",
+ "dateTimestamp": "12/18/25 21:10:24",
+ "timestampMillis": "1766085024787",
  "status": {
-  "cmdId": "c19f22a6-c49e-49e0-be15-b210e3a843b8",
+  "cmdId": "6fb199bc-1208-46ae-8308-c7da0c828126",
   "state": "CS_RUNNING"
  }
 }
@@ -44,8 +44,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "12/18/25 15:58:45",
- "timestampMillis": "1766066325735",
+ "dateTimestamp": "12/18/25 21:10:31",
+ "timestampMillis": "1766085031703",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -58,14 +58,18 @@
    {
     "base": {
      "type": "KERNEL",
-     "name": "lucas_kanade_hls",
+     "name": "lucas_kanade_pyramid",
      "file": "",
      "reports": [],
      "uuid": ""
     },
     "sources": [
      "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\LK_hls\\src\\lucas_kanade_hls.cpp",
-     "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\LK_hls\\src\\lucas_kanade_hls.h"
+     "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\LK_hls\\src\\lucas_kanade_hls.h",
+     "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\LK_hls\\src\\lucas_kanade_pyramid.cpp",
+     "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\LK_hls\\src\\lucas_kanade_pyramid.h",
+     "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\LK_hls\\src\\pyramid_downsample.cpp",
+     "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\LK_hls\\src\\pyramid_downsample.h"
     ],
     "psSources": [],
     "cuNames": [],
@@ -81,10 +85,10 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "12/18/25 15:58:45",
- "timestampMillis": "1766066325736",
+ "dateTimestamp": "12/18/25 21:10:31",
+ "timestampMillis": "1766085031705",
  "buildStep": {
-  "cmdId": "0a56e9ce-a024-4b7c-bf4a-663830346317",
+  "cmdId": "bea4ebcb-0a1f-4df6-ba14-3a7788ebae2a",
   "name": "",
   "logFile": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\lucas_kanade_hls\\lucas_kanade_hls\\hls\\hls.log",
   "commandLine": "",
@@ -97,10 +101,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "12/18/25 15:58:45",
- "timestampMillis": "1766066325737",
+ "dateTimestamp": "12/18/25 21:10:31",
+ "timestampMillis": "1766085031706",
  "status": {
-  "cmdId": "0a56e9ce-a024-4b7c-bf4a-663830346317",
+  "cmdId": "bea4ebcb-0a1f-4df6-ba14-3a7788ebae2a",
   "state": "CS_RUNNING"
  }
 }
@@ -108,10 +112,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "12/18/25 15:58:50",
- "timestampMillis": "1766066330029",
+ "dateTimestamp": "12/18/25 21:10:50",
+ "timestampMillis": "1766085050654",
  "status": {
-  "cmdId": "0a56e9ce-a024-4b7c-bf4a-663830346317",
+  "cmdId": "bea4ebcb-0a1f-4df6-ba14-3a7788ebae2a",
   "state": "CS_PASSED"
  }
 }
@@ -119,10 +123,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "12/18/25 15:58:50",
- "timestampMillis": "1766066330156",
+ "dateTimestamp": "12/18/25 21:10:50",
+ "timestampMillis": "1766085050793",
  "status": {
-  "cmdId": "c19f22a6-c49e-49e0-be15-b210e3a843b8",
+  "cmdId": "6fb199bc-1208-46ae-8308-c7da0c828126",
   "state": "CS_PASSED"
  }
 }
@@ -130,8 +134,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "12/18/25 15:58:50",
- "timestampMillis": "1766066330157",
+ "dateTimestamp": "12/18/25 21:10:50",
+ "timestampMillis": "1766085050794",
  "report": {
   "path": "",
   "name": "",
@@ -144,8 +148,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "12/18/25 15:58:50",
- "timestampMillis": "1766066330158",
+ "dateTimestamp": "12/18/25 21:10:50",
+ "timestampMillis": "1766085050795",
  "report": {
   "path": "",
   "name": "",

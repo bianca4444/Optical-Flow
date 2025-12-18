@@ -1,0 +1,336 @@
+
+
+================================================================
+== Vitis HLS Report for 'lucas_kanade_hls'
+================================================================
+* Date:           Thu Dec 18 19:08:23 2025
+
+* Version:        2025.2 (Build 6295257 on Nov 12 2025)
+* Project:        lucas_kanade_hls
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: kintex7
+* Target device:  xc7k70t-fbg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.300 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-------+-------+---------+
+    |  Latency (cycles) |  Latency (absolute) |    Interval   | Pipeline|
+    |   min   |   max   |    min   |    max   |  min  |  max  |   Type  |
+    +---------+---------+----------+----------+-------+-------+---------+
+    |    45725|    45725|  0.457 ms|  0.457 ms|  45726|  45726|       no|
+    +---------+---------+----------+----------+-------+-------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 4
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 6.22>
+ST_1 : Operation 5 [1/1] (1.00ns)   --->   "%v_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %v"   --->   Operation 5 'read' 'v_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 112 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_1 : Operation 6 [1/1] (1.00ns)   --->   "%u_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %u"   --->   Operation 6 'read' 'u_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 112 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_1 : Operation 7 [1/1] (1.00ns)   --->   "%I2_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %I2"   --->   Operation 7 'read' 'I2_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 112 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_1 : Operation 8 [1/1] (1.00ns)   --->   "%I1_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %I1"   --->   Operation 8 'read' 'I1_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 112 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%Ix_buf = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 9 'alloca' 'Ix_buf' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%Ix_buf_1 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 10 'alloca' 'Ix_buf_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%Ix_buf_2 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 11 'alloca' 'Ix_buf_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%Ix_buf_3 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 12 'alloca' 'Ix_buf_3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%Ix_buf_4 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 13 'alloca' 'Ix_buf_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%Ix_buf_5 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 14 'alloca' 'Ix_buf_5' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%Ix_buf_6 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 15 'alloca' 'Ix_buf_6' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%Ix_buf_7 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 16 'alloca' 'Ix_buf_7' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%Ix_buf_8 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 17 'alloca' 'Ix_buf_8' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%Ix_buf_9 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 18 'alloca' 'Ix_buf_9' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%Ix_buf_10 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 19 'alloca' 'Ix_buf_10' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%Ix_buf_11 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 20 'alloca' 'Ix_buf_11' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%Ix_buf_12 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 21 'alloca' 'Ix_buf_12' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%Ix_buf_13 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 22 'alloca' 'Ix_buf_13' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%Ix_buf_14 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 23 'alloca' 'Ix_buf_14' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%Ix_buf_15 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 24 'alloca' 'Ix_buf_15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%Ix_buf_16 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 25 'alloca' 'Ix_buf_16' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%Ix_buf_17 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 26 'alloca' 'Ix_buf_17' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%Ix_buf_18 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 27 'alloca' 'Ix_buf_18' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%Ix_buf_19 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 28 'alloca' 'Ix_buf_19' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%Ix_buf_20 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 29 'alloca' 'Ix_buf_20' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%Ix_buf_21 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 30 'alloca' 'Ix_buf_21' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%Ix_buf_22 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 31 'alloca' 'Ix_buf_22' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%Ix_buf_23 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 32 'alloca' 'Ix_buf_23' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%Ix_buf_24 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 33 'alloca' 'Ix_buf_24' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 34 [1/1] (0.00ns)   --->   "%Ix_buf_25 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 34 'alloca' 'Ix_buf_25' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%Ix_buf_26 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 35 'alloca' 'Ix_buf_26' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 36 [1/1] (0.00ns)   --->   "%Ix_buf_27 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 36 'alloca' 'Ix_buf_27' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 37 [1/1] (0.00ns)   --->   "%Ix_buf_28 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 37 'alloca' 'Ix_buf_28' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 38 [1/1] (0.00ns)   --->   "%Ix_buf_29 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 38 'alloca' 'Ix_buf_29' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 39 [1/1] (0.00ns)   --->   "%Ix_buf_30 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 39 'alloca' 'Ix_buf_30' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 40 [1/1] (0.00ns)   --->   "%Ix_buf_31 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 40 'alloca' 'Ix_buf_31' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 41 [1/1] (0.00ns)   --->   "%Ix_buf_32 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 41 'alloca' 'Ix_buf_32' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 42 [1/1] (0.00ns)   --->   "%Ix_buf_33 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 42 'alloca' 'Ix_buf_33' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 43 [1/1] (0.00ns)   --->   "%Ix_buf_34 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 43 'alloca' 'Ix_buf_34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 44 [1/1] (0.00ns)   --->   "%Ix_buf_35 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 44 'alloca' 'Ix_buf_35' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 45 [1/1] (0.00ns)   --->   "%Ix_buf_36 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 45 'alloca' 'Ix_buf_36' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 46 [1/1] (0.00ns)   --->   "%Ix_buf_37 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 46 'alloca' 'Ix_buf_37' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 47 [1/1] (0.00ns)   --->   "%Ix_buf_38 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 47 'alloca' 'Ix_buf_38' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 48 [1/1] (0.00ns)   --->   "%Ix_buf_39 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 48 'alloca' 'Ix_buf_39' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 49 [1/1] (0.00ns)   --->   "%Ix_buf_40 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 49 'alloca' 'Ix_buf_40' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 50 [1/1] (0.00ns)   --->   "%Ix_buf_41 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 50 'alloca' 'Ix_buf_41' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 51 [1/1] (0.00ns)   --->   "%Ix_buf_42 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 51 'alloca' 'Ix_buf_42' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 52 [1/1] (0.00ns)   --->   "%Ix_buf_43 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 52 'alloca' 'Ix_buf_43' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 53 [1/1] (0.00ns)   --->   "%Ix_buf_44 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 53 'alloca' 'Ix_buf_44' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 54 [1/1] (0.00ns)   --->   "%Ix_buf_45 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 54 'alloca' 'Ix_buf_45' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 55 [1/1] (0.00ns)   --->   "%Ix_buf_46 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 55 'alloca' 'Ix_buf_46' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 56 [1/1] (0.00ns)   --->   "%Ix_buf_47 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 56 'alloca' 'Ix_buf_47' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 57 [1/1] (0.00ns)   --->   "%Ix_buf_48 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 57 'alloca' 'Ix_buf_48' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 58 [1/1] (0.00ns)   --->   "%Ix_buf_49 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 58 'alloca' 'Ix_buf_49' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 59 [1/1] (0.00ns)   --->   "%Ix_buf_50 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 59 'alloca' 'Ix_buf_50' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 60 [1/1] (0.00ns)   --->   "%Ix_buf_51 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 60 'alloca' 'Ix_buf_51' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 61 [1/1] (0.00ns)   --->   "%Ix_buf_52 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 61 'alloca' 'Ix_buf_52' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 62 [1/1] (0.00ns)   --->   "%Ix_buf_53 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 62 'alloca' 'Ix_buf_53' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 63 [1/1] (0.00ns)   --->   "%Ix_buf_54 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 63 'alloca' 'Ix_buf_54' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 64 [1/1] (0.00ns)   --->   "%Ix_buf_55 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 64 'alloca' 'Ix_buf_55' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 65 [1/1] (0.00ns)   --->   "%Ix_buf_56 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 65 'alloca' 'Ix_buf_56' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 66 [1/1] (0.00ns)   --->   "%Ix_buf_57 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 66 'alloca' 'Ix_buf_57' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 67 [1/1] (0.00ns)   --->   "%Ix_buf_58 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 67 'alloca' 'Ix_buf_58' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 68 [1/1] (0.00ns)   --->   "%Ix_buf_59 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 68 'alloca' 'Ix_buf_59' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 69 [1/1] (0.00ns)   --->   "%Ix_buf_60 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 69 'alloca' 'Ix_buf_60' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 70 [1/1] (0.00ns)   --->   "%Ix_buf_61 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:16]   --->   Operation 70 'alloca' 'Ix_buf_61' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 71 [1/1] (0.00ns)   --->   "%Iy_buf = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 71 'alloca' 'Iy_buf' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 72 [1/1] (0.00ns)   --->   "%Iy_buf_1 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 72 'alloca' 'Iy_buf_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 73 [1/1] (0.00ns)   --->   "%Iy_buf_2 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 73 'alloca' 'Iy_buf_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 74 [1/1] (0.00ns)   --->   "%Iy_buf_3 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 74 'alloca' 'Iy_buf_3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 75 [1/1] (0.00ns)   --->   "%Iy_buf_4 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 75 'alloca' 'Iy_buf_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 76 [1/1] (0.00ns)   --->   "%Iy_buf_5 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 76 'alloca' 'Iy_buf_5' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 77 [1/1] (0.00ns)   --->   "%Iy_buf_6 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 77 'alloca' 'Iy_buf_6' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 78 [1/1] (0.00ns)   --->   "%Iy_buf_7 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 78 'alloca' 'Iy_buf_7' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 79 [1/1] (0.00ns)   --->   "%Iy_buf_8 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 79 'alloca' 'Iy_buf_8' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 80 [1/1] (0.00ns)   --->   "%Iy_buf_9 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 80 'alloca' 'Iy_buf_9' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 81 [1/1] (0.00ns)   --->   "%Iy_buf_10 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 81 'alloca' 'Iy_buf_10' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 82 [1/1] (0.00ns)   --->   "%Iy_buf_11 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 82 'alloca' 'Iy_buf_11' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 83 [1/1] (0.00ns)   --->   "%Iy_buf_12 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 83 'alloca' 'Iy_buf_12' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 84 [1/1] (0.00ns)   --->   "%Iy_buf_13 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 84 'alloca' 'Iy_buf_13' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 85 [1/1] (0.00ns)   --->   "%Iy_buf_14 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 85 'alloca' 'Iy_buf_14' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 86 [1/1] (0.00ns)   --->   "%Iy_buf_15 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 86 'alloca' 'Iy_buf_15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 87 [1/1] (0.00ns)   --->   "%Iy_buf_16 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 87 'alloca' 'Iy_buf_16' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 88 [1/1] (0.00ns)   --->   "%Iy_buf_17 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 88 'alloca' 'Iy_buf_17' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 89 [1/1] (0.00ns)   --->   "%Iy_buf_18 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 89 'alloca' 'Iy_buf_18' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 90 [1/1] (0.00ns)   --->   "%Iy_buf_19 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 90 'alloca' 'Iy_buf_19' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 91 [1/1] (0.00ns)   --->   "%Iy_buf_20 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 91 'alloca' 'Iy_buf_20' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 92 [1/1] (0.00ns)   --->   "%Iy_buf_21 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 92 'alloca' 'Iy_buf_21' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 93 [1/1] (0.00ns)   --->   "%Iy_buf_22 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 93 'alloca' 'Iy_buf_22' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 94 [1/1] (0.00ns)   --->   "%Iy_buf_23 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 94 'alloca' 'Iy_buf_23' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 95 [1/1] (0.00ns)   --->   "%Iy_buf_24 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 95 'alloca' 'Iy_buf_24' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 96 [1/1] (0.00ns)   --->   "%Iy_buf_25 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 96 'alloca' 'Iy_buf_25' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 97 [1/1] (0.00ns)   --->   "%Iy_buf_26 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 97 'alloca' 'Iy_buf_26' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 98 [1/1] (0.00ns)   --->   "%Iy_buf_27 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 98 'alloca' 'Iy_buf_27' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 99 [1/1] (0.00ns)   --->   "%Iy_buf_28 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 99 'alloca' 'Iy_buf_28' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 100 [1/1] (0.00ns)   --->   "%Iy_buf_29 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 100 'alloca' 'Iy_buf_29' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 101 [1/1] (0.00ns)   --->   "%Iy_buf_30 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 101 'alloca' 'Iy_buf_30' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 102 [1/1] (0.00ns)   --->   "%Iy_buf_31 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 102 'alloca' 'Iy_buf_31' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 103 [1/1] (0.00ns)   --->   "%Iy_buf_32 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 103 'alloca' 'Iy_buf_32' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 104 [1/1] (0.00ns)   --->   "%Iy_buf_33 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 104 'alloca' 'Iy_buf_33' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 105 [1/1] (0.00ns)   --->   "%Iy_buf_34 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 105 'alloca' 'Iy_buf_34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 106 [1/1] (0.00ns)   --->   "%Iy_buf_35 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 106 'alloca' 'Iy_buf_35' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 107 [1/1] (0.00ns)   --->   "%Iy_buf_36 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 107 'alloca' 'Iy_buf_36' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 108 [1/1] (0.00ns)   --->   "%Iy_buf_37 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 108 'alloca' 'Iy_buf_37' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 109 [1/1] (0.00ns)   --->   "%Iy_buf_38 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 109 'alloca' 'Iy_buf_38' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 110 [1/1] (0.00ns)   --->   "%Iy_buf_39 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 110 'alloca' 'Iy_buf_39' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 111 [1/1] (0.00ns)   --->   "%Iy_buf_40 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 111 'alloca' 'Iy_buf_40' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 112 [1/1] (0.00ns)   --->   "%Iy_buf_41 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 112 'alloca' 'Iy_buf_41' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 113 [1/1] (0.00ns)   --->   "%Iy_buf_42 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 113 'alloca' 'Iy_buf_42' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 114 [1/1] (0.00ns)   --->   "%Iy_buf_43 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 114 'alloca' 'Iy_buf_43' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 115 [1/1] (0.00ns)   --->   "%Iy_buf_44 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 115 'alloca' 'Iy_buf_44' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 116 [1/1] (0.00ns)   --->   "%Iy_buf_45 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 116 'alloca' 'Iy_buf_45' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 117 [1/1] (0.00ns)   --->   "%Iy_buf_46 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 117 'alloca' 'Iy_buf_46' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 118 [1/1] (0.00ns)   --->   "%Iy_buf_47 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 118 'alloca' 'Iy_buf_47' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 119 [1/1] (0.00ns)   --->   "%Iy_buf_48 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 119 'alloca' 'Iy_buf_48' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 120 [1/1] (0.00ns)   --->   "%Iy_buf_49 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 120 'alloca' 'Iy_buf_49' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 121 [1/1] (0.00ns)   --->   "%Iy_buf_50 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 121 'alloca' 'Iy_buf_50' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 122 [1/1] (0.00ns)   --->   "%Iy_buf_51 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 122 'alloca' 'Iy_buf_51' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 123 [1/1] (0.00ns)   --->   "%Iy_buf_52 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 123 'alloca' 'Iy_buf_52' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 124 [1/1] (0.00ns)   --->   "%Iy_buf_53 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 124 'alloca' 'Iy_buf_53' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 125 [1/1] (0.00ns)   --->   "%Iy_buf_54 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 125 'alloca' 'Iy_buf_54' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 126 [1/1] (0.00ns)   --->   "%Iy_buf_55 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 126 'alloca' 'Iy_buf_55' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 127 [1/1] (0.00ns)   --->   "%Iy_buf_56 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 127 'alloca' 'Iy_buf_56' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 128 [1/1] (0.00ns)   --->   "%Iy_buf_57 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 128 'alloca' 'Iy_buf_57' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 129 [1/1] (0.00ns)   --->   "%Iy_buf_58 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 129 'alloca' 'Iy_buf_58' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 130 [1/1] (0.00ns)   --->   "%Iy_buf_59 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 130 'alloca' 'Iy_buf_59' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 131 [1/1] (0.00ns)   --->   "%Iy_buf_60 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 131 'alloca' 'Iy_buf_60' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 132 [1/1] (0.00ns)   --->   "%Iy_buf_61 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:17]   --->   Operation 132 'alloca' 'Iy_buf_61' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 133 [1/1] (0.00ns)   --->   "%It_buf = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 133 'alloca' 'It_buf' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 134 [1/1] (0.00ns)   --->   "%It_buf_1 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 134 'alloca' 'It_buf_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 135 [1/1] (0.00ns)   --->   "%It_buf_2 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 135 'alloca' 'It_buf_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 136 [1/1] (0.00ns)   --->   "%It_buf_3 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 136 'alloca' 'It_buf_3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 137 [1/1] (0.00ns)   --->   "%It_buf_4 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 137 'alloca' 'It_buf_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 138 [1/1] (0.00ns)   --->   "%It_buf_5 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 138 'alloca' 'It_buf_5' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 139 [1/1] (0.00ns)   --->   "%It_buf_6 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 139 'alloca' 'It_buf_6' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 140 [1/1] (0.00ns)   --->   "%It_buf_7 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 140 'alloca' 'It_buf_7' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 141 [1/1] (0.00ns)   --->   "%It_buf_8 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 141 'alloca' 'It_buf_8' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 142 [1/1] (0.00ns)   --->   "%It_buf_9 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 142 'alloca' 'It_buf_9' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 143 [1/1] (0.00ns)   --->   "%It_buf_10 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 143 'alloca' 'It_buf_10' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 144 [1/1] (0.00ns)   --->   "%It_buf_11 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 144 'alloca' 'It_buf_11' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 145 [1/1] (0.00ns)   --->   "%It_buf_12 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 145 'alloca' 'It_buf_12' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 146 [1/1] (0.00ns)   --->   "%It_buf_13 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 146 'alloca' 'It_buf_13' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 147 [1/1] (0.00ns)   --->   "%It_buf_14 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 147 'alloca' 'It_buf_14' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 148 [1/1] (0.00ns)   --->   "%It_buf_15 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 148 'alloca' 'It_buf_15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 149 [1/1] (0.00ns)   --->   "%It_buf_16 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 149 'alloca' 'It_buf_16' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 150 [1/1] (0.00ns)   --->   "%It_buf_17 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 150 'alloca' 'It_buf_17' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 151 [1/1] (0.00ns)   --->   "%It_buf_18 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 151 'alloca' 'It_buf_18' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 152 [1/1] (0.00ns)   --->   "%It_buf_19 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 152 'alloca' 'It_buf_19' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 153 [1/1] (0.00ns)   --->   "%It_buf_20 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 153 'alloca' 'It_buf_20' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 154 [1/1] (0.00ns)   --->   "%It_buf_21 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 154 'alloca' 'It_buf_21' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 155 [1/1] (0.00ns)   --->   "%It_buf_22 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 155 'alloca' 'It_buf_22' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 156 [1/1] (0.00ns)   --->   "%It_buf_23 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 156 'alloca' 'It_buf_23' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 157 [1/1] (0.00ns)   --->   "%It_buf_24 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 157 'alloca' 'It_buf_24' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 158 [1/1] (0.00ns)   --->   "%It_buf_25 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 158 'alloca' 'It_buf_25' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 159 [1/1] (0.00ns)   --->   "%It_buf_26 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 159 'alloca' 'It_buf_26' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 160 [1/1] (0.00ns)   --->   "%It_buf_27 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 160 'alloca' 'It_buf_27' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 161 [1/1] (0.00ns)   --->   "%It_buf_28 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 161 'alloca' 'It_buf_28' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 162 [1/1] (0.00ns)   --->   "%It_buf_29 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 162 'alloca' 'It_buf_29' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 163 [1/1] (0.00ns)   --->   "%It_buf_30 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 163 'alloca' 'It_buf_30' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 164 [1/1] (0.00ns)   --->   "%It_buf_31 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 164 'alloca' 'It_buf_31' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 165 [1/1] (0.00ns)   --->   "%It_buf_32 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 165 'alloca' 'It_buf_32' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 166 [1/1] (0.00ns)   --->   "%It_buf_33 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 166 'alloca' 'It_buf_33' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 167 [1/1] (0.00ns)   --->   "%It_buf_34 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 167 'alloca' 'It_buf_34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 168 [1/1] (0.00ns)   --->   "%It_buf_35 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 168 'alloca' 'It_buf_35' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 169 [1/1] (0.00ns)   --->   "%It_buf_36 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 169 'alloca' 'It_buf_36' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 170 [1/1] (0.00ns)   --->   "%It_buf_37 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 170 'alloca' 'It_buf_37' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 171 [1/1] (0.00ns)   --->   "%It_buf_38 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 171 'alloca' 'It_buf_38' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 172 [1/1] (0.00ns)   --->   "%It_buf_39 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 172 'alloca' 'It_buf_39' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 173 [1/1] (0.00ns)   --->   "%It_buf_40 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 173 'alloca' 'It_buf_40' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 174 [1/1] (0.00ns)   --->   "%It_buf_41 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 174 'alloca' 'It_buf_41' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 175 [1/1] (0.00ns)   --->   "%It_buf_42 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 175 'alloca' 'It_buf_42' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 176 [1/1] (0.00ns)   --->   "%It_buf_43 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 176 'alloca' 'It_buf_43' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 177 [1/1] (0.00ns)   --->   "%It_buf_44 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 177 'alloca' 'It_buf_44' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 178 [1/1] (0.00ns)   --->   "%It_buf_45 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 178 'alloca' 'It_buf_45' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 179 [1/1] (0.00ns)   --->   "%It_buf_46 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 179 'alloca' 'It_buf_46' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 180 [1/1] (0.00ns)   --->   "%It_buf_47 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 180 'alloca' 'It_buf_47' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 181 [1/1] (0.00ns)   --->   "%It_buf_48 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 181 'alloca' 'It_buf_48' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 182 [1/1] (0.00ns)   --->   "%It_buf_49 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 182 'alloca' 'It_buf_49' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 183 [1/1] (0.00ns)   --->   "%It_buf_50 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 183 'alloca' 'It_buf_50' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 184 [1/1] (0.00ns)   --->   "%It_buf_51 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 184 'alloca' 'It_buf_51' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 185 [1/1] (0.00ns)   --->   "%It_buf_52 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 185 'alloca' 'It_buf_52' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 186 [1/1] (0.00ns)   --->   "%It_buf_53 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 186 'alloca' 'It_buf_53' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 187 [1/1] (0.00ns)   --->   "%It_buf_54 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 187 'alloca' 'It_buf_54' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 188 [1/1] (0.00ns)   --->   "%It_buf_55 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 188 'alloca' 'It_buf_55' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 189 [1/1] (0.00ns)   --->   "%It_buf_56 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 189 'alloca' 'It_buf_56' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 190 [1/1] (0.00ns)   --->   "%It_buf_57 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 190 'alloca' 'It_buf_57' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 191 [1/1] (0.00ns)   --->   "%It_buf_58 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 191 'alloca' 'It_buf_58' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 192 [1/1] (0.00ns)   --->   "%It_buf_59 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 192 'alloca' 'It_buf_59' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 193 [1/1] (0.00ns)   --->   "%It_buf_60 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 193 'alloca' 'It_buf_60' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 194 [1/1] (0.00ns)   --->   "%It_buf_61 = alloca i64 1" [../LK_hls/src/lucas_kanade_hls.cpp:18]   --->   Operation 194 'alloca' 'It_buf_61' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 195 [1/1] (1.98ns)   --->   "%add_ln27 = add i64 %I2_read, i64 2" [../LK_hls/src/lucas_kanade_hls.cpp:27]   --->   Operation 195 'add' 'add_ln27' <Predicate = true> <Delay = 1.98> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.98> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 196 [1/1] (1.98ns)   --->   "%add_ln27_1 = add i64 %I1_read, i64 2" [../LK_hls/src/lucas_kanade_hls.cpp:27]   --->   Operation 196 'add' 'add_ln27_1' <Predicate = true> <Delay = 1.98> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.98> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 197 [2/2] (3.24ns)   --->   "%call_ln27 = call void @lucas_kanade_hls_Pipeline_VITIS_LOOP_27_1_VITIS_LOOP_28_2, i16 %gmem, i64 %add_ln27, i64 %add_ln27_1, i16 %Ix_buf, i16 %Ix_buf_1, i16 %Ix_buf_2, i16 %Ix_buf_3, i16 %Ix_buf_4, i16 %Ix_buf_5, i16 %Ix_buf_6, i16 %Ix_buf_7, i16 %Ix_buf_8, i16 %Ix_buf_9, i16 %Ix_buf_10, i16 %Ix_buf_11, i16 %Ix_buf_12, i16 %Ix_buf_13, i16 %Ix_buf_14, i16 %Ix_buf_15, i16 %Ix_buf_16, i16 %Ix_buf_17, i16 %Ix_buf_18, i16 %Ix_buf_19, i16 %Ix_buf_20, i16 %Ix_buf_21, i16 %Ix_buf_22, i16 %Ix_buf_23, i16 %Ix_buf_24, i16 %Ix_buf_25, i16 %Ix_buf_26, i16 %Ix_buf_27, i16 %Ix_buf_28, i16 %Ix_buf_29, i16 %Ix_buf_30, i16 %Ix_buf_31, i16 %Ix_buf_32, i16 %Ix_buf_33, i16 %Ix_buf_34, i16 %Ix_buf_35, i16 %Ix_buf_36, i16 %Ix_buf_37, i16 %Ix_buf_38, i16 %Ix_buf_39, i16 %Ix_buf_40, i16 %Ix_buf_41, i16 %Ix_buf_42, i16 %Ix_buf_43, i16 %Ix_buf_44, i16 %Ix_buf_45, i16 %Ix_buf_46, i16 %Ix_buf_47, i16 %Ix_buf_48, i16 %Ix_buf_49, i16 %Ix_buf_50, i16 %Ix_buf_51, i16 %Ix_buf_52, i16 %Ix_buf_53, i16 %Ix_buf_54, i16 %Ix_buf_55, i16 %Ix_buf_56, i16 %Ix_buf_57, i16 %Ix_buf_58, i16 %Ix_buf_59, i16 %Ix_buf_60, i16 %Ix_buf_61, i16 %Iy_buf, i16 %Iy_buf_1, i16 %Iy_buf_2, i16 %Iy_buf_3, i16 %Iy_buf_4, i16 %Iy_buf_5, i16 %Iy_buf_6, i16 %Iy_buf_7, i16 %Iy_buf_8, i16 %Iy_buf_9, i16 %Iy_buf_10, i16 %Iy_buf_11, i16 %Iy_buf_12, i16 %Iy_buf_13, i16 %Iy_buf_14, i16 %Iy_buf_15, i16 %Iy_buf_16, i16 %Iy_buf_17, i16 %Iy_buf_18, i16 %Iy_buf_19, i16 %Iy_buf_20, i16 %Iy_buf_21, i16 %Iy_buf_22, i16 %Iy_buf_23, i16 %Iy_buf_24, i16 %Iy_buf_25, i16 %Iy_buf_26, i16 %Iy_buf_27, i16 %Iy_buf_28, i16 %Iy_buf_29, i16 %Iy_buf_30, i16 %Iy_buf_31, i16 %Iy_buf_32, i16 %Iy_buf_33, i16 %Iy_buf_34, i16 %Iy_buf_35, i16 %Iy_buf_36, i16 %Iy_buf_37, i16 %Iy_buf_38, i16 %Iy_buf_39, i16 %Iy_buf_40, i16 %Iy_buf_41, i16 %Iy_buf_42, i16 %Iy_buf_43, i16 %Iy_buf_44, i16 %Iy_buf_45, i16 %Iy_buf_46, i16 %Iy_buf_47, i16 %Iy_buf_48, i16 %Iy_buf_49, i16 %Iy_buf_50, i16 %Iy_buf_51, i16 %Iy_buf_52, i16 %Iy_buf_53, i16 %Iy_buf_54, i16 %Iy_buf_55, i16 %Iy_buf_56, i16 %Iy_buf_57, i16 %Iy_buf_58, i16 %Iy_buf_59, i16 %Iy_buf_60, i16 %Iy_buf_61, i16 %It_buf, i16 %It_buf_1, i16 %It_buf_2, i16 %It_buf_3, i16 %It_buf_4, i16 %It_buf_5, i16 %It_buf_6, i16 %It_buf_7, i16 %It_buf_8, i16 %It_buf_9, i16 %It_buf_10, i16 %It_buf_11, i16 %It_buf_12, i16 %It_buf_13, i16 %It_buf_14, i16 %It_buf_15, i16 %It_buf_16, i16 %It_buf_17, i16 %It_buf_18, i16 %It_buf_19, i16 %It_buf_20, i16 %It_buf_21, i16 %It_buf_22, i16 %It_buf_23, i16 %It_buf_24, i16 %It_buf_25, i16 %It_buf_26, i16 %It_buf_27, i16 %It_buf_28, i16 %It_buf_29, i16 %It_buf_30, i16 %It_buf_31, i16 %It_buf_32, i16 %It_buf_33, i16 %It_buf_34, i16 %It_buf_35, i16 %It_buf_36, i16 %It_buf_37, i16 %It_buf_38, i16 %It_buf_39, i16 %It_buf_40, i16 %It_buf_41, i16 %It_buf_42, i16 %It_buf_43, i16 %It_buf_44, i16 %It_buf_45, i16 %It_buf_46, i16 %It_buf_47, i16 %It_buf_48, i16 %It_buf_49, i16 %It_buf_50, i16 %It_buf_51, i16 %It_buf_52, i16 %It_buf_53, i16 %It_buf_54, i16 %It_buf_55, i16 %It_buf_56, i16 %It_buf_57, i16 %It_buf_58, i16 %It_buf_59, i16 %It_buf_60, i16 %It_buf_61, i64 %I2_read, i64 %I1_read" [../LK_hls/src/lucas_kanade_hls.cpp:27]   --->   Operation 197 'call' 'call_ln27' <Predicate = true> <Delay = 3.24> <CoreType = "Generic">   --->   Generic Core
+
+State 2 <SV = 1> <Delay = 0.00>
+ST_2 : Operation 198 [1/2] (0.00ns)   --->   "%call_ln27 = call void @lucas_kanade_hls_Pipeline_VITIS_LOOP_27_1_VITIS_LOOP_28_2, i16 %gmem, i64 %add_ln27, i64 %add_ln27_1, i16 %Ix_buf, i16 %Ix_buf_1, i16 %Ix_buf_2, i16 %Ix_buf_3, i16 %Ix_buf_4, i16 %Ix_buf_5, i16 %Ix_buf_6, i16 %Ix_buf_7, i16 %Ix_buf_8, i16 %Ix_buf_9, i16 %Ix_buf_10, i16 %Ix_buf_11, i16 %Ix_buf_12, i16 %Ix_buf_13, i16 %Ix_buf_14, i16 %Ix_buf_15, i16 %Ix_buf_16, i16 %Ix_buf_17, i16 %Ix_buf_18, i16 %Ix_buf_19, i16 %Ix_buf_20, i16 %Ix_buf_21, i16 %Ix_buf_22, i16 %Ix_buf_23, i16 %Ix_buf_24, i16 %Ix_buf_25, i16 %Ix_buf_26, i16 %Ix_buf_27, i16 %Ix_buf_28, i16 %Ix_buf_29, i16 %Ix_buf_30, i16 %Ix_buf_31, i16 %Ix_buf_32, i16 %Ix_buf_33, i16 %Ix_buf_34, i16 %Ix_buf_35, i16 %Ix_buf_36, i16 %Ix_buf_37, i16 %Ix_buf_38, i16 %Ix_buf_39, i16 %Ix_buf_40, i16 %Ix_buf_41, i16 %Ix_buf_42, i16 %Ix_buf_43, i16 %Ix_buf_44, i16 %Ix_buf_45, i16 %Ix_buf_46, i16 %Ix_buf_47, i16 %Ix_buf_48, i16 %Ix_buf_49, i16 %Ix_buf_50, i16 %Ix_buf_51, i16 %Ix_buf_52, i16 %Ix_buf_53, i16 %Ix_buf_54, i16 %Ix_buf_55, i16 %Ix_buf_56, i16 %Ix_buf_57, i16 %Ix_buf_58, i16 %Ix_buf_59, i16 %Ix_buf_60, i16 %Ix_buf_61, i16 %Iy_buf, i16 %Iy_buf_1, i16 %Iy_buf_2, i16 %Iy_buf_3, i16 %Iy_buf_4, i16 %Iy_buf_5, i16 %Iy_buf_6, i16 %Iy_buf_7, i16 %Iy_buf_8, i16 %Iy_buf_9, i16 %Iy_buf_10, i16 %Iy_buf_11, i16 %Iy_buf_12, i16 %Iy_buf_13, i16 %Iy_buf_14, i16 %Iy_buf_15, i16 %Iy_buf_16, i16 %Iy_buf_17, i16 %Iy_buf_18, i16 %Iy_buf_19, i16 %Iy_buf_20, i16 %Iy_buf_21, i16 %Iy_buf_22, i16 %Iy_buf_23, i16 %Iy_buf_24, i16 %Iy_buf_25, i16 %Iy_buf_26, i16 %Iy_buf_27, i16 %Iy_buf_28, i16 %Iy_buf_29, i16 %Iy_buf_30, i16 %Iy_buf_31, i16 %Iy_buf_32, i16 %Iy_buf_33, i16 %Iy_buf_34, i16 %Iy_buf_35, i16 %Iy_buf_36, i16 %Iy_buf_37, i16 %Iy_buf_38, i16 %Iy_buf_39, i16 %Iy_buf_40, i16 %Iy_buf_41, i16 %Iy_buf_42, i16 %Iy_buf_43, i16 %Iy_buf_44, i16 %Iy_buf_45, i16 %Iy_buf_46, i16 %Iy_buf_47, i16 %Iy_buf_48, i16 %Iy_buf_49, i16 %Iy_buf_50, i16 %Iy_buf_51, i16 %Iy_buf_52, i16 %Iy_buf_53, i16 %Iy_buf_54, i16 %Iy_buf_55, i16 %Iy_buf_56, i16 %Iy_buf_57, i16 %Iy_buf_58, i16 %Iy_buf_59, i16 %Iy_buf_60, i16 %Iy_buf_61, i16 %It_buf, i16 %It_buf_1, i16 %It_buf_2, i16 %It_buf_3, i16 %It_buf_4, i16 %It_buf_5, i16 %It_buf_6, i16 %It_buf_7, i16 %It_buf_8, i16 %It_buf_9, i16 %It_buf_10, i16 %It_buf_11, i16 %It_buf_12, i16 %It_buf_13, i16 %It_buf_14, i16 %It_buf_15, i16 %It_buf_16, i16 %It_buf_17, i16 %It_buf_18, i16 %It_buf_19, i16 %It_buf_20, i16 %It_buf_21, i16 %It_buf_22, i16 %It_buf_23, i16 %It_buf_24, i16 %It_buf_25, i16 %It_buf_26, i16 %It_buf_27, i16 %It_buf_28, i16 %It_buf_29, i16 %It_buf_30, i16 %It_buf_31, i16 %It_buf_32, i16 %It_buf_33, i16 %It_buf_34, i16 %It_buf_35, i16 %It_buf_36, i16 %It_buf_37, i16 %It_buf_38, i16 %It_buf_39, i16 %It_buf_40, i16 %It_buf_41, i16 %It_buf_42, i16 %It_buf_43, i16 %It_buf_44, i16 %It_buf_45, i16 %It_buf_46, i16 %It_buf_47, i16 %It_buf_48, i16 %It_buf_49, i16 %It_buf_50, i16 %It_buf_51, i16 %It_buf_52, i16 %It_buf_53, i16 %It_buf_54, i16 %It_buf_55, i16 %It_buf_56, i16 %It_buf_57, i16 %It_buf_58, i16 %It_buf_59, i16 %It_buf_60, i16 %It_buf_61, i64 %I2_read, i64 %I1_read" [../LK_hls/src/lucas_kanade_hls.cpp:27]   --->   Operation 198 'call' 'call_ln27' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 3 <SV = 2> <Delay = 0.00>
+ST_3 : Operation 199 [2/2] (0.00ns)   --->   "%call_ln0 = call void @lucas_kanade_hls_Pipeline_VITIS_LOOP_43_3_VITIS_LOOP_44_4, i16 %gmem, i16 %Ix_buf, i16 %Ix_buf_1, i16 %Ix_buf_2, i16 %Ix_buf_3, i16 %Ix_buf_4, i16 %Ix_buf_5, i16 %Ix_buf_6, i16 %Ix_buf_7, i16 %Ix_buf_8, i16 %Ix_buf_9, i16 %Ix_buf_10, i16 %Ix_buf_11, i16 %Ix_buf_12, i16 %Ix_buf_13, i16 %Ix_buf_14, i16 %Ix_buf_15, i16 %Ix_buf_16, i16 %Ix_buf_17, i16 %Ix_buf_18, i16 %Ix_buf_19, i16 %Ix_buf_20, i16 %Ix_buf_21, i16 %Ix_buf_22, i16 %Ix_buf_23, i16 %Ix_buf_24, i16 %Ix_buf_25, i16 %Ix_buf_26, i16 %Ix_buf_27, i16 %Ix_buf_28, i16 %Ix_buf_29, i16 %Ix_buf_30, i16 %Ix_buf_31, i16 %Ix_buf_32, i16 %Ix_buf_33, i16 %Ix_buf_34, i16 %Ix_buf_35, i16 %Ix_buf_36, i16 %Ix_buf_37, i16 %Ix_buf_38, i16 %Ix_buf_39, i16 %Ix_buf_40, i16 %Ix_buf_41, i16 %Ix_buf_42, i16 %Ix_buf_43, i16 %Ix_buf_44, i16 %Ix_buf_45, i16 %Ix_buf_46, i16 %Ix_buf_47, i16 %Ix_buf_48, i16 %Ix_buf_49, i16 %Ix_buf_50, i16 %Ix_buf_51, i16 %Ix_buf_52, i16 %Ix_buf_53, i16 %Ix_buf_54, i16 %Ix_buf_55, i16 %Ix_buf_56, i64 %v_read, i64 %u_read, i16 %Ix_buf_57, i16 %Ix_buf_58, i16 %Ix_buf_59, i16 %Iy_buf, i16 %Iy_buf_1, i16 %Iy_buf_2, i16 %Iy_buf_3, i16 %Iy_buf_4, i16 %Iy_buf_5, i16 %Iy_buf_6, i16 %Iy_buf_7, i16 %Iy_buf_8, i16 %Iy_buf_9, i16 %Iy_buf_10, i16 %Iy_buf_11, i16 %Iy_buf_12, i16 %Iy_buf_13, i16 %Iy_buf_14, i16 %Iy_buf_15, i16 %Iy_buf_16, i16 %Iy_buf_17, i16 %Iy_buf_18, i16 %Iy_buf_19, i16 %Iy_buf_20, i16 %Iy_buf_21, i16 %Iy_buf_22, i16 %Iy_buf_23, i16 %Iy_buf_24, i16 %Iy_buf_25, i16 %Iy_buf_26, i16 %Iy_buf_27, i16 %Iy_buf_28, i16 %Iy_buf_29, i16 %Iy_buf_30, i16 %Iy_buf_31, i16 %Iy_buf_32, i16 %Iy_buf_33, i16 %Iy_buf_34, i16 %Iy_buf_35, i16 %Iy_buf_36, i16 %Iy_buf_37, i16 %Iy_buf_38, i16 %Iy_buf_39, i16 %Iy_buf_40, i16 %Iy_buf_41, i16 %Iy_buf_42, i16 %Iy_buf_43, i16 %Iy_buf_44, i16 %Iy_buf_45, i16 %Iy_buf_46, i16 %Iy_buf_47, i16 %Iy_buf_48, i16 %Iy_buf_49, i16 %Iy_buf_50, i16 %Iy_buf_51, i16 %Iy_buf_52, i16 %Iy_buf_53, i16 %Iy_buf_54, i16 %Iy_buf_55, i16 %Iy_buf_56, i16 %Iy_buf_57, i16 %Iy_buf_58, i16 %Iy_buf_59, i16 %It_buf, i16 %It_buf_1, i16 %It_buf_2, i16 %It_buf_3, i16 %It_buf_4, i16 %It_buf_5, i16 %It_buf_6, i16 %It_buf_7, i16 %It_buf_8, i16 %It_buf_9, i16 %It_buf_10, i16 %It_buf_11, i16 %It_buf_12, i16 %It_buf_13, i16 %It_buf_14, i16 %It_buf_15, i16 %It_buf_16, i16 %It_buf_17, i16 %It_buf_18, i16 %It_buf_19, i16 %It_buf_20, i16 %It_buf_21, i16 %It_buf_22, i16 %It_buf_23, i16 %It_buf_24, i16 %It_buf_25, i16 %It_buf_26, i16 %It_buf_27, i16 %It_buf_28, i16 %It_buf_29, i16 %It_buf_30, i16 %It_buf_31, i16 %It_buf_32, i16 %It_buf_33, i16 %It_buf_34, i16 %It_buf_35, i16 %It_buf_36, i16 %It_buf_37, i16 %It_buf_38, i16 %It_buf_39, i16 %It_buf_40, i16 %It_buf_41, i16 %It_buf_42, i16 %It_buf_43, i16 %It_buf_44, i16 %It_buf_45, i16 %It_buf_46, i16 %It_buf_47, i16 %It_buf_48, i16 %It_buf_49, i16 %It_buf_50, i16 %It_buf_51, i16 %It_buf_52, i16 %It_buf_53, i16 %It_buf_54, i16 %It_buf_55, i16 %It_buf_56, i16 %It_buf_57, i16 %It_buf_58, i16 %It_buf_59, i16 %Ix_buf_60, i16 %Iy_buf_60, i16 %It_buf_60, i16 %Ix_buf_61, i16 %Iy_buf_61, i16 %It_buf_61"   --->   Operation 199 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 4 <SV = 3> <Delay = 0.00>
+ST_4 : Operation 200 [1/1] (0.00ns)   --->   "%spectopmodule_ln3 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_12" [../LK_hls/src/lucas_kanade_hls.cpp:3]   --->   Operation 200 'spectopmodule' 'spectopmodule_ln3' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 201 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %gmem, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_2, void @empty_0, i32 16, i32 16, i32 16, i32 16, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0, i32 2"   --->   Operation 201 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 202 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i16 %gmem"   --->   Operation 202 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 203 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %I1, void @empty_3, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_4, void @empty_5, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_6, i32 4294967295, i32 0, i32 0, i32 0"   --->   Operation 203 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 204 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %I1, void @empty_7, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_6, i32 4294967295, i32 0, i32 0, i32 0"   --->   Operation 204 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 205 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %I2, void @empty_3, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_4, void @empty_8, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_6, i32 4294967295, i32 0, i32 0, i32 0"   --->   Operation 205 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 206 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %I2, void @empty_7, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_6, i32 4294967295, i32 0, i32 0, i32 0"   --->   Operation 206 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 207 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %u, void @empty_3, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_4, void @empty_9, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_6, i32 4294967295, i32 0, i32 0, i32 0"   --->   Operation 207 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 208 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %u, void @empty_7, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_6, i32 4294967295, i32 0, i32 0, i32 0"   --->   Operation 208 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 209 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %v, void @empty_3, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_4, void @empty_10, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_6, i32 4294967295, i32 0, i32 0, i32 0"   --->   Operation 209 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 210 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %v, void @empty_7, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_6, i32 4294967295, i32 0, i32 0, i32 0"   --->   Operation 210 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 211 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_3, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_11, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0"   --->   Operation 211 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 212 [1/2] (0.00ns)   --->   "%call_ln0 = call void @lucas_kanade_hls_Pipeline_VITIS_LOOP_43_3_VITIS_LOOP_44_4, i16 %gmem, i16 %Ix_buf, i16 %Ix_buf_1, i16 %Ix_buf_2, i16 %Ix_buf_3, i16 %Ix_buf_4, i16 %Ix_buf_5, i16 %Ix_buf_6, i16 %Ix_buf_7, i16 %Ix_buf_8, i16 %Ix_buf_9, i16 %Ix_buf_10, i16 %Ix_buf_11, i16 %Ix_buf_12, i16 %Ix_buf_13, i16 %Ix_buf_14, i16 %Ix_buf_15, i16 %Ix_buf_16, i16 %Ix_buf_17, i16 %Ix_buf_18, i16 %Ix_buf_19, i16 %Ix_buf_20, i16 %Ix_buf_21, i16 %Ix_buf_22, i16 %Ix_buf_23, i16 %Ix_buf_24, i16 %Ix_buf_25, i16 %Ix_buf_26, i16 %Ix_buf_27, i16 %Ix_buf_28, i16 %Ix_buf_29, i16 %Ix_buf_30, i16 %Ix_buf_31, i16 %Ix_buf_32, i16 %Ix_buf_33, i16 %Ix_buf_34, i16 %Ix_buf_35, i16 %Ix_buf_36, i16 %Ix_buf_37, i16 %Ix_buf_38, i16 %Ix_buf_39, i16 %Ix_buf_40, i16 %Ix_buf_41, i16 %Ix_buf_42, i16 %Ix_buf_43, i16 %Ix_buf_44, i16 %Ix_buf_45, i16 %Ix_buf_46, i16 %Ix_buf_47, i16 %Ix_buf_48, i16 %Ix_buf_49, i16 %Ix_buf_50, i16 %Ix_buf_51, i16 %Ix_buf_52, i16 %Ix_buf_53, i16 %Ix_buf_54, i16 %Ix_buf_55, i16 %Ix_buf_56, i64 %v_read, i64 %u_read, i16 %Ix_buf_57, i16 %Ix_buf_58, i16 %Ix_buf_59, i16 %Iy_buf, i16 %Iy_buf_1, i16 %Iy_buf_2, i16 %Iy_buf_3, i16 %Iy_buf_4, i16 %Iy_buf_5, i16 %Iy_buf_6, i16 %Iy_buf_7, i16 %Iy_buf_8, i16 %Iy_buf_9, i16 %Iy_buf_10, i16 %Iy_buf_11, i16 %Iy_buf_12, i16 %Iy_buf_13, i16 %Iy_buf_14, i16 %Iy_buf_15, i16 %Iy_buf_16, i16 %Iy_buf_17, i16 %Iy_buf_18, i16 %Iy_buf_19, i16 %Iy_buf_20, i16 %Iy_buf_21, i16 %Iy_buf_22, i16 %Iy_buf_23, i16 %Iy_buf_24, i16 %Iy_buf_25, i16 %Iy_buf_26, i16 %Iy_buf_27, i16 %Iy_buf_28, i16 %Iy_buf_29, i16 %Iy_buf_30, i16 %Iy_buf_31, i16 %Iy_buf_32, i16 %Iy_buf_33, i16 %Iy_buf_34, i16 %Iy_buf_35, i16 %Iy_buf_36, i16 %Iy_buf_37, i16 %Iy_buf_38, i16 %Iy_buf_39, i16 %Iy_buf_40, i16 %Iy_buf_41, i16 %Iy_buf_42, i16 %Iy_buf_43, i16 %Iy_buf_44, i16 %Iy_buf_45, i16 %Iy_buf_46, i16 %Iy_buf_47, i16 %Iy_buf_48, i16 %Iy_buf_49, i16 %Iy_buf_50, i16 %Iy_buf_51, i16 %Iy_buf_52, i16 %Iy_buf_53, i16 %Iy_buf_54, i16 %Iy_buf_55, i16 %Iy_buf_56, i16 %Iy_buf_57, i16 %Iy_buf_58, i16 %Iy_buf_59, i16 %It_buf, i16 %It_buf_1, i16 %It_buf_2, i16 %It_buf_3, i16 %It_buf_4, i16 %It_buf_5, i16 %It_buf_6, i16 %It_buf_7, i16 %It_buf_8, i16 %It_buf_9, i16 %It_buf_10, i16 %It_buf_11, i16 %It_buf_12, i16 %It_buf_13, i16 %It_buf_14, i16 %It_buf_15, i16 %It_buf_16, i16 %It_buf_17, i16 %It_buf_18, i16 %It_buf_19, i16 %It_buf_20, i16 %It_buf_21, i16 %It_buf_22, i16 %It_buf_23, i16 %It_buf_24, i16 %It_buf_25, i16 %It_buf_26, i16 %It_buf_27, i16 %It_buf_28, i16 %It_buf_29, i16 %It_buf_30, i16 %It_buf_31, i16 %It_buf_32, i16 %It_buf_33, i16 %It_buf_34, i16 %It_buf_35, i16 %It_buf_36, i16 %It_buf_37, i16 %It_buf_38, i16 %It_buf_39, i16 %It_buf_40, i16 %It_buf_41, i16 %It_buf_42, i16 %It_buf_43, i16 %It_buf_44, i16 %It_buf_45, i16 %It_buf_46, i16 %It_buf_47, i16 %It_buf_48, i16 %It_buf_49, i16 %It_buf_50, i16 %It_buf_51, i16 %It_buf_52, i16 %It_buf_53, i16 %It_buf_54, i16 %It_buf_55, i16 %It_buf_56, i16 %It_buf_57, i16 %It_buf_58, i16 %It_buf_59, i16 %Ix_buf_60, i16 %Iy_buf_60, i16 %It_buf_60, i16 %Ix_buf_61, i16 %Iy_buf_61, i16 %It_buf_61"   --->   Operation 212 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+ST_4 : Operation 213 [1/1] (0.00ns)   --->   "%ret_ln82 = ret" [../LK_hls/src/lucas_kanade_hls.cpp:82]   --->   Operation 213 'ret' 'ret_ln82' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+
+ <State 1>: 6.226ns
+The critical path consists of the following:
+	s_axi read operation ('I2_read') on port 'I2' [20]  (1.000 ns)
+	'add' operation 64 bit ('add_ln27', ../LK_hls/src/lucas_kanade_hls.cpp:27) [208]  (1.986 ns)
+	'call' operation ('call_ln27', ../LK_hls/src/lucas_kanade_hls.cpp:27) to 'lucas_kanade_hls_Pipeline_VITIS_LOOP_27_1_VITIS_LOOP_28_2' [210]  (3.240 ns)
+
+ <State 2>: 0.000ns
+The critical path consists of the following:
+
+ <State 3>: 0.000ns
+The critical path consists of the following:
+
+ <State 4>: 0.000ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

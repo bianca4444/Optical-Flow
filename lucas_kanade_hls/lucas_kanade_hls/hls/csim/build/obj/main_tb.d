@@ -1,4 +1,5 @@
 obj/main_tb.o: ..\..\..\..\..\LK_hls\src\main_tb.cpp \
+  ..\..\..\..\..\LK_hls\src\lucas_kanade_pyramid.h \
   ..\..\..\..\..\LK_hls\src\lucas_kanade_hls.h \
   C:\AMDDesignTools\2025.2\Vitis\include\ap_fixed.h \
   C:\AMDDesignTools\2025.2\Vitis\include\etc\ap_common.h \
@@ -17,4 +18,6 @@ obj/main_tb.o: ..\..\..\..\..\LK_hls\src\main_tb.cpp \
   C:\AMDDesignTools\2025.2\Vitis\include\etc\ap_int_ref.h \
   C:\AMDDesignTools\2025.2\Vitis\include\etc\ap_int_special.h \
   C:\AMDDesignTools\2025.2\Vitis\include\etc\ap_fixed_ref.h \
-  C:\AMDDesignTools\2025.2\Vitis\include\etc\ap_fixed_special.h
+  C:\AMDDesignTools\2025.2\Vitis\include\etc\ap_fixed_special.h \
+  ..\..\..\..\..\LK_hls\src\pyramid_downsample.h \
+  ..\..\..\..\..\LK_hls\src\upscale_flow.h

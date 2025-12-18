@@ -1,0 +1,50 @@
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:2267:5: remark: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_676_1: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:2267:5: note: FIX-IT applied suggested code changes
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:2281:5: remark: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_690_1: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:2281:5: note: FIX-IT applied suggested code changes
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:2295:5: remark: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_704_1: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:2295:5: note: FIX-IT applied suggested code changes
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:5803:7: remark: Added loop label VITIS_LOOP_1251_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^
+      VITIS_LOOP_1251_1: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:5803:7: note: FIX-IT applied suggested code changes
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:49507:5: remark: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+    for (int i = 1; i < 64 -1; i++) {
+    ^
+    VITIS_LOOP_27_1: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:49507:5: note: FIX-IT applied suggested code changes
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:49508:9: remark: Added loop label VITIS_LOOP_28_2:   [xilinx-label-all-loops]
+        for (int j = 1; j < 64 -1; j++) {
+        ^
+        VITIS_LOOP_28_2: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:49508:9: note: FIX-IT applied suggested code changes
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:49523:5: remark: Added loop label VITIS_LOOP_43_3:   [xilinx-label-all-loops]
+    for (int i = 2; i < 64 -2; i++) {
+    ^
+    VITIS_LOOP_43_3: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:49523:5: note: FIX-IT applied suggested code changes
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:49524:9: remark: Added loop label VITIS_LOOP_44_4:   [xilinx-label-all-loops]
+        for (int j = 2; j < 64 -2; j++) {
+        ^
+        VITIS_LOOP_44_4: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:49524:9: note: FIX-IT applied suggested code changes
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:49534:13: remark: Added loop label VITIS_LOOP_54_5:   [xilinx-label-all-loops]
+            for (int wi = -1; wi <= 1; wi++) {
+            ^
+            VITIS_LOOP_54_5: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:49534:13: note: FIX-IT applied suggested code changes
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:49536:17: remark: Added loop label VITIS_LOOP_56_6:   [xilinx-label-all-loops]
+                for (int wj = -1; wj <= 1; wj++) {
+                ^
+                VITIS_LOOP_56_6: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\lucas_kanade_hls\hls\.autopilot\db\lucas_kanade_hls.pp.0.cpp:49536:17: note: FIX-IT applied suggested code changes

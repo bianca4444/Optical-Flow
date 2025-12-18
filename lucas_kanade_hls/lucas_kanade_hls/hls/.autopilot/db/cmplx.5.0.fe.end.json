@@ -1,0 +1,56 @@
+{
+    "1": {
+        "name": "lucas_kanade_hls_Pipeline_VITIS_LOOP_27_1_VITIS_LOOP_28_2",
+        "file": "..\/LK_hls\/src\/lucas_kanade_hls.cpp",
+        "fileloc": "27",
+        "instructions": "563",
+        "total_instructions": "563",
+        "calls": "",
+        "basicblocks": "67",
+        "memory_accesses": "216",
+        "control_depth": "2",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "6"
+        },
+        "stores": {
+            "L": "197"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "0": {
+        "name": "lucas_kanade_hls",
+        "file": "lucas_kanade_hls.cpp",
+        "fileloc": "3",
+        "instructions": "207",
+        "total_instructions": "2202",
+        "calls": "1 2",
+        "basicblocks": "1",
+        "memory_accesses": "0",
+        "control_depth": "0",
+        "def_use_depth": "2"
+    },
+    "2": {
+        "name": "lucas_kanade_hls_Pipeline_VITIS_LOOP_43_3_VITIS_LOOP_44_4",
+        "file": "..\/LK_hls\/src\/lucas_kanade_hls.cpp",
+        "fileloc": "43",
+        "instructions": "1432",
+        "total_instructions": "1432",
+        "calls": "",
+        "basicblocks": "6",
+        "memory_accesses": "572",
+        "control_depth": "2",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "562"
+        },
+        "stores": {
+            "L": "8"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

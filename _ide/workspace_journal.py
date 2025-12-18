@@ -61,3 +61,59 @@ comp.run(operation="C_SIMULATION")
 
 comp.run(operation="C_SIMULATION")
 
+comp = client.get_component(name="horn_schunck_hls")
+comp.run(operation="C_SIMULATION")
+
+comp = client.get_component(name="lucas_kanade_hls")
+comp.run(operation="C_SIMULATION")
+
+comp = client.get_component(name="horn_schunck_hls")
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp = client.get_component(name="lucas_kanade_hls")
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="SYNTHESIS")
+
+cfg = client.get_config_file(path="C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\lucas_kanade_hls\hls_config.cfg")
+
+cfg.set_values(key="syn.file", values=["../LK_hls/src/lucas_kanade_hls.cpp", "../LK_hls/src/lucas_kanade_hls.h", "../LK_hls/src/lucas_kanade_pyramid.cpp", "../LK_hls/src/lucas_kanade_pyramid.h", "../LK_hls/src/pyramid_downsample.cpp", "../LK_hls/src/pyramid_downsample.h"])
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="C_SIMULATION")
+

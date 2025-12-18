@@ -23,7 +23,7 @@ __USE_VCXX_CLANG__ = 1
 
 ObjDir = obj
 
-HLS_SOURCES = ../../../../../LK_hls/src/main_tb.cpp ../../../../../LK_hls/src/lucas_kanade_hls.cpp
+HLS_SOURCES = ../../../../../LK_hls/src/main_tb.cpp ../../../../../LK_hls/src/pyramid_downsample.cpp ../../../../../LK_hls/src/lucas_kanade_pyramid.cpp ../../../../../LK_hls/src/lucas_kanade_hls.cpp
 
 override TARGET := csim.exe
 
@@ -92,8 +92,20 @@ $(ObjDir)/main_tb.o: ../../../../../LK_hls/src/main_tb.cpp $(ObjDir)/.dir csim.m
 
 -include $(ObjDir)/main_tb.d
 
+$(ObjDir)/pyramid_downsample.o: ../../../../../LK_hls/src/pyramid_downsample.cpp $(ObjDir)/.dir csim.mk
+	$(Echo) "   Compiling ../../../../../LK_hls/src/pyramid_downsample.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
+	$(Verb)  $(CXX) -std=gnu++17 ${CCFLAG} -c -MMD  -fhls-csim -fhlstoplevel=lucas_kanade_pyramid $(IFLAG) $(DFLAG) $< -o $@ ; \
+
+-include $(ObjDir)/pyramid_downsample.d
+
+$(ObjDir)/lucas_kanade_pyramid.o: ../../../../../LK_hls/src/lucas_kanade_pyramid.cpp $(ObjDir)/.dir csim.mk
+	$(Echo) "   Compiling ../../../../../LK_hls/src/lucas_kanade_pyramid.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
+	$(Verb)  $(CXX) -std=gnu++17 ${CCFLAG} -c -MMD  -fhls-csim -fhlstoplevel=lucas_kanade_pyramid $(IFLAG) $(DFLAG) $< -o $@ ; \
+
+-include $(ObjDir)/lucas_kanade_pyramid.d
+
 $(ObjDir)/lucas_kanade_hls.o: ../../../../../LK_hls/src/lucas_kanade_hls.cpp $(ObjDir)/.dir csim.mk
 	$(Echo) "   Compiling ../../../../../LK_hls/src/lucas_kanade_hls.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
-	$(Verb)  $(CXX) -std=gnu++17 ${CCFLAG} -c -MMD  -fhls-csim -fhlstoplevel=lucas_kanade_hls $(IFLAG) $(DFLAG) $< -o $@ ; \
+	$(Verb)  $(CXX) -std=gnu++17 ${CCFLAG} -c -MMD  -fhls-csim -fhlstoplevel=lucas_kanade_pyramid $(IFLAG) $(DFLAG) $< -o $@ ; \
 
 -include $(ObjDir)/lucas_kanade_hls.d
