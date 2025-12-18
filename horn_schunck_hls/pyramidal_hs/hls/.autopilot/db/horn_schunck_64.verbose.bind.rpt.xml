@@ -1,0 +1,48 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'horn_schunck_64'" level="0">
+<item name = "Date">Thu Dec 18 21:18:43 2025
+</item>
+<item name = "Version">2025.2 (Build 6295257 on Nov 12 2025)</item>
+<item name = "Project">pyramidal_hs</item>
+<item name = "Solution">hls (Vivado IP Flow Target)</item>
+<item name = "Product family">kintexu</item>
+<item name = "Target device">xcku115-flva1517-3-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 17.823 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">1079741, 1079741, 19.244 ms, 19.244 ms, 1079741, 1079741, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_horn_schunck_64_Pipeline_VITIS_LOOP_33_5_fu_94">horn_schunck_64_Pipeline_VITIS_LOOP_33_5, 3479, 3479, 62.006 us, 62.006 us, 0, 0, loop pipeline stp</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- VITIS_LOOP_29_3">1079740, 1079740, 215948, -, -, 5, no</column>
+<column name=" + VITIS_LOOP_31_4">215946, 215946, 3483, -, -, 62, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

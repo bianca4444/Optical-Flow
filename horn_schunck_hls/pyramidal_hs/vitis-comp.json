@@ -1,0 +1,9 @@
+{
+  "name": "pyramidal_hs",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": ["..\/hls_config.cfg"],
+    "work_dir": "."
+  }
+}

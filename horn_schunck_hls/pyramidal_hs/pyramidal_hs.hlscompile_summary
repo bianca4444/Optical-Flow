@@ -1,0 +1,252 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\pyramidal_hs.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "12/18/25 21:17:31",
+ "timestampMillis": "1766085451460",
+ "buildStep": {
+  "cmdId": "a154032d-ca9b-47db-bcb1-cde0fcffd3c2",
+  "name": "v++",
+  "logFile": "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\logs\\pyramidal_hs.steps.log",
+  "commandLine": "C:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config C:\\Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\hls_config.cfg --work_dir pyramidal_hs ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "C:\\Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\hls_config.cfg",
+   "--work_dir",
+   "pyramidal_hs"
+  ],
+  "iniFiles": [
+   {
+    "path": "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\hls_config.cfg",
+    "content": "part=xcku115-flva1517-3-e\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.top=pyramidal_hs\nsyn.file=../HS_hls/src/derivatives_hls.cpp\nsyn.file=../HS_hls/src/derivatives_hls.h\nsyn.file=../HS_hls/src/horn_schunck_hsl.cpp\nsyn.file=../HS_hls/src/horn_schunck_hsl.h\nsyn.file=../HS_hls/src/pyramid_hls.cpp\nsyn.file=../HS_hls/src/pyramid_hls.h\nsyn.file=../HS_hls/src/pyramidal_hs.cpp\nsyn.file=../HS_hls/src/pyramidal_hs.h\ntb.file=../HS_hls/src/main_tb.cpp\nclock=10ns\ncsim.setup=0"
+   }
+  ],
+  "cwd": "C:\\Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/18/25 21:17:31",
+ "timestampMillis": "1766085451461",
+ "status": {
+  "cmdId": "a154032d-ca9b-47db-bcb1-cde0fcffd3c2",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "12/18/25 21:17:35",
+ "timestampMillis": "1766085455352",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "pyramidal_hs",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\HS_hls\\src\\derivatives_hls.cpp",
+     "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\HS_hls\\src\\derivatives_hls.h",
+     "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\HS_hls\\src\\horn_schunck_hsl.cpp",
+     "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\HS_hls\\src\\horn_schunck_hsl.h",
+     "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\HS_hls\\src\\pyramid_hls.cpp",
+     "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\HS_hls\\src\\pyramid_hls.h",
+     "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\HS_hls\\src\\pyramidal_hs.cpp",
+     "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\HS_hls\\src\\pyramidal_hs.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "12/18/25 21:17:35",
+ "timestampMillis": "1766085455354",
+ "buildStep": {
+  "cmdId": "834baeb2-b2d9-45bc-b86c-cc0dd69439ff",
+  "name": "",
+  "logFile": "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/18/25 21:17:35",
+ "timestampMillis": "1766085455354",
+ "status": {
+  "cmdId": "834baeb2-b2d9-45bc-b86c-cc0dd69439ff",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 21:17:35",
+ "timestampMillis": "1766085455354",
+ "report": {
+  "path": "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 21:17:35",
+ "timestampMillis": "1766085455355",
+ "report": {
+  "path": "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 21:17:35",
+ "timestampMillis": "1766085455355",
+ "report": {
+  "path": "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 21:19:00",
+ "timestampMillis": "1766085540364",
+ "report": {
+  "path": "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 21:19:00",
+ "timestampMillis": "1766085540365",
+ "report": {
+  "path": "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 21:19:00",
+ "timestampMillis": "1766085540365",
+ "report": {
+  "path": "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/18/25 21:19:00",
+ "timestampMillis": "1766085540366",
+ "status": {
+  "cmdId": "834baeb2-b2d9-45bc-b86c-cc0dd69439ff",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/18/25 21:19:00",
+ "timestampMillis": "1766085540506",
+ "status": {
+  "cmdId": "a154032d-ca9b-47db-bcb1-cde0fcffd3c2",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 21:19:00",
+ "timestampMillis": "1766085540527",
+ "report": {
+  "path": "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\reports\\v++_compile_pyramidal_hs_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 21:19:00",
+ "timestampMillis": "1766085540528",
+ "report": {
+  "path": "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\reports\\.db\\v++_compile_pyramidal_hs_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

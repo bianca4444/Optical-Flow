@@ -1,0 +1,163 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\pyramidal_hs.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "12/18/25 21:16:51",
+ "timestampMillis": "1766085411070",
+ "buildStep": {
+  "cmdId": "d6940f87-2e6d-4b43-8b49-d173973c2ed2",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\logs\\pyramidal_hs.steps.log",
+  "commandLine": "C:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\hls_config.cfg --work_dir pyramidal_hs ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\hls_config.cfg",
+   "--work_dir",
+   "pyramidal_hs"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/18/25 21:16:51",
+ "timestampMillis": "1766085411071",
+ "status": {
+  "cmdId": "d6940f87-2e6d-4b43-8b49-d173973c2ed2",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "12/18/25 21:16:54",
+ "timestampMillis": "1766085414992",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "pyramidal_hs",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\HS_hls\\src\\derivatives_hls.cpp",
+     "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\HS_hls\\src\\derivatives_hls.h",
+     "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\HS_hls\\src\\horn_schunck_hsl.cpp",
+     "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\HS_hls\\src\\horn_schunck_hsl.h",
+     "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\HS_hls\\src\\pyramid_hls.cpp",
+     "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\HS_hls\\src\\pyramid_hls.h",
+     "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\HS_hls\\src\\pyramidal_hs.cpp",
+     "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\HS_hls\\src\\pyramidal_hs.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "12/18/25 21:16:54",
+ "timestampMillis": "1766085414994",
+ "buildStep": {
+  "cmdId": "f650a43b-9c5d-42a9-93e1-8209f9529ee0",
+  "name": "",
+  "logFile": "C:/Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Diaxxa\\Desktop\\Optical-Flow\\horn_schunck_hls"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/18/25 21:16:54",
+ "timestampMillis": "1766085414994",
+ "status": {
+  "cmdId": "f650a43b-9c5d-42a9-93e1-8209f9529ee0",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/18/25 21:17:08",
+ "timestampMillis": "1766085428641",
+ "status": {
+  "cmdId": "f650a43b-9c5d-42a9-93e1-8209f9529ee0",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/18/25 21:17:08",
+ "timestampMillis": "1766085428736",
+ "status": {
+  "cmdId": "d6940f87-2e6d-4b43-8b49-d173973c2ed2",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 21:17:08",
+ "timestampMillis": "1766085428736",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 21:17:08",
+ "timestampMillis": "1766085428736",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
