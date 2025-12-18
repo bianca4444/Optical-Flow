@@ -1,0 +1,246 @@
+<ENTRY>
+{
+ "thisFile": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\horn_schunck_hls\\horn_schunck_hls.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "12/18/25 14:22:49",
+ "timestampMillis": "1766060569199",
+ "buildStep": {
+  "cmdId": "d8b825e9-bee3-41fe-beac-85d03e683ea9",
+  "name": "v++",
+  "logFile": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\horn_schunck_hls\\logs\\horn_schunck_hls.steps.log",
+  "commandLine": "C:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\hls_config.cfg --work_dir horn_schunck_hls ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\hls_config.cfg",
+   "--work_dir",
+   "horn_schunck_hls"
+  ],
+  "iniFiles": [
+   {
+    "path": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\hls_config.cfg",
+    "content": "part=xc7k160tfbg484-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.top=horn_schunck_hls\nsyn.file=../hsl/src/horn_schunck_hsl.cpp\nsyn.file=../hsl/src/horn_schunck_hsl.h\ntb.file=../hsl/src/main_tb.cpp\nclock=10ns\ncsim.setup=0"
+   }
+  ],
+  "cwd": "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/18/25 14:22:49",
+ "timestampMillis": "1766060569202",
+ "status": {
+  "cmdId": "d8b825e9-bee3-41fe-beac-85d03e683ea9",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "12/18/25 14:23:00",
+ "timestampMillis": "1766060580539",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "horn_schunck_hls",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\hsl\\src\\horn_schunck_hsl.cpp",
+     "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\hsl\\src\\horn_schunck_hsl.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "12/18/25 14:23:00",
+ "timestampMillis": "1766060580543",
+ "buildStep": {
+  "cmdId": "64e07bd1-f1c4-4517-93e6-b24aaff70db7",
+  "name": "",
+  "logFile": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\horn_schunck_hls\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/18/25 14:23:00",
+ "timestampMillis": "1766060580544",
+ "status": {
+  "cmdId": "64e07bd1-f1c4-4517-93e6-b24aaff70db7",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 14:23:00",
+ "timestampMillis": "1766060580545",
+ "report": {
+  "path": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\horn_schunck_hls\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 14:23:00",
+ "timestampMillis": "1766060580546",
+ "report": {
+  "path": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\horn_schunck_hls\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 14:23:00",
+ "timestampMillis": "1766060580547",
+ "report": {
+  "path": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\horn_schunck_hls\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 14:23:48",
+ "timestampMillis": "1766060628401",
+ "report": {
+  "path": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\horn_schunck_hls\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 14:23:48",
+ "timestampMillis": "1766060628403",
+ "report": {
+  "path": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\horn_schunck_hls\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 14:23:48",
+ "timestampMillis": "1766060628405",
+ "report": {
+  "path": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\horn_schunck_hls\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/18/25 14:23:48",
+ "timestampMillis": "1766060628406",
+ "status": {
+  "cmdId": "64e07bd1-f1c4-4517-93e6-b24aaff70db7",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/18/25 14:23:48",
+ "timestampMillis": "1766060628918",
+ "status": {
+  "cmdId": "d8b825e9-bee3-41fe-beac-85d03e683ea9",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 14:23:49",
+ "timestampMillis": "1766060629135",
+ "report": {
+  "path": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\horn_schunck_hls\\reports\\v++_compile_horn_schunck_hls_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 14:23:49",
+ "timestampMillis": "1766060629137",
+ "report": {
+  "path": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\horn_schunck_hls\\reports\\.db\\v++_compile_horn_schunck_hls_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

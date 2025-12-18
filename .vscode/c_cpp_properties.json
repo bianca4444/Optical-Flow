@@ -3,6 +3,8 @@
     {
       "name": "windows-gcc-x64",
       "includePath": [
+        "${workspaceFolder}/LK_hls/src",
+        "${workspaceFolder}/hsl/src",
         "${workspaceFolder}/**"
       ],
       "compilerPath": "C:/msys64/mingw64/bin/gcc.exe",

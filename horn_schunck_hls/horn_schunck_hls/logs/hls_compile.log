@@ -1,0 +1,162 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../hsl/src/horn_schunck_hsl.cpp' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/hsl/src/horn_schunck_hsl.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../hsl/src/horn_schunck_hsl.h' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/hsl/src/horn_schunck_hsl.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../hsl/src/main_tb.cpp' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/hsl/src/main_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=horn_schunck_hls' from hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7k160tfbg484-1' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7k160t-fbg484-1'
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(11)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'csim.setup=0' from hls_config.cfg(12)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 3 seconds. Elapsed time: 9.28 seconds; current allocated memory: 144.238 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file '../hsl/src/horn_schunck_hsl.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 21.852 seconds; current allocated memory: 146.602 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 4,160 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 456 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 142 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 136 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 136 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 136 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 136 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 149 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 162 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 163 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 137 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 137 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 137 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 137 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 147 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 159 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-241] Aggregating bram variable 'v' with compact=bit mode in 16-bits
+INFO: [HLS 214-241] Aggregating bram variable 'u' with compact=bit mode in 16-bits
+INFO: [HLS 214-241] Aggregating bram variable 'It' with compact=bit mode in 16-bits
+INFO: [HLS 214-241] Aggregating bram variable 'Iy' with compact=bit mode in 16-bits
+INFO: [HLS 214-241] Aggregating bram variable 'Ix' with compact=bit mode in 16-bits
+INFO: [HLS 214-437] Disabling loop flattening for loop 'VITIS_LOOP_12_2'. (../hsl/src/horn_schunck_hsl.cpp:12:22)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 11.08 seconds; current allocated memory: 148.398 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.019 seconds; current allocated memory: 148.398 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.135 seconds; current allocated memory: 152.531 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+WARNING: [SYNCHK 200-120] ../hsl/src/horn_schunck_hsl.cpp:34: multiplication is assumed not to overflow by default, otherwise, please add option '-fwrapv'.
+INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.086 seconds; current allocated memory: 154.215 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.233 seconds; current allocated memory: 175.820 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.243 seconds; current allocated memory: 179.523 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'horn_schunck_hls' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln35) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln34) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln32_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln32) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_13_3'.
+WARNING: [HLS 200-448] Lower bound of II is 2 due to multiple 'load' operation 16 bit ('u1', ../hsl/src/horn_schunck_hsl.cpp:19) on array 'u', 'load' operation 16 bit ('u2', ../hsl/src/horn_schunck_hsl.cpp:20) on array 'u', 'load' operation 16 bit ('u3', ../hsl/src/horn_schunck_hsl.cpp:21) on array 'u', 'store' operation ('u_addr_3_write_ln37', ../hsl/src/horn_schunck_hsl.cpp:37) of variable 'trunc_ln', ../hsl/src/horn_schunck_hsl.cpp:37 16 bit on array 'u' accessing core:RAM:u
+WARNING: [HLS 200-448] Lower bound of II is 2 due to multiple 'load' operation 16 bit ('v1', ../hsl/src/horn_schunck_hsl.cpp:24) on array 'v', 'load' operation 16 bit ('v2', ../hsl/src/horn_schunck_hsl.cpp:25) on array 'v', 'load' operation 16 bit ('v3', ../hsl/src/horn_schunck_hsl.cpp:26) on array 'v', 'store' operation ('v_addr_3_write_ln38', ../hsl/src/horn_schunck_hsl.cpp:38) of variable 'trunc_ln1', ../hsl/src/horn_schunck_hsl.cpp:38 16 bit on array 'v' accessing core:RAM:v
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', ../hsl/src/horn_schunck_hsl.cpp:23) of variable 'trunc_ln1', ../hsl/src/horn_schunck_hsl.cpp:38 16 bit on local variable 'v0', ../hsl/src/horn_schunck_hsl.cpp:23 and 'load' operation 16 bit ('v0_load', ../hsl/src/horn_schunck_hsl.cpp:30) on local variable 'v0', ../hsl/src/horn_schunck_hsl.cpp:23.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', ../hsl/src/horn_schunck_hsl.cpp:23) of variable 'trunc_ln1', ../hsl/src/horn_schunck_hsl.cpp:38 16 bit on local variable 'v0', ../hsl/src/horn_schunck_hsl.cpp:23 and 'load' operation 16 bit ('v0_load', ../hsl/src/horn_schunck_hsl.cpp:30) on local variable 'v0', ../hsl/src/horn_schunck_hsl.cpp:23.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', ../hsl/src/horn_schunck_hsl.cpp:23) of variable 'trunc_ln1', ../hsl/src/horn_schunck_hsl.cpp:38 16 bit on local variable 'v0', ../hsl/src/horn_schunck_hsl.cpp:23 and 'load' operation 16 bit ('v0_load', ../hsl/src/horn_schunck_hsl.cpp:30) on local variable 'v0', ../hsl/src/horn_schunck_hsl.cpp:23.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 5, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', ../hsl/src/horn_schunck_hsl.cpp:23) of variable 'trunc_ln1', ../hsl/src/horn_schunck_hsl.cpp:38 16 bit on local variable 'v0', ../hsl/src/horn_schunck_hsl.cpp:23 and 'load' operation 16 bit ('v0_load', ../hsl/src/horn_schunck_hsl.cpp:30) on local variable 'v0', ../hsl/src/horn_schunck_hsl.cpp:23.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 36, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', ../hsl/src/horn_schunck_hsl.cpp:23) of variable 'trunc_ln1', ../hsl/src/horn_schunck_hsl.cpp:38 16 bit on local variable 'v0', ../hsl/src/horn_schunck_hsl.cpp:23 and 'load' operation 16 bit ('v0_load', ../hsl/src/horn_schunck_hsl.cpp:30) on local variable 'v0', ../hsl/src/horn_schunck_hsl.cpp:23.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 44, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', ../hsl/src/horn_schunck_hsl.cpp:23) of variable 'trunc_ln1', ../hsl/src/horn_schunck_hsl.cpp:38 16 bit on local variable 'v0', ../hsl/src/horn_schunck_hsl.cpp:23 and 'load' operation 16 bit ('v0_load', ../hsl/src/horn_schunck_hsl.cpp:30) on local variable 'v0', ../hsl/src/horn_schunck_hsl.cpp:23.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-887] Cannot meet target clock period from 'add' operation 17 bit ('add_ln30', ../hsl/src/horn_schunck_hsl.cpp:30) to 'add' operation 28 bit of DSP[95] ('add_ln32_1', ../hsl/src/horn_schunck_hsl.cpp:32) (combination delay: 9.8365 ns) to honor II or Latency constraint in region 'VITIS_LOOP_13_3'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+WARNING: [HLS 200-887] Cannot meet target clock period from 'add' operation 17 bit ('add_ln30', ../hsl/src/horn_schunck_hsl.cpp:30) to 'mul' operation 32 bit ('mul_ln37', ../hsl/src/horn_schunck_hsl.cpp:37) (combination delay: 14.2865 ns) to honor II or Latency constraint in region 'VITIS_LOOP_13_3'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+WARNING: [HLS 200-887] Cannot meet target clock period from 'add' operation 17 bit ('add_ln30', ../hsl/src/horn_schunck_hsl.cpp:30) to 'sdiv' operation 28 bit ('sdiv_ln37', ../hsl/src/horn_schunck_hsl.cpp:37) (combination delay: 17.0573 ns) to honor II or Latency constraint in region 'VITIS_LOOP_13_3'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' (loop 'VITIS_LOOP_13_3'): Unable to enforce a carried dependence constraint (II = 46, distance = 1, offset = 0) between 'store' operation ('v0_write_ln23', ../hsl/src/horn_schunck_hsl.cpp:23) of variable 'trunc_ln1', ../hsl/src/horn_schunck_hsl.cpp:38 16 bit on local variable 'v0', ../hsl/src/horn_schunck_hsl.cpp:23 and 'load' operation 16 bit ('v0_load', ../hsl/src/horn_schunck_hsl.cpp:30) on local variable 'v0', ../hsl/src/horn_schunck_hsl.cpp:23.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 47, Depth = 53, loop 'VITIS_LOOP_13_3'
+WARNING: [HLS 200-871] Estimated clock period (25.518 ns) exceeds the target (target clock period: 10.000 ns, clock uncertainty: 2.700 ns, effective delay budget: 7.300 ns).
+Resolution: For help on HLS 200-871 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-871.html
+WARNING: [HLS 200-1016] The critical path in module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' consists of the following:
+	'sdiv' operation 28 bit ('sdiv_ln37', ../hsl/src/horn_schunck_hsl.cpp:37) [106]  (2.771 ns)
+	'sub' operation 28 bit ('sub_ln37', ../hsl/src/horn_schunck_hsl.cpp:37) [109]  (1.711 ns)
+	'store' operation ('u0_write_ln18', ../hsl/src/horn_schunck_hsl.cpp:18) of variable 'trunc_ln', ../hsl/src/horn_schunck_hsl.cpp:37 16 bit on local variable 'u0', ../hsl/src/horn_schunck_hsl.cpp:18 [120]  (1.029 ns)
+	'load' operation 16 bit ('u0_load', ../hsl/src/horn_schunck_hsl.cpp:29) on local variable 'u0', ../hsl/src/horn_schunck_hsl.cpp:18 [34]  (0.000 ns)
+	'add' operation 17 bit ('add_ln29', ../hsl/src/horn_schunck_hsl.cpp:29) [66]  (1.488 ns)
+	'add' operation 18 bit ('add_ln29_2', ../hsl/src/horn_schunck_hsl.cpp:29) [71]  (2.558 ns)
+	'mul' operation 28 bit of DSP[94] ('mul_ln32', ../hsl/src/horn_schunck_hsl.cpp:32) [90]  (2.840 ns)
+	'add' operation 28 bit of DSP[94] ('add_ln32', ../hsl/src/horn_schunck_hsl.cpp:32) [94]  (2.950 ns)
+	'add' operation 28 bit of DSP[95] ('add_ln32_1', ../hsl/src/horn_schunck_hsl.cpp:32) [95]  (2.950 ns)
+	'mul' operation 32 bit ('mul_ln37', ../hsl/src/horn_schunck_hsl.cpp:37) [103]  (4.450 ns)
+	'sdiv' operation 28 bit ('sdiv_ln37', ../hsl/src/horn_schunck_hsl.cpp:37) [106]  (2.771 ns)
+
+Resolution: For help on HLS 200-1016 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1016.html
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 3.161 seconds; current allocated memory: 183.668 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.128 seconds; current allocated memory: 184.699 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'horn_schunck_hls' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.125 seconds; current allocated memory: 184.777 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.051 seconds; current allocated memory: 184.848 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3' pipeline 'VITIS_LOOP_13_3' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_25ns_28_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_28s_28_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_28s_28_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_16s_32_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sdiv_44ns_16s_28_48_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'horn_schunck_hls_Pipeline_VITIS_LOOP_13_3'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.328 seconds; current allocated memory: 187.516 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'horn_schunck_hls' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'horn_schunck_hls/Ix' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'horn_schunck_hls/Iy' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'horn_schunck_hls/It' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'horn_schunck_hls/u' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'horn_schunck_hls/v' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'horn_schunck_hls' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'horn_schunck_hls'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.838 seconds; current allocated memory: 190.871 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.032 seconds; current allocated memory: 194.066 MB.
+INFO: [HLS 200-2225] Wrote inferred directives to file C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 2 seconds. Elapsed time: 3.339 seconds; current allocated memory: 196.953 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for horn_schunck_hls.
+INFO: [VLOG 209-307] Generating Verilog RTL for horn_schunck_hls.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 39.19 MHz
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 7 seconds. Total elapsed time: 53.639 seconds; peak allocated memory: 197.012 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 1m 2s

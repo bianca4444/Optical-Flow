@@ -6,8 +6,9 @@ int main() {
     fixed_t u[H][W] = {0};
     fixed_t v[H][W] = {0};
 
-    for (int y=0; y<H; y++) {
-        for (int x=0; x<W; x++) {
+    // test simplu: mișcare spre dreapta
+    for (int y = 0; y < H; y++) {
+        for (int x = 0; x < W; x++) {
             Ix[y][x] = 1.0;
             Iy[y][x] = 0.0;
             It[y][x] = -1.0;

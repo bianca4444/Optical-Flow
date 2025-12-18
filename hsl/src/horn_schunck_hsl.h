@@ -1,14 +1,17 @@
 #pragma once
-
 #include <ap_fixed.h>
 
 #define W 64
 #define H 64
 #define N_ITER 10
-#define ALPHA 1.0f
 
 typedef ap_fixed<16,4> fixed_t;
 
+// constante fixed-point
+const fixed_t ALPHA = fixed_t(1.0);
+const fixed_t ONE_QUARTER = fixed_t(0.25);
+
+// funcția top pentru HLS
 void horn_schunck_hls(
     fixed_t Ix[H][W],
     fixed_t Iy[H][W],

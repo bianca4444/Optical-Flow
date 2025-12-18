@@ -7,22 +7,36 @@ void horn_schunck_hls(
     fixed_t u[H][W],
     fixed_t v[H][W]
 ) {
+    // iterațiile Horn–Schunck
     for (int iter = 0; iter < N_ITER; iter++) {
-        for (int y = 1; y < H-1; y++) {
-            for (int x = 1; x < W-1; x++) {
+    for (int i = 1; i < H-1; i++) {
+        for (int j = 1; j < W-1; j++) {
 
 #pragma HLS PIPELINE II=1
-#pragma HLS LOOP_TRIPCOUNT min=64 max=64
 
-                fixed_t u_bar = (u[y][x-1] + u[y][x+1] + u[y-1][x] + u[y+1][x]) * 0.25;
-                fixed_t v_bar = (v[y][x-1] + v[y][x+1] + v[y-1][x] + v[y+1][x]) * 0.25;
+            // === CACHE LOCAL (AICI se pun) ===
+            fixed_t u0 = u[i][j-1];
+            fixed_t u1 = u[i][j+1];
+            fixed_t u2 = u[i-1][j];
+            fixed_t u3 = u[i+1][j];
 
-                fixed_t P = Ix[y][x]*u_bar + Iy[y][x]*v_bar + It[y][x];
-                fixed_t D = ALPHA*ALPHA + Ix[y][x]*Ix[y][x] + Iy[y][x]*Iy[y][x];
+            fixed_t v0 = v[i][j-1];
+            fixed_t v1 = v[i][j+1];
+            fixed_t v2 = v[i-1][j];
+            fixed_t v3 = v[i+1][j];
 
-                u[y][x] = u_bar - Ix[y][x] * P / D;
-                v[y][x] = v_bar - Iy[y][x] * P / D;
-            }
+            // === MEDIE ===
+            fixed_t u_bar = (u0 + u1 + u2 + u3) * ONE_QUARTER;
+            fixed_t v_bar = (v0 + v1 + v2 + v3) * ONE_QUARTER;
+
+            fixed_t P = Ix[i][j]*u_bar + Iy[i][j]*v_bar + It[i][j];
+            fixed_t D = (ALPHA * ALPHA)
+                      + Ix[i][j]*Ix[i][j]
+                      + Iy[i][j]*Iy[i][j];
+
+            u[i][j] = u_bar - Ix[i][j] * P / D;
+            v[i][j] = v_bar - Iy[i][j] * P / D;
         }
     }
+}
 }

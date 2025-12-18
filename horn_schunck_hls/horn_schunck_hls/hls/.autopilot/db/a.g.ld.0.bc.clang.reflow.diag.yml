@@ -1,0 +1,153 @@
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/.autopilot/db\horn_schunck_hsl.pp.0.cpp', 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_horn_schunck_hsl.pp.0.cpp
+Args:            
+  - Callee:          __cxx_global_var_init
+    DebugLoc:        { File: 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/.autopilot/db\horn_schunck_hsl.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_horn_schunck_hsl.pp.0.cpp
+    DebugLoc:        { File: 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/.autopilot/db\horn_schunck_hsl.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/.autopilot/db\horn_schunck_hsl.pp.0.cpp', 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_horn_schunck_hsl.pp.0.cpp
+Args:            
+  - Callee:          __cxx_global_var_init.1
+    DebugLoc:        { File: 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/.autopilot/db\horn_schunck_hsl.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_horn_schunck_hsl.pp.0.cpp
+    DebugLoc:        { File: 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/horn_schunck_hls/hls/.autopilot/db\horn_schunck_hsl.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_horn_schunck_hls_ir
+Args:            
+  - Callee:          'horn_schunck_hls(ap_fixed<16, 4, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 4, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 4, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 4, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 4, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])'
+    DebugLoc:        { File: ../hsl/src/horn_schunck_hsl.cpp, Line: 9, 
+                       Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_horn_schunck_hls_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+Function:        apatb_horn_schunck_hls_ir
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        bram
+  - String:          ' variable '''
+  - Name:            v
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '16'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+Function:        apatb_horn_schunck_hls_ir
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        bram
+  - String:          ' variable '''
+  - Name:            u
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '16'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+Function:        apatb_horn_schunck_hls_ir
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        bram
+  - String:          ' variable '''
+  - Name:            It
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '16'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+Function:        apatb_horn_schunck_hls_ir
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        bram
+  - String:          ' variable '''
+  - Name:            Iy
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '16'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+Function:        apatb_horn_schunck_hls_ir
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        bram
+  - String:          ' variable '''
+  - Name:            Ix
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '16'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-loop-flatten-cost-model
+Name:            FlattenOffInference
+DebugLoc:        { File: ../hsl/src/horn_schunck_hsl.cpp, Line: 12, Column: 22 }
+Function:        _Z16horn_schunck_hlsPA64_8ap_fixedILi16ELi4EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_S4_
+Args:            
+  - String:          'Disabling loop flattening for loop '''
+  - LoopName:        VITIS_LOOP_12_2
+  - String:          '''.'
+...
+--- !Passed
+Pass:            reflow-loop-flatten-cost-model
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../hsl/src/horn_schunck_hsl.cpp, Line: 12, Column: 22 }
+Function:        _Z16horn_schunck_hlsPA64_8ap_fixedILi16ELi4EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_S4_
+Args:            
+  - PragmaType:      loop_flatten
+  - String:          ' '
+  - PragmaOptions:   'off '
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  horn_schunck_hls
+  - String:          ' '
+  - PragmaSrcLoc:    '../hsl/src/horn_schunck_hsl.cpp:15:1'
+    DebugLoc:        { File: ../hsl/src/horn_schunck_hsl.cpp, Line: 15, 
+                       Column: 1 }
+  - LoopName:        VITIS_LOOP_12_2
+  - String:          ' '
+  - LoopLoc:         '../hsl/src/horn_schunck_hsl.cpp:12:22'
+    DebugLoc:        { File: ../hsl/src/horn_schunck_hsl.cpp, Line: 12, 
+                       Column: 22 }
+  - String:          ' '
+...
