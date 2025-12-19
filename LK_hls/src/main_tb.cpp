@@ -2,6 +2,7 @@
 #include "lucas_kanade_pyramid.h"
 #include "lucas_kanade_hls.h"
 #include "ap_fixed.h"
+#include <cstdlib>
 
 #define HEIGHT 64
 #define WIDTH 64
@@ -47,5 +48,7 @@ int main() {
     std::cout << "u[0][0]=" << (float)u[0][0] << " v[0][0]=" << (float)v[0][0] << std::endl;
     std::cout << "u[63][63]=" << (float)u[63][63] << " v[63][63]=" << (float)v[63][63] << std::endl;
 
+    std::cout << "\nPress ENTER to exit..." << std::endl;
+    std::cin.get();
     return 0;
 }

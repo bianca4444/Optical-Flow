@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <cstdlib>
 
 #include "pyramidal_hs.h"
 
@@ -49,5 +50,7 @@ int main() {
 
     std::cout << "Max flow magnitude = " << max_mag << std::endl;
 
+    std::cout << "\nPress ENTER to exit..." << std::endl;
+    std::cin.get();
     return 0;
 }
