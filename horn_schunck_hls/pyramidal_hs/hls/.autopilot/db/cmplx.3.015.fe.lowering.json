@@ -1,0 +1,131 @@
+{
+  "0": {
+    "basicblocks": 115,
+    "calls": "1 5 2 4 6 3",
+    "control_depth": 2,
+    "def_use_depth": 10,
+    "file": "pyramidal_hs.cpp",
+    "fileloc": 6,
+    "instructions": 917,
+    "loads": {
+      "G": 76,
+      "T": 10
+    },
+    "memory_accesses": 156,
+    "name": "pyramidal_hs",
+    "stores": {
+      "G": 45,
+      "T": 4
+    },
+    "total_instructions": 2156
+  },
+  "1": {
+    "basicblocks": 8,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 8,
+    "file": "derivatives_hls.cpp",
+    "fileloc": 62,
+    "instructions": 172,
+    "loads": {
+      "G": 46
+    },
+    "memory_accesses": 51,
+    "name": "compute_derivatives_16",
+    "stores": {
+      "G": 5
+    },
+    "total_instructions": 172
+  },
+  "2": {
+    "basicblocks": 8,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 8,
+    "file": "derivatives_hls.cpp",
+    "fileloc": 38,
+    "instructions": 177,
+    "loads": {
+      "G": 47
+    },
+    "memory_accesses": 52,
+    "name": "compute_derivatives_32",
+    "stores": {
+      "G": 5
+    },
+    "total_instructions": 177
+  },
+  "3": {
+    "basicblocks": 7,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 16,
+    "file": "horn_schunck_hsl.cpp",
+    "fileloc": 3,
+    "instructions": 128,
+    "loads": {
+      "G": 3,
+      "L": 8
+    },
+    "memory_accesses": 11,
+    "name": "horn_schunck_64",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 128
+  },
+  "4": {
+    "basicblocks": 20,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 19,
+    "file": "horn_schunck_hsl.cpp",
+    "fileloc": 50,
+    "instructions": 307,
+    "loads": {
+      "G": 45
+    },
+    "memory_accesses": 55,
+    "name": "horn_schunck_32",
+    "stores": {
+      "G": 12
+    },
+    "total_instructions": 307
+  },
+  "5": {
+    "basicblocks": 37,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 19,
+    "file": "horn_schunck_hsl.cpp",
+    "fileloc": 97,
+    "instructions": 391,
+    "loads": {
+      "G": 45
+    },
+    "memory_accesses": 71,
+    "name": "horn_schunck_16",
+    "stores": {
+      "G": 24
+    },
+    "total_instructions": 391
+  },
+  "6": {
+    "basicblocks": 8,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 5,
+    "file": "derivatives_hls.cpp",
+    "fileloc": 3,
+    "instructions": 64,
+    "loads": {
+      "L": 6
+    },
+    "memory_accesses": 11,
+    "name": "compute_derivatives",
+    "stores": {
+      "G": 5
+    },
+    "total_instructions": 64
+  }
+}

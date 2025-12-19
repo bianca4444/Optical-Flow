@@ -1,0 +1,59 @@
+================================================================
+== Design Size Report
+================================================================
+
+* Total Instructions per Compilation Phase
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Phase         | Step                       | Instructions | Description                                                                            |
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Compile/Link  |                            | 18,866       | After all functions are compiled and linked into a single design                       |
+|               |                            |              |                                                                                        |
+| Unroll/Inline |                            |              | After user unroll and inline pragmas are applied                                       |
+|               | (1) unroll                 |  2,732       | user unroll pragmas are applied                                                        |
+|               | (2) simplification         |  1,010       | simplification of applied user unroll pragmas                                          |
+|               | (3) inline                 |    899       | user inline pragmas are applied                                                        |
+|               | (4) simplification         |    890       | simplification of applied user inline pragmas                                          |
+|               |                            |              |                                                                                        |
+| Array/Struct  |                            |              | After user array partition and struct aggregate/disaggregate pragmas are applied       |
+|               | (1) array partition        |    890       | user array partition pragmas are applied                                               |
+|               | (2) simplification         |    890       | simplification of applied user array partition & struct aggregate/disaggregate pragmas |
+|               | (3) aggregate/disaggregate |    920       | user struct aggregate/disaggregate pragmas are applied                                 |
+|               | (4) array reshape          |    950       | apply array reshape pragmas                                                            |
+|               | (5) access patterns        |    953       | array access pattern optmizations                                                      |
+|               |                            |              |                                                                                        |
+| Performance   |                            |              | After transformations are applied to meet performance pragma targets                   |
+|               | (1) loop simplification    |    893       | loop and instruction simplification                                                    |
+|               | (2) parallelization        |    893       | loops are unrolled or pipelined to meet performance targets                            |
+|               | (3) array partition        |  2,565       | arrays are partitioned to meet performance targets                                     |
+|               | (4) simplification         |  2,148       | simplification of design after performance transformations                             |
+|               |                            |              |                                                                                        |
+| HW Transforms |                            |              | After hardware transfomations                                                          |
+|               | (1) lowering               |  2,156       | initial conversion to HW specific instructions                                         |
+|               | (2) optimizations          |  2,295       | high level synthesis optimizations                                                     |
++---------------+----------------------------+--------------+----------------------------------------------------------------------------------------+
+
+* Instructions per Function for each Compilation Phase
++---------------------------+-------------------------+-----------------+---------------+--------------+-------------+---------------+
+| Function                  | Location                | Compile/Link    | Unroll/Inline | Array/Struct | Performance | HW Transforms |
++---------------------------+-------------------------+-----------------+---------------+--------------+-------------+---------------+
+| + pyramidal_hs            | pyramidal_hs.cpp:6      | 18,866          | 890           | 953          | 2,148       | 2,295         |
+|    downsample2x_64_to_32  | pyramid_hls.cpp:4       | 1,366 (2 calls) |               |              |             |               |
+|    downsample2x_32_to_16  | pyramid_hls.cpp:15      | 1,366 (2 calls) |               |              |             |               |
+|    compute_derivatives_16 | derivatives_hls.cpp:62  | 1,050           |  64           |  64          |  172        |  180          |
+|    horn_schunck_16        | horn_schunck_hsl.cpp:97 | 3,959           | 141           | 142          |  391        |  410          |
+|    upsample2x_16_to_32    | pyramid_hls.cpp:27      |    62 (2 calls) |               |              |             |               |
+|    compute_derivatives_32 | derivatives_hls.cpp:38  | 1,050           |  64           |  64          |  177        |  185          |
+|    horn_schunck_32        | horn_schunck_hsl.cpp:50 | 3,959           | 127           | 128          |  307        |  319          |
+|    upsample2x_32_to_64    | pyramid_hls.cpp:37      |    62 (2 calls) |               |              |             |               |
+|    compute_derivatives    | derivatives_hls.cpp:3   | 1,050           |  64           |  76          |   64        |   72          |
+|    horn_schunck_64        | horn_schunck_hsl.cpp:3  | 3,959           | 127           | 148          |  128        |  140          |
++---------------------------+-------------------------+-----------------+---------------+--------------+-------------+---------------+
+
+* Design Size Message Settings
++---------------------------------------------+--------+------------------------------------------------------------------+
+| Message Setting                             | Value  | Description                                                      |
++---------------------------------------------+--------+------------------------------------------------------------------+
+| config_compile -design_size_maximum_warning | 100000 | Show a warning when total design instructions exceeds this value |
++---------------------------------------------+--------+------------------------------------------------------------------+
+
+

@@ -1,0 +1,163 @@
+<ENTRY>
+{
+ "thisFile": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\pyramidal_hs.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "12/18/25 23:06:17",
+ "timestampMillis": "1766091977299",
+ "buildStep": {
+  "cmdId": "29f26899-c267-451a-986b-9319ac7eeee9",
+  "name": "vitis-run",
+  "logFile": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\logs\\pyramidal_hs.steps.log",
+  "commandLine": "C:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\hls_config.cfg --work_dir pyramidal_hs ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\hls_config.cfg",
+   "--work_dir",
+   "pyramidal_hs"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/18/25 23:06:17",
+ "timestampMillis": "1766091977300",
+ "status": {
+  "cmdId": "29f26899-c267-451a-986b-9319ac7eeee9",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "12/18/25 23:06:24",
+ "timestampMillis": "1766091984963",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "pyramidal_hs",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\derivatives_hls.cpp",
+     "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\derivatives_hls.h",
+     "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\horn_schunck_hsl.cpp",
+     "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\horn_schunck_hsl.h",
+     "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\pyramid_hls.cpp",
+     "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\pyramid_hls.h",
+     "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\pyramidal_hs.cpp",
+     "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\pyramidal_hs.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "12/18/25 23:06:24",
+ "timestampMillis": "1766091984969",
+ "buildStep": {
+  "cmdId": "5d6337bb-97cc-43c7-b0b7-5d8369d41c71",
+  "name": "",
+  "logFile": "C:/Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls\\pyramidal_hs\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/18/25 23:06:24",
+ "timestampMillis": "1766091984970",
+ "status": {
+  "cmdId": "5d6337bb-97cc-43c7-b0b7-5d8369d41c71",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/18/25 23:06:26",
+ "timestampMillis": "1766091986615",
+ "status": {
+  "cmdId": "5d6337bb-97cc-43c7-b0b7-5d8369d41c71",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/18/25 23:06:26",
+ "timestampMillis": "1766091986774",
+ "status": {
+  "cmdId": "29f26899-c267-451a-986b-9319ac7eeee9",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 23:06:26",
+ "timestampMillis": "1766091986775",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/18/25 23:06:26",
+ "timestampMillis": "1766091986776",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

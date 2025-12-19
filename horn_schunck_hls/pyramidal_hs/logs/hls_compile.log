@@ -1,0 +1,880 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../HS_hls/src/derivatives_hls.cpp' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/HS_hls/src/derivatives_hls.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../HS_hls/src/derivatives_hls.h' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/HS_hls/src/derivatives_hls.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../HS_hls/src/horn_schunck_hsl.cpp' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/HS_hls/src/horn_schunck_hsl.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../HS_hls/src/horn_schunck_hsl.h' from hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/HS_hls/src/horn_schunck_hsl.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../HS_hls/src/pyramid_hls.cpp' from hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/HS_hls/src/pyramid_hls.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../HS_hls/src/pyramid_hls.h' from hls_config.cfg(13)
+INFO: [HLS 200-10] Adding design file 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/HS_hls/src/pyramid_hls.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../HS_hls/src/pyramidal_hs.cpp' from hls_config.cfg(14)
+INFO: [HLS 200-10] Adding design file 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/HS_hls/src/pyramidal_hs.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../HS_hls/src/pyramidal_hs.h' from hls_config.cfg(15)
+INFO: [HLS 200-10] Adding design file 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/HS_hls/src/pyramidal_hs.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../HS_hls/src/main_tb.cpp' from hls_config.cfg(16)
+INFO: [HLS 200-10] Adding test bench file 'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/HS_hls/src/main_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=pyramidal_hs' from hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7k70tfbg484-1' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7k70t-fbg484-1'
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(17)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'csim.setup=0' from hls_config.cfg(18)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 3 seconds. Elapsed time: 22.003 seconds; current allocated memory: 144.090 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file '../HS_hls/src/pyramidal_hs.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '../HS_hls/src/pyramid_hls.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '../HS_hls/src/horn_schunck_hsl.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '../HS_hls/src/derivatives_hls.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 64.822 seconds; current allocated memory: 147.234 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 18,866 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,732 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,010 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 899 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 890 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 890 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 890 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 920 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 950 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 953 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 893 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 893 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,565 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,148 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,156 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,295 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-178] Inlining function 'downsample2x_64_to_32(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [32])' into 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])' (../HS_hls/src/pyramidal_hs.cpp:11:0)
+INFO: [HLS 214-178] Inlining function 'downsample2x_32_to_16(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [32], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [16])' into 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])' (../HS_hls/src/pyramidal_hs.cpp:11:0)
+INFO: [HLS 214-178] Inlining function 'upsample2x_16_to_32(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [16], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [32])' into 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])' (../HS_hls/src/pyramidal_hs.cpp:11:0)
+INFO: [HLS 214-178] Inlining function 'upsample2x_32_to_64(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [32], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])' into 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])' (../HS_hls/src/pyramidal_hs.cpp:11:0)
+INFO: [HLS 214-241] Aggregating bram variable 'v' with compact=bit mode in 16-bits
+INFO: [HLS 214-241] Aggregating bram variable 'u' with compact=bit mode in 16-bits
+INFO: [HLS 214-241] Aggregating bram variable 'img2' with compact=bit mode in 16-bits
+INFO: [HLS 214-241] Aggregating bram variable 'img1' with compact=bit mode in 16-bits
+INFO: [HLS 214-437] Disabling loop flattening for loop 'VITIS_LOOP_121_3'. (../HS_hls/src/horn_schunck_hsl.cpp:121:23)
+INFO: [HLS 214-437] Disabling loop flattening for loop 'VITIS_LOOP_76_3'. (../HS_hls/src/horn_schunck_hsl.cpp:76:22)
+INFO: [HLS 214-437] Disabling loop flattening for loop 'VITIS_LOOP_31_4'. (../HS_hls/src/horn_schunck_hsl.cpp:31:26)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])::u16' due to pipeline pragma (../HS_hls/src/horn_schunck_hsl.cpp:127:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=2 dim=2' for array 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])::u16' due to pipeline pragma (../HS_hls/src/horn_schunck_hsl.cpp:127:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])::u32' due to pipeline pragma (../HS_hls/src/horn_schunck_hsl.cpp:82:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=2 dim=2' for array 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])::u32' due to pipeline pragma (../HS_hls/src/horn_schunck_hsl.cpp:82:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])::v16' due to pipeline pragma (../HS_hls/src/horn_schunck_hsl.cpp:127:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=2 dim=2' for array 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])::v16' due to pipeline pragma (../HS_hls/src/horn_schunck_hsl.cpp:127:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])::v32' due to pipeline pragma (../HS_hls/src/horn_schunck_hsl.cpp:82:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=2 dim=2' for array 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])::v32' due to pipeline pragma (../HS_hls/src/horn_schunck_hsl.cpp:82:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])::img1_16' due to pipeline pragma (../HS_hls/src/derivatives_hls.cpp:72:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])::img1_16' due to pipeline pragma (../HS_hls/src/derivatives_hls.cpp:72:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=1' for array 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])::img1_32' due to pipeline pragma (../HS_hls/src/derivatives_hls.cpp:48:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=3 dim=2' for array 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])::img1_32' due to pipeline pragma (../HS_hls/src/derivatives_hls.cpp:48:1)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=2 dim=2' for array 'pyramidal_hs(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64], ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [64])::img2_32' due to pipeline pragma (../HS_hls/src/pyramid_hls.cpp:19:1)
+INFO: [HLS 214-248] Applying array_partition to '_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_E7img2_32': Cyclic partitioning with factor 2 on dimension 2. (../HS_hls/src/pyramidal_hs.cpp:15:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_E7img1_32': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (../HS_hls/src/pyramidal_hs.cpp:15:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_E7img1_16': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 3 on dimension 2. (../HS_hls/src/pyramidal_hs.cpp:16:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_E3v32': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 2 on dimension 2. (../HS_hls/src/pyramidal_hs.cpp:24:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_E3v16': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 2 on dimension 2. (../HS_hls/src/pyramidal_hs.cpp:25:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_E3u32': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 2 on dimension 2. (../HS_hls/src/pyramidal_hs.cpp:24:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_E3u16': Cyclic partitioning with factor 3 on dimension 1. Cyclic partitioning with factor 2 on dimension 2. (../HS_hls/src/pyramidal_hs.cpp:25:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 14.46 seconds; current allocated memory: 150.113 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.039 seconds; current allocated memory: 150.113 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.397 seconds; current allocated memory: 157.004 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.327 seconds; current allocated memory: 161.926 MB.
+INFO: [XFORM 203-11] Balancing expressions in function 'compute_derivatives_32' (../HS_hls/src/derivatives_hls.cpp:46:26)...3 expression(s) balanced.
+INFO: [XFORM 203-11] Balancing expressions in function 'compute_derivatives_16' (../HS_hls/src/derivatives_hls.cpp:70:26)...3 expression(s) balanced.
+INFO: [XFORM 203-11] Balancing expressions in function 'compute_derivatives' (../HS_hls/src/derivatives_hls.cpp:12:26)...3 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.182 seconds; current allocated memory: 185.152 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_6_1'(../HS_hls/src/pyramid_hls.cpp:6:21) and 'VITIS_LOOP_7_2'(../HS_hls/src/pyramid_hls.cpp:7:25) in function 'pyramidal_hs' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_6_1'(../HS_hls/src/pyramid_hls.cpp:6:21) and 'VITIS_LOOP_7_2'(../HS_hls/src/pyramid_hls.cpp:7:25) in function 'pyramidal_hs' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_17_1'(../HS_hls/src/pyramid_hls.cpp:17:22) and 'VITIS_LOOP_18_2'(../HS_hls/src/pyramid_hls.cpp:18:26) in function 'pyramidal_hs' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_17_1'(../HS_hls/src/pyramid_hls.cpp:17:22) and 'VITIS_LOOP_18_2'(../HS_hls/src/pyramid_hls.cpp:18:26) in function 'pyramidal_hs' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_29_1'(../HS_hls/src/pyramid_hls.cpp:29:22) and 'VITIS_LOOP_30_2'(../HS_hls/src/pyramid_hls.cpp:30:26) in function 'pyramidal_hs' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_29_1'(../HS_hls/src/pyramid_hls.cpp:29:22) and 'VITIS_LOOP_30_2'(../HS_hls/src/pyramid_hls.cpp:30:26) in function 'pyramidal_hs' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_41_1'(../HS_hls/src/pyramidal_hs.cpp:41:20) and 'VITIS_LOOP_43_2'(../HS_hls/src/pyramidal_hs.cpp:43:22) in function 'pyramidal_hs' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_39_1'(../HS_hls/src/pyramid_hls.cpp:39:22) and 'VITIS_LOOP_40_2'(../HS_hls/src/pyramid_hls.cpp:40:26) in function 'pyramidal_hs' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_39_1'(../HS_hls/src/pyramid_hls.cpp:39:22) and 'VITIS_LOOP_40_2'(../HS_hls/src/pyramid_hls.cpp:40:26) in function 'pyramidal_hs' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_58_3'(../HS_hls/src/pyramidal_hs.cpp:58:20) and 'VITIS_LOOP_60_4'(../HS_hls/src/pyramidal_hs.cpp:60:22) in function 'pyramidal_hs' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_78_4'(../HS_hls/src/horn_schunck_hsl.cpp:78:26) and 'VITIS_LOOP_80_5'(../HS_hls/src/horn_schunck_hsl.cpp:80:30) in function 'horn_schunck_32' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_110_1'(../HS_hls/src/horn_schunck_hsl.cpp:110:27) and 'VITIS_LOOP_112_2'(../HS_hls/src/horn_schunck_hsl.cpp:112:31) in function 'horn_schunck_16' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_123_4'(../HS_hls/src/horn_schunck_hsl.cpp:123:27) and 'VITIS_LOOP_125_5'(../HS_hls/src/horn_schunck_hsl.cpp:125:31) in function 'horn_schunck_16' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_46_1'(../HS_hls/src/derivatives_hls.cpp:46:22) and 'VITIS_LOOP_47_2'(../HS_hls/src/derivatives_hls.cpp:47:26) in function 'compute_derivatives_32' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_70_1'(../HS_hls/src/derivatives_hls.cpp:70:22) and 'VITIS_LOOP_71_2'(../HS_hls/src/derivatives_hls.cpp:71:26) in function 'compute_derivatives_16' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_12_1'(../HS_hls/src/derivatives_hls.cpp:12:22) and 'VITIS_LOOP_13_2'(../HS_hls/src/derivatives_hls.cpp:13:26) in function 'compute_derivatives' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_6_1' (../HS_hls/src/pyramid_hls.cpp:6:21) in function 'pyramidal_hs'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_6_1' (../HS_hls/src/pyramid_hls.cpp:6:21) in function 'pyramidal_hs'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_17_1' (../HS_hls/src/pyramid_hls.cpp:17:22) in function 'pyramidal_hs'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_17_1' (../HS_hls/src/pyramid_hls.cpp:17:22) in function 'pyramidal_hs'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_29_1' (../HS_hls/src/pyramid_hls.cpp:29:22) in function 'pyramidal_hs'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_29_1' (../HS_hls/src/pyramid_hls.cpp:29:22) in function 'pyramidal_hs'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_41_1' (../HS_hls/src/pyramidal_hs.cpp:41:20) in function 'pyramidal_hs'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_39_1' (../HS_hls/src/pyramid_hls.cpp:39:22) in function 'pyramidal_hs'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_39_1' (../HS_hls/src/pyramid_hls.cpp:39:22) in function 'pyramidal_hs'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_58_3' (../HS_hls/src/pyramidal_hs.cpp:58:20) in function 'pyramidal_hs'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_78_4' (../HS_hls/src/horn_schunck_hsl.cpp:78:26) in function 'horn_schunck_32'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_110_1' (../HS_hls/src/horn_schunck_hsl.cpp:110:27) in function 'horn_schunck_16'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_123_4' (../HS_hls/src/horn_schunck_hsl.cpp:123:27) in function 'horn_schunck_16'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_46_1' (../HS_hls/src/derivatives_hls.cpp:46:22) in function 'compute_derivatives_32'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_70_1' (../HS_hls/src/derivatives_hls.cpp:70:22) in function 'compute_derivatives_16'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_12_1' (../HS_hls/src/derivatives_hls.cpp:12:22) in function 'compute_derivatives'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 3.347 seconds; current allocated memory: 358.707 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'pyramidal_hs' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pyramidal_hs_Pipeline_VITIS_LOOP_6_1_VITIS_LOOP_7_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln9_2) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_6_1_VITIS_LOOP_7_2'.
+WARNING: [HLS 200-448] Lower bound of II is 2 due to multiple 'load' operation 16 bit ('img1_load', ../HS_hls/src/pyramid_hls.cpp:9->../HS_hls/src/pyramidal_hs.cpp:28) on array 'img1', 'load' operation 16 bit ('img1_load_1', ../HS_hls/src/pyramid_hls.cpp:9->../HS_hls/src/pyramidal_hs.cpp:28) on array 'img1', 'load' operation 16 bit ('img1_load_2', ../HS_hls/src/pyramid_hls.cpp:9->../HS_hls/src/pyramidal_hs.cpp:28) on array 'img1', 'load' operation 16 bit ('img1_load_3', ../HS_hls/src/pyramid_hls.cpp:10->../HS_hls/src/pyramidal_hs.cpp:28) on array 'img1' accessing core:RAM:img1
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 2, Depth = 11, loop 'VITIS_LOOP_6_1_VITIS_LOOP_7_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.615 seconds; current allocated memory: 364.656 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.103 seconds; current allocated memory: 365.910 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pyramidal_hs_Pipeline_VITIS_LOOP_6_1_VITIS_LOOP_7_23' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_6_1_VITIS_LOOP_7_2'.
+WARNING: [HLS 200-448] Lower bound of II is 2 due to multiple 'load' operation 16 bit ('img2_load', ../HS_hls/src/pyramid_hls.cpp:9->../HS_hls/src/pyramidal_hs.cpp:29) on array 'img2', 'load' operation 16 bit ('img2_load_1', ../HS_hls/src/pyramid_hls.cpp:9->../HS_hls/src/pyramidal_hs.cpp:29) on array 'img2', 'load' operation 16 bit ('img2_load_2', ../HS_hls/src/pyramid_hls.cpp:9->../HS_hls/src/pyramidal_hs.cpp:29) on array 'img2', 'load' operation 16 bit ('img2_load_3', ../HS_hls/src/pyramid_hls.cpp:10->../HS_hls/src/pyramidal_hs.cpp:29) on array 'img2' accessing core:RAM:img2
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 2, Depth = 4, loop 'VITIS_LOOP_6_1_VITIS_LOOP_7_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.126 seconds; current allocated memory: 366.348 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.076 seconds; current allocated memory: 366.352 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pyramidal_hs_Pipeline_VITIS_LOOP_17_1_VITIS_LOOP_18_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_17_1_VITIS_LOOP_18_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 13, loop 'VITIS_LOOP_17_1_VITIS_LOOP_18_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.313 seconds; current allocated memory: 369.195 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.109 seconds; current allocated memory: 369.203 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pyramidal_hs_Pipeline_VITIS_LOOP_17_1_VITIS_LOOP_18_24' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_17_1_VITIS_LOOP_18_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'VITIS_LOOP_17_1_VITIS_LOOP_18_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.148 seconds; current allocated memory: 369.449 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.062 seconds; current allocated memory: 369.473 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'compute_derivatives_16' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_70_1_VITIS_LOOP_71_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 12, loop 'VITIS_LOOP_70_1_VITIS_LOOP_71_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.302 seconds; current allocated memory: 371.824 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.168 seconds; current allocated memory: 372.094 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'horn_schunck_16_Pipeline_VITIS_LOOP_110_1_VITIS_LOOP_112_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_110_1_VITIS_LOOP_112_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 9, loop 'VITIS_LOOP_110_1_VITIS_LOOP_112_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.229 seconds; current allocated memory: 372.516 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.083 seconds; current allocated memory: 372.613 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'horn_schunck_16_Pipeline_VITIS_LOOP_123_4_VITIS_LOOP_125_5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=sub_ln136) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=sub_ln135) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln133_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln133) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln132_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln132) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_123_4_VITIS_LOOP_125_5'.
+INFO: [HLS 200-2199] The II Violation in module 'horn_schunck_16_Pipeline_VITIS_LOOP_123_4_VITIS_LOOP_125_5' (loop 'VITIS_LOOP_123_4_VITIS_LOOP_125_5'): Potential resource conflict between 'load' operation 16 bit ('p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_389', ../HS_hls/src/horn_schunck_hsl.cpp:130) on array 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_24' and 'store' operation ('p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_347_write_ln136', ../HS_hls/src/horn_schunck_hsl.cpp:136) of variable 'trunc_ln3', ../HS_hls/src/horn_schunck_hsl.cpp:136 16 bit on array 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_24' on common resource 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_24'.
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'load' operation 16 bit ('p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_389', ../HS_hls/src/horn_schunck_hsl.cpp:130) on array 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_24' to 'load' operation 16 bit ('p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_389', ../HS_hls/src/horn_schunck_hsl.cpp:130) on array 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_24' with distance of 1 (conflict 1 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'load' operation 16 bit ('p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_389', ../HS_hls/src/horn_schunck_hsl.cpp:130) on array 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_24' to 'select' operation 16 bit ('select_ln130_5', ../HS_hls/src/horn_schunck_hsl.cpp:130) with distance of 0 (conflict 2 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'select' operation 16 bit ('select_ln130_5', ../HS_hls/src/horn_schunck_hsl.cpp:130) to 'sparsemux' operation 16 bit ('tmp_31', ../HS_hls/src/horn_schunck_hsl.cpp:130) with distance of 0 (conflict 3 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sparsemux' operation 16 bit ('tmp_31', ../HS_hls/src/horn_schunck_hsl.cpp:130) to 'sext' operation 18 bit ('sext_ln130_3', ../HS_hls/src/horn_schunck_hsl.cpp:130) with distance of 0 (conflict 4 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sext' operation 18 bit ('sext_ln130_3', ../HS_hls/src/horn_schunck_hsl.cpp:130) to 'add' operation 18 bit ('add_ln130_1', ../HS_hls/src/horn_schunck_hsl.cpp:130) with distance of 0 (conflict 5 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'add' operation 18 bit ('add_ln130_1', ../HS_hls/src/horn_schunck_hsl.cpp:130) to 'add' operation 18 bit ('add_ln130_2', ../HS_hls/src/horn_schunck_hsl.cpp:130) with distance of 0 (conflict 6 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'add' operation 18 bit ('add_ln130_2', ../HS_hls/src/horn_schunck_hsl.cpp:130) to 'bitselect' operation 1 bit ('tmp_40', ../HS_hls/src/horn_schunck_hsl.cpp:130) with distance of 0 (conflict 7 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'bitselect' operation 1 bit ('tmp_40', ../HS_hls/src/horn_schunck_hsl.cpp:130) to 'select' operation 16 bit ('v_avg', ../HS_hls/src/horn_schunck_hsl.cpp:130) with distance of 0 (conflict 8 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'select' operation 16 bit ('v_avg', ../HS_hls/src/horn_schunck_hsl.cpp:130) to 'sext' operation 32 bit ('sext_ln132_3', ../HS_hls/src/horn_schunck_hsl.cpp:132) with distance of 0 (conflict 9 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sext' operation 32 bit ('sext_ln132_3', ../HS_hls/src/horn_schunck_hsl.cpp:132) to 'mul' operation 32 bit of DSP[245] ('mul_ln132_1', ../HS_hls/src/horn_schunck_hsl.cpp:132) with distance of 0 (conflict 10 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'mul' operation 32 bit of DSP[245] ('mul_ln132_1', ../HS_hls/src/horn_schunck_hsl.cpp:132) to 'mul' operation 32 bit of DSP[245] ('mul_ln132_1', ../HS_hls/src/horn_schunck_hsl.cpp:132) with distance of 0 (conflict 11 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'mul' operation 32 bit of DSP[245] ('mul_ln132_1', ../HS_hls/src/horn_schunck_hsl.cpp:132) to 'sext' operation 33 bit of DSP[245] ('sext_ln132_5', ../HS_hls/src/horn_schunck_hsl.cpp:132) with distance of 0 (conflict 12 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sext' operation 33 bit of DSP[245] ('sext_ln132_5', ../HS_hls/src/horn_schunck_hsl.cpp:132) to 'add' operation 33 bit of DSP[245] ('add_ln132', ../HS_hls/src/horn_schunck_hsl.cpp:132) with distance of 0 (conflict 13 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'add' operation 33 bit of DSP[245] ('add_ln132', ../HS_hls/src/horn_schunck_hsl.cpp:132) to 'add' operation 33 bit of DSP[245] ('add_ln132', ../HS_hls/src/horn_schunck_hsl.cpp:132) with distance of 0 (conflict 14 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'add' operation 33 bit of DSP[245] ('add_ln132', ../HS_hls/src/horn_schunck_hsl.cpp:132) to 'add' operation 33 bit of DSP[246] ('add_ln132_1', ../HS_hls/src/horn_schunck_hsl.cpp:132) with distance of 0 (conflict 15 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'add' operation 33 bit of DSP[246] ('add_ln132_1', ../HS_hls/src/horn_schunck_hsl.cpp:132) to 'add' operation 33 bit of DSP[246] ('add_ln132_1', ../HS_hls/src/horn_schunck_hsl.cpp:132) with distance of 1 (conflict 16 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'add' operation 33 bit of DSP[246] ('add_ln132_1', ../HS_hls/src/horn_schunck_hsl.cpp:132) to 'bitconcatenate' operation 53 bit ('shl_ln', ../HS_hls/src/horn_schunck_hsl.cpp:132) with distance of 0 (conflict 17 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'bitconcatenate' operation 53 bit ('shl_ln', ../HS_hls/src/horn_schunck_hsl.cpp:132) to 'sdiv' operation 53 bit ('sdiv_ln132', ../HS_hls/src/horn_schunck_hsl.cpp:132) with distance of 0 (conflict 18 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sdiv' operation 53 bit ('sdiv_ln132', ../HS_hls/src/horn_schunck_hsl.cpp:132) to 'sdiv' operation 53 bit ('sdiv_ln132', ../HS_hls/src/horn_schunck_hsl.cpp:132) with distance of 56 (conflict 19 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sdiv' operation 53 bit ('sdiv_ln132', ../HS_hls/src/horn_schunck_hsl.cpp:132) to 'partselect' operation 16 bit ('P', ../HS_hls/src/horn_schunck_hsl.cpp:132) with distance of 0 (conflict 20 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'partselect' operation 16 bit ('P', ../HS_hls/src/horn_schunck_hsl.cpp:132) to 'sext' operation 26 bit ('sext_ln135', ../HS_hls/src/horn_schunck_hsl.cpp:135) with distance of 0 (conflict 21 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sext' operation 26 bit ('sext_ln135', ../HS_hls/src/horn_schunck_hsl.cpp:135) to 'mul' operation 26 bit of DSP[266] ('mul_ln136', ../HS_hls/src/horn_schunck_hsl.cpp:136) with distance of 0 (conflict 22 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'mul' operation 26 bit of DSP[266] ('mul_ln136', ../HS_hls/src/horn_schunck_hsl.cpp:136) to 'mul' operation 26 bit of DSP[266] ('mul_ln136', ../HS_hls/src/horn_schunck_hsl.cpp:136) with distance of 0 (conflict 23 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'mul' operation 26 bit of DSP[266] ('mul_ln136', ../HS_hls/src/horn_schunck_hsl.cpp:136) to 'sub' operation 26 bit of DSP[266] ('sub_ln136', ../HS_hls/src/horn_schunck_hsl.cpp:136) with distance of 0 (conflict 24 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sub' operation 26 bit of DSP[266] ('sub_ln136', ../HS_hls/src/horn_schunck_hsl.cpp:136) to 'sub' operation 26 bit of DSP[266] ('sub_ln136', ../HS_hls/src/horn_schunck_hsl.cpp:136) with distance of 0 (conflict 25 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sub' operation 26 bit of DSP[266] ('sub_ln136', ../HS_hls/src/horn_schunck_hsl.cpp:136) to 'partselect' operation 16 bit ('trunc_ln3', ../HS_hls/src/horn_schunck_hsl.cpp:136) with distance of 0 (conflict 26 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'partselect' operation 16 bit ('trunc_ln3', ../HS_hls/src/horn_schunck_hsl.cpp:136) to 'store' operation ('p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_347_write_ln136', ../HS_hls/src/horn_schunck_hsl.cpp:136) of variable 'trunc_ln3', ../HS_hls/src/horn_schunck_hsl.cpp:136 16 bit on array 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_24' with distance of 0 (conflict 27 of 27)
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_16_Pipeline_VITIS_LOOP_123_4_VITIS_LOOP_125_5' (loop 'VITIS_LOOP_123_4_VITIS_LOOP_125_5'): Unable to enforce a carried dependence constraint (II = 35, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln136', ../HS_hls/src/horn_schunck_hsl.cpp:136) of variable 'trunc_ln3', ../HS_hls/src/horn_schunck_hsl.cpp:136 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load') on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_16_Pipeline_VITIS_LOOP_123_4_VITIS_LOOP_125_5' (loop 'VITIS_LOOP_123_4_VITIS_LOOP_125_5'): Unable to enforce a carried dependence constraint (II = 51, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln136', ../HS_hls/src/horn_schunck_hsl.cpp:136) of variable 'trunc_ln3', ../HS_hls/src/horn_schunck_hsl.cpp:136 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load') on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-887] Cannot meet target clock period from 'add' operation 17 bit ('add_ln130', ../HS_hls/src/horn_schunck_hsl.cpp:130) to 'select' operation 16 bit ('v_avg', ../HS_hls/src/horn_schunck_hsl.cpp:130) (combination delay: 7.62313 ns) to honor II or Latency constraint in region 'VITIS_LOOP_123_4_VITIS_LOOP_125_5'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+WARNING: [HLS 200-887] Cannot meet target clock period from 'sdiv' operation 53 bit ('sdiv_ln132', ../HS_hls/src/horn_schunck_hsl.cpp:132) to 'sub' operation 26 bit of DSP[266] ('sub_ln136', ../HS_hls/src/horn_schunck_hsl.cpp:136) (combination delay: 8.68243 ns) to honor II or Latency constraint in region 'VITIS_LOOP_123_4_VITIS_LOOP_125_5'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_16_Pipeline_VITIS_LOOP_123_4_VITIS_LOOP_125_5' (loop 'VITIS_LOOP_123_4_VITIS_LOOP_125_5'): Unable to enforce a carried dependence constraint (II = 55, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln136', ../HS_hls/src/horn_schunck_hsl.cpp:136) of variable 'trunc_ln3', ../HS_hls/src/horn_schunck_hsl.cpp:136 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load') on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-887] Cannot meet target clock period from 'add' operation 17 bit ('add_ln130', ../HS_hls/src/horn_schunck_hsl.cpp:130) to 'mul' operation 32 bit of DSP[245] ('mul_ln132_1', ../HS_hls/src/horn_schunck_hsl.cpp:132) (combination delay: 10.4631 ns) to honor II or Latency constraint in region 'VITIS_LOOP_123_4_VITIS_LOOP_125_5'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+WARNING: [HLS 200-887] Cannot meet target clock period from 'add' operation 17 bit ('add_ln130', ../HS_hls/src/horn_schunck_hsl.cpp:130) to 'add' operation 33 bit of DSP[245] ('add_ln132', ../HS_hls/src/horn_schunck_hsl.cpp:132) (combination delay: 13.4131 ns) to honor II or Latency constraint in region 'VITIS_LOOP_123_4_VITIS_LOOP_125_5'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+WARNING: [HLS 200-887] Cannot meet target clock period from 'add' operation 17 bit ('add_ln130', ../HS_hls/src/horn_schunck_hsl.cpp:130) to 'add' operation 33 bit of DSP[246] ('add_ln132_1', ../HS_hls/src/horn_schunck_hsl.cpp:132) (combination delay: 15.1931 ns) to honor II or Latency constraint in region 'VITIS_LOOP_123_4_VITIS_LOOP_125_5'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 56, Depth = 65, loop 'VITIS_LOOP_123_4_VITIS_LOOP_125_5'
+WARNING: [HLS 200-871] Estimated clock period (27.938 ns) exceeds the target (target clock period: 10.000 ns, clock uncertainty: 2.700 ns, effective delay budget: 7.300 ns).
+Resolution: For help on HLS 200-871 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-871.html
+WARNING: [HLS 200-1016] The critical path in module 'horn_schunck_16_Pipeline_VITIS_LOOP_123_4_VITIS_LOOP_125_5' consists of the following:
+	'sdiv' operation 53 bit ('sdiv_ln132', ../HS_hls/src/horn_schunck_hsl.cpp:132) [255]  (2.892 ns)
+	'mul' operation 26 bit of DSP[266] ('mul_ln136', ../HS_hls/src/horn_schunck_hsl.cpp:136) [265]  (2.840 ns)
+	'sub' operation 26 bit of DSP[266] ('sub_ln136', ../HS_hls/src/horn_schunck_hsl.cpp:136) [266]  (2.950 ns)
+	'load' operation 16 bit ('store_forwarded_load') on local variable 'store_forwarded' [27]  (0.000 ns)
+	'phi' operation 16 bit ('tmp2', ../HS_hls/src/horn_schunck_hsl.cpp:129) with incoming values : ('store_forwarded_load') ('tmp', ../HS_hls/src/horn_schunck_hsl.cpp:129) [69]  (0.000 ns)
+	'add' operation 17 bit ('add_ln130', ../HS_hls/src/horn_schunck_hsl.cpp:130) [200]  (1.488 ns)
+	'add' operation 18 bit ('add_ln130_1', ../HS_hls/src/horn_schunck_hsl.cpp:130) [224]  (0.000 ns)
+	'add' operation 18 bit ('add_ln130_2', ../HS_hls/src/horn_schunck_hsl.cpp:130) [225]  (2.573 ns)
+	'sub' operation 18 bit ('sub_ln130', ../HS_hls/src/horn_schunck_hsl.cpp:130) [227]  (1.525 ns)
+	'sub' operation 16 bit ('sub_ln130_1', ../HS_hls/src/horn_schunck_hsl.cpp:130) [229]  (1.488 ns)
+	'select' operation 16 bit ('v_avg', ../HS_hls/src/horn_schunck_hsl.cpp:130) [231]  (0.549 ns)
+	'mul' operation 32 bit of DSP[245] ('mul_ln132_1', ../HS_hls/src/horn_schunck_hsl.cpp:132) [239]  (2.840 ns)
+	'add' operation 33 bit of DSP[245] ('add_ln132', ../HS_hls/src/horn_schunck_hsl.cpp:132) [245]  (2.950 ns)
+	'add' operation 33 bit of DSP[246] ('add_ln132_1', ../HS_hls/src/horn_schunck_hsl.cpp:132) [246]  (2.950 ns)
+	'sdiv' operation 53 bit ('sdiv_ln132', ../HS_hls/src/horn_schunck_hsl.cpp:132) [255]  (2.892 ns)
+
+Resolution: For help on HLS 200-1016 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1016.html
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.416 seconds; current allocated memory: 375.355 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.194 seconds; current allocated memory: 375.801 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'horn_schunck_16' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.194 seconds; current allocated memory: 375.965 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.049 seconds; current allocated memory: 375.977 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pyramidal_hs_Pipeline_VITIS_LOOP_29_1_VITIS_LOOP_30_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_29_1_VITIS_LOOP_30_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 10, loop 'VITIS_LOOP_29_1_VITIS_LOOP_30_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.494 seconds; current allocated memory: 376.453 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.093 seconds; current allocated memory: 376.523 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pyramidal_hs_Pipeline_VITIS_LOOP_29_1_VITIS_LOOP_30_25' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_29_1_VITIS_LOOP_30_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 10, loop 'VITIS_LOOP_29_1_VITIS_LOOP_30_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.119 seconds; current allocated memory: 377.270 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.087 seconds; current allocated memory: 377.699 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pyramidal_hs_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_41_1_VITIS_LOOP_43_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 10, loop 'VITIS_LOOP_41_1_VITIS_LOOP_43_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.137 seconds; current allocated memory: 378.422 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.083 seconds; current allocated memory: 378.422 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'compute_derivatives_32' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln55_4) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln55_3) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_46_1_VITIS_LOOP_47_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 13, loop 'VITIS_LOOP_46_1_VITIS_LOOP_47_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.322 seconds; current allocated memory: 380.730 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.1 seconds; current allocated memory: 381.020 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'horn_schunck_32_Pipeline_VITIS_LOOP_78_4_VITIS_LOOP_80_5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=sub_ln91) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=sub_ln90) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln88_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln88) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln87_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln87) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_78_4_VITIS_LOOP_80_5'.
+INFO: [HLS 200-2199] The II Violation in module 'horn_schunck_32_Pipeline_VITIS_LOOP_78_4_VITIS_LOOP_80_5' (loop 'VITIS_LOOP_78_4_VITIS_LOOP_80_5'): Potential resource conflict between 'load' operation 16 bit ('p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_293', ../HS_hls/src/horn_schunck_hsl.cpp:85) on array 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_18' and 'store' operation ('p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_251_write_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) of variable 'trunc_ln2', ../HS_hls/src/horn_schunck_hsl.cpp:91 16 bit on array 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_18' on common resource 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_18'.
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'load' operation 16 bit ('p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_293', ../HS_hls/src/horn_schunck_hsl.cpp:85) on array 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_18' to 'load' operation 16 bit ('p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_293', ../HS_hls/src/horn_schunck_hsl.cpp:85) on array 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_18' with distance of 1 (conflict 1 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'load' operation 16 bit ('p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_293', ../HS_hls/src/horn_schunck_hsl.cpp:85) on array 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_18' to 'select' operation 16 bit ('select_ln85_5', ../HS_hls/src/horn_schunck_hsl.cpp:85) with distance of 0 (conflict 2 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'select' operation 16 bit ('select_ln85_5', ../HS_hls/src/horn_schunck_hsl.cpp:85) to 'sparsemux' operation 16 bit ('tmp_25', ../HS_hls/src/horn_schunck_hsl.cpp:85) with distance of 0 (conflict 3 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sparsemux' operation 16 bit ('tmp_25', ../HS_hls/src/horn_schunck_hsl.cpp:85) to 'sext' operation 18 bit ('sext_ln85_3', ../HS_hls/src/horn_schunck_hsl.cpp:85) with distance of 0 (conflict 4 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sext' operation 18 bit ('sext_ln85_3', ../HS_hls/src/horn_schunck_hsl.cpp:85) to 'add' operation 18 bit ('add_ln85_1', ../HS_hls/src/horn_schunck_hsl.cpp:85) with distance of 0 (conflict 5 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'add' operation 18 bit ('add_ln85_1', ../HS_hls/src/horn_schunck_hsl.cpp:85) to 'add' operation 18 bit ('add_ln85_2', ../HS_hls/src/horn_schunck_hsl.cpp:85) with distance of 0 (conflict 6 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'add' operation 18 bit ('add_ln85_2', ../HS_hls/src/horn_schunck_hsl.cpp:85) to 'bitselect' operation 1 bit ('tmp_34', ../HS_hls/src/horn_schunck_hsl.cpp:85) with distance of 0 (conflict 7 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'bitselect' operation 1 bit ('tmp_34', ../HS_hls/src/horn_schunck_hsl.cpp:85) to 'select' operation 16 bit ('v_avg', ../HS_hls/src/horn_schunck_hsl.cpp:85) with distance of 0 (conflict 8 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'select' operation 16 bit ('v_avg', ../HS_hls/src/horn_schunck_hsl.cpp:85) to 'sext' operation 32 bit ('sext_ln87_3', ../HS_hls/src/horn_schunck_hsl.cpp:87) with distance of 0 (conflict 9 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sext' operation 32 bit ('sext_ln87_3', ../HS_hls/src/horn_schunck_hsl.cpp:87) to 'mul' operation 32 bit of DSP[245] ('mul_ln87_1', ../HS_hls/src/horn_schunck_hsl.cpp:87) with distance of 0 (conflict 10 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'mul' operation 32 bit of DSP[245] ('mul_ln87_1', ../HS_hls/src/horn_schunck_hsl.cpp:87) to 'mul' operation 32 bit of DSP[245] ('mul_ln87_1', ../HS_hls/src/horn_schunck_hsl.cpp:87) with distance of 0 (conflict 11 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'mul' operation 32 bit of DSP[245] ('mul_ln87_1', ../HS_hls/src/horn_schunck_hsl.cpp:87) to 'sext' operation 33 bit of DSP[245] ('sext_ln87_5', ../HS_hls/src/horn_schunck_hsl.cpp:87) with distance of 0 (conflict 12 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sext' operation 33 bit of DSP[245] ('sext_ln87_5', ../HS_hls/src/horn_schunck_hsl.cpp:87) to 'add' operation 33 bit of DSP[245] ('add_ln87', ../HS_hls/src/horn_schunck_hsl.cpp:87) with distance of 0 (conflict 13 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'add' operation 33 bit of DSP[245] ('add_ln87', ../HS_hls/src/horn_schunck_hsl.cpp:87) to 'add' operation 33 bit of DSP[245] ('add_ln87', ../HS_hls/src/horn_schunck_hsl.cpp:87) with distance of 0 (conflict 14 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'add' operation 33 bit of DSP[245] ('add_ln87', ../HS_hls/src/horn_schunck_hsl.cpp:87) to 'add' operation 33 bit of DSP[246] ('add_ln87_1', ../HS_hls/src/horn_schunck_hsl.cpp:87) with distance of 0 (conflict 15 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'add' operation 33 bit of DSP[246] ('add_ln87_1', ../HS_hls/src/horn_schunck_hsl.cpp:87) to 'add' operation 33 bit of DSP[246] ('add_ln87_1', ../HS_hls/src/horn_schunck_hsl.cpp:87) with distance of 1 (conflict 16 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'add' operation 33 bit of DSP[246] ('add_ln87_1', ../HS_hls/src/horn_schunck_hsl.cpp:87) to 'bitconcatenate' operation 53 bit ('shl_ln', ../HS_hls/src/horn_schunck_hsl.cpp:87) with distance of 0 (conflict 17 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'bitconcatenate' operation 53 bit ('shl_ln', ../HS_hls/src/horn_schunck_hsl.cpp:87) to 'sdiv' operation 53 bit ('sdiv_ln87', ../HS_hls/src/horn_schunck_hsl.cpp:87) with distance of 0 (conflict 18 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sdiv' operation 53 bit ('sdiv_ln87', ../HS_hls/src/horn_schunck_hsl.cpp:87) to 'sdiv' operation 53 bit ('sdiv_ln87', ../HS_hls/src/horn_schunck_hsl.cpp:87) with distance of 56 (conflict 19 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sdiv' operation 53 bit ('sdiv_ln87', ../HS_hls/src/horn_schunck_hsl.cpp:87) to 'partselect' operation 16 bit ('P', ../HS_hls/src/horn_schunck_hsl.cpp:87) with distance of 0 (conflict 20 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'partselect' operation 16 bit ('P', ../HS_hls/src/horn_schunck_hsl.cpp:87) to 'sext' operation 26 bit ('sext_ln90', ../HS_hls/src/horn_schunck_hsl.cpp:90) with distance of 0 (conflict 21 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sext' operation 26 bit ('sext_ln90', ../HS_hls/src/horn_schunck_hsl.cpp:90) to 'mul' operation 26 bit of DSP[266] ('mul_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) with distance of 0 (conflict 22 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'mul' operation 26 bit of DSP[266] ('mul_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) to 'mul' operation 26 bit of DSP[266] ('mul_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) with distance of 0 (conflict 23 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'mul' operation 26 bit of DSP[266] ('mul_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) to 'sub' operation 26 bit of DSP[266] ('sub_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) with distance of 0 (conflict 24 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sub' operation 26 bit of DSP[266] ('sub_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) to 'sub' operation 26 bit of DSP[266] ('sub_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) with distance of 0 (conflict 25 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'sub' operation 26 bit of DSP[266] ('sub_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) to 'partselect' operation 16 bit ('trunc_ln2', ../HS_hls/src/horn_schunck_hsl.cpp:91) with distance of 0 (conflict 26 of 27)
+INFO: [HLS 200-2198] Existing conflicting constraints include from 'partselect' operation 16 bit ('trunc_ln2', ../HS_hls/src/horn_schunck_hsl.cpp:91) to 'store' operation ('p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_251_write_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) of variable 'trunc_ln2', ../HS_hls/src/horn_schunck_hsl.cpp:91 16 bit on array 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_18' with distance of 0 (conflict 27 of 27)
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_32_Pipeline_VITIS_LOOP_78_4_VITIS_LOOP_80_5' (loop 'VITIS_LOOP_78_4_VITIS_LOOP_80_5'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) of variable 'trunc_ln2', ../HS_hls/src/horn_schunck_hsl.cpp:91 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load') on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_32_Pipeline_VITIS_LOOP_78_4_VITIS_LOOP_80_5' (loop 'VITIS_LOOP_78_4_VITIS_LOOP_80_5'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) of variable 'trunc_ln2', ../HS_hls/src/horn_schunck_hsl.cpp:91 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load') on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_32_Pipeline_VITIS_LOOP_78_4_VITIS_LOOP_80_5' (loop 'VITIS_LOOP_78_4_VITIS_LOOP_80_5'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) of variable 'trunc_ln2', ../HS_hls/src/horn_schunck_hsl.cpp:91 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load') on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_32_Pipeline_VITIS_LOOP_78_4_VITIS_LOOP_80_5' (loop 'VITIS_LOOP_78_4_VITIS_LOOP_80_5'): Unable to enforce a carried dependence constraint (II = 35, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) of variable 'trunc_ln2', ../HS_hls/src/horn_schunck_hsl.cpp:91 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load') on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_32_Pipeline_VITIS_LOOP_78_4_VITIS_LOOP_80_5' (loop 'VITIS_LOOP_78_4_VITIS_LOOP_80_5'): Unable to enforce a carried dependence constraint (II = 51, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) of variable 'trunc_ln2', ../HS_hls/src/horn_schunck_hsl.cpp:91 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load') on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-887] Cannot meet target clock period from 'sdiv' operation 53 bit ('sdiv_ln87', ../HS_hls/src/horn_schunck_hsl.cpp:87) to 'sub' operation 26 bit of DSP[266] ('sub_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) (combination delay: 8.68243 ns) to honor II or Latency constraint in region 'VITIS_LOOP_78_4_VITIS_LOOP_80_5'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_32_Pipeline_VITIS_LOOP_78_4_VITIS_LOOP_80_5' (loop 'VITIS_LOOP_78_4_VITIS_LOOP_80_5'): Unable to enforce a carried dependence constraint (II = 55, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) of variable 'trunc_ln2', ../HS_hls/src/horn_schunck_hsl.cpp:91 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load') on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-887] Cannot meet target clock period from 'sub' operation 16 bit ('sub_ln85_1', ../HS_hls/src/horn_schunck_hsl.cpp:85) to 'add' operation 33 bit of DSP[246] ('add_ln87_1', ../HS_hls/src/horn_schunck_hsl.cpp:87) (combination delay: 10.777 ns) to honor II or Latency constraint in region 'VITIS_LOOP_78_4_VITIS_LOOP_80_5'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+WARNING: [HLS 200-887] Cannot meet target clock period from 'sub' operation 16 bit ('sub_ln85_1', ../HS_hls/src/horn_schunck_hsl.cpp:85) to 'sdiv' operation 53 bit ('sdiv_ln87', ../HS_hls/src/horn_schunck_hsl.cpp:87) (combination delay: 13.6694 ns) to honor II or Latency constraint in region 'VITIS_LOOP_78_4_VITIS_LOOP_80_5'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+WARNING: [HLS 200-887] Cannot meet target clock period from 'add' operation 17 bit ('add_ln85', ../HS_hls/src/horn_schunck_hsl.cpp:85) to 'add' operation 33 bit of DSP[246] ('add_ln87_1', ../HS_hls/src/horn_schunck_hsl.cpp:87) (combination delay: 16.3631 ns) to honor II or Latency constraint in region 'VITIS_LOOP_78_4_VITIS_LOOP_80_5'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+WARNING: [HLS 200-887] Cannot meet target clock period from 'add' operation 17 bit ('add_ln85', ../HS_hls/src/horn_schunck_hsl.cpp:85) to 'sdiv' operation 53 bit ('sdiv_ln87', ../HS_hls/src/horn_schunck_hsl.cpp:87) (combination delay: 19.2556 ns) to honor II or Latency constraint in region 'VITIS_LOOP_78_4_VITIS_LOOP_80_5'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 56, Depth = 66, loop 'VITIS_LOOP_78_4_VITIS_LOOP_80_5'
+WARNING: [HLS 200-871] Estimated clock period (27.938 ns) exceeds the target (target clock period: 10.000 ns, clock uncertainty: 2.700 ns, effective delay budget: 7.300 ns).
+Resolution: For help on HLS 200-871 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-871.html
+WARNING: [HLS 200-1016] The critical path in module 'horn_schunck_32_Pipeline_VITIS_LOOP_78_4_VITIS_LOOP_80_5' consists of the following:
+	'sdiv' operation 53 bit ('sdiv_ln87', ../HS_hls/src/horn_schunck_hsl.cpp:87) [255]  (2.892 ns)
+	'mul' operation 26 bit of DSP[266] ('mul_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) [265]  (2.840 ns)
+	'sub' operation 26 bit of DSP[266] ('sub_ln91', ../HS_hls/src/horn_schunck_hsl.cpp:91) [266]  (2.950 ns)
+	'load' operation 16 bit ('store_forwarded_load') on local variable 'store_forwarded' [27]  (0.000 ns)
+	'phi' operation 16 bit ('tmp2', ../HS_hls/src/horn_schunck_hsl.cpp:84) with incoming values : ('store_forwarded_load') ('tmp', ../HS_hls/src/horn_schunck_hsl.cpp:84) [69]  (0.000 ns)
+	'add' operation 17 bit ('add_ln85', ../HS_hls/src/horn_schunck_hsl.cpp:85) [200]  (1.488 ns)
+	'add' operation 18 bit ('add_ln85_1', ../HS_hls/src/horn_schunck_hsl.cpp:85) [224]  (0.000 ns)
+	'add' operation 18 bit ('add_ln85_2', ../HS_hls/src/horn_schunck_hsl.cpp:85) [225]  (2.573 ns)
+	'sub' operation 18 bit ('sub_ln85', ../HS_hls/src/horn_schunck_hsl.cpp:85) [227]  (1.525 ns)
+	'sub' operation 16 bit ('sub_ln85_1', ../HS_hls/src/horn_schunck_hsl.cpp:85) [229]  (1.488 ns)
+	'select' operation 16 bit ('v_avg', ../HS_hls/src/horn_schunck_hsl.cpp:85) [231]  (0.549 ns)
+	'mul' operation 32 bit of DSP[245] ('mul_ln87_1', ../HS_hls/src/horn_schunck_hsl.cpp:87) [239]  (2.840 ns)
+	'add' operation 33 bit of DSP[245] ('add_ln87', ../HS_hls/src/horn_schunck_hsl.cpp:87) [245]  (2.950 ns)
+	'add' operation 33 bit of DSP[246] ('add_ln87_1', ../HS_hls/src/horn_schunck_hsl.cpp:87) [246]  (2.950 ns)
+	'sdiv' operation 53 bit ('sdiv_ln87', ../HS_hls/src/horn_schunck_hsl.cpp:87) [255]  (2.892 ns)
+
+Resolution: For help on HLS 200-1016 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1016.html
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 6.035 seconds; current allocated memory: 383.945 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.174 seconds; current allocated memory: 384.074 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'horn_schunck_32' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.164 seconds; current allocated memory: 384.242 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.045 seconds; current allocated memory: 384.242 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pyramidal_hs_Pipeline_VITIS_LOOP_39_1_VITIS_LOOP_40_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_39_1_VITIS_LOOP_40_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 9, loop 'VITIS_LOOP_39_1_VITIS_LOOP_40_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.115 seconds; current allocated memory: 384.371 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.103 seconds; current allocated memory: 384.590 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pyramidal_hs_Pipeline_VITIS_LOOP_39_1_VITIS_LOOP_40_26' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_39_1_VITIS_LOOP_40_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 9, loop 'VITIS_LOOP_39_1_VITIS_LOOP_40_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.119 seconds; current allocated memory: 385.090 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.061 seconds; current allocated memory: 385.203 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pyramidal_hs_Pipeline_VITIS_LOOP_58_3_VITIS_LOOP_60_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_58_3_VITIS_LOOP_60_4'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'VITIS_LOOP_58_3_VITIS_LOOP_60_4'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.227 seconds; current allocated memory: 385.551 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.052 seconds; current allocated memory: 385.551 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'compute_derivatives' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_12_1_VITIS_LOOP_13_2'.
+WARNING: [HLS 200-448] Lower bound of II is 3 due to multiple 'load' operation 16 bit ('img1_load', ../HS_hls/src/derivatives_hls.cpp:28) on array 'img1', 'load' operation 16 bit ('img1_load_4', ../HS_hls/src/derivatives_hls.cpp:28) on array 'img1', 'load' operation 16 bit ('img1_load_5', ../HS_hls/src/derivatives_hls.cpp:29) on array 'img1', 'load' operation 16 bit ('img1_load_6', ../HS_hls/src/derivatives_hls.cpp:29) on array 'img1', 'load' operation 16 bit ('img1_load_7', ../HS_hls/src/derivatives_hls.cpp:32) on array 'img1' accessing core:RAM:img1
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 3, Depth = 4, loop 'VITIS_LOOP_12_1_VITIS_LOOP_13_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.158 seconds; current allocated memory: 386.133 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.101 seconds; current allocated memory: 386.133 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'horn_schunck_64_Pipeline_VITIS_LOOP_33_5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=sub_ln44) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=sub_ln43) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln41_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln41) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln40_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln40) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_33_5'.
+WARNING: [HLS 200-448] Lower bound of II is 2 due to multiple 'load' operation 16 bit ('u_load_1', ../HS_hls/src/horn_schunck_hsl.cpp:37) on array 'u', 'load' operation 16 bit ('u_load_2', ../HS_hls/src/horn_schunck_hsl.cpp:37) on array 'u', 'load' operation 16 bit ('u_load_3', ../HS_hls/src/horn_schunck_hsl.cpp:37) on array 'u', 'store' operation ('u_addr_3_write_ln43', ../HS_hls/src/horn_schunck_hsl.cpp:43) of variable 'trunc_ln', ../HS_hls/src/horn_schunck_hsl.cpp:43 16 bit on array 'u' accessing core:RAM:u
+WARNING: [HLS 200-448] Lower bound of II is 2 due to multiple 'load' operation 16 bit ('v_load_1', ../HS_hls/src/horn_schunck_hsl.cpp:38) on array 'v', 'load' operation 16 bit ('v_load_2', ../HS_hls/src/horn_schunck_hsl.cpp:38) on array 'v', 'load' operation 16 bit ('v_load_3', ../HS_hls/src/horn_schunck_hsl.cpp:38) on array 'v', 'store' operation ('v_addr_3_write_ln44', ../HS_hls/src/horn_schunck_hsl.cpp:44) of variable 'trunc_ln1', ../HS_hls/src/horn_schunck_hsl.cpp:44 16 bit on array 'v' accessing core:RAM:v
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_64_Pipeline_VITIS_LOOP_33_5' (loop 'VITIS_LOOP_33_5'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln44', ../HS_hls/src/horn_schunck_hsl.cpp:44) of variable 'trunc_ln1', ../HS_hls/src/horn_schunck_hsl.cpp:44 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load', ../HS_hls/src/horn_schunck_hsl.cpp:38) on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_64_Pipeline_VITIS_LOOP_33_5' (loop 'VITIS_LOOP_33_5'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln44', ../HS_hls/src/horn_schunck_hsl.cpp:44) of variable 'trunc_ln1', ../HS_hls/src/horn_schunck_hsl.cpp:44 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load', ../HS_hls/src/horn_schunck_hsl.cpp:38) on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_64_Pipeline_VITIS_LOOP_33_5' (loop 'VITIS_LOOP_33_5'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln44', ../HS_hls/src/horn_schunck_hsl.cpp:44) of variable 'trunc_ln1', ../HS_hls/src/horn_schunck_hsl.cpp:44 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load', ../HS_hls/src/horn_schunck_hsl.cpp:38) on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_64_Pipeline_VITIS_LOOP_33_5' (loop 'VITIS_LOOP_33_5'): Unable to enforce a carried dependence constraint (II = 5, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln44', ../HS_hls/src/horn_schunck_hsl.cpp:44) of variable 'trunc_ln1', ../HS_hls/src/horn_schunck_hsl.cpp:44 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load', ../HS_hls/src/horn_schunck_hsl.cpp:38) on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_64_Pipeline_VITIS_LOOP_33_5' (loop 'VITIS_LOOP_33_5'): Unable to enforce a carried dependence constraint (II = 36, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln44', ../HS_hls/src/horn_schunck_hsl.cpp:44) of variable 'trunc_ln1', ../HS_hls/src/horn_schunck_hsl.cpp:44 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load', ../HS_hls/src/horn_schunck_hsl.cpp:38) on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_64_Pipeline_VITIS_LOOP_33_5' (loop 'VITIS_LOOP_33_5'): Unable to enforce a carried dependence constraint (II = 52, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln44', ../HS_hls/src/horn_schunck_hsl.cpp:44) of variable 'trunc_ln1', ../HS_hls/src/horn_schunck_hsl.cpp:44 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load', ../HS_hls/src/horn_schunck_hsl.cpp:38) on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-887] Cannot meet target clock period from 'mul' operation 26 bit of DSP[124] ('mul_ln44', ../HS_hls/src/horn_schunck_hsl.cpp:44) to 'sub' operation 16 bit ('sub_ln38_1', ../HS_hls/src/horn_schunck_hsl.cpp:38) (combination delay: 13.8786 ns) to honor II or Latency constraint in region 'VITIS_LOOP_33_5'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+WARNING: [HLS 200-887] Cannot meet target clock period from 'add' operation 17 bit ('add_ln38', ../HS_hls/src/horn_schunck_hsl.cpp:38) to 'sdiv' operation 53 bit ('sdiv_ln40', ../HS_hls/src/horn_schunck_hsl.cpp:40) (combination delay: 16.2911 ns) to honor II or Latency constraint in region 'VITIS_LOOP_33_5'.
+Resolution: For help on HLS 200-887 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-887.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_64_Pipeline_VITIS_LOOP_33_5' (loop 'VITIS_LOOP_33_5'): Unable to enforce a carried dependence constraint (II = 54, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln44', ../HS_hls/src/horn_schunck_hsl.cpp:44) of variable 'trunc_ln1', ../HS_hls/src/horn_schunck_hsl.cpp:44 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load', ../HS_hls/src/horn_schunck_hsl.cpp:38) on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'horn_schunck_64_Pipeline_VITIS_LOOP_33_5' (loop 'VITIS_LOOP_33_5'): Unable to enforce a carried dependence constraint (II = 55, distance = 1, offset = 0) between 'store' operation ('store_forwarded_write_ln44', ../HS_hls/src/horn_schunck_hsl.cpp:44) of variable 'trunc_ln1', ../HS_hls/src/horn_schunck_hsl.cpp:44 16 bit on local variable 'store_forwarded' and 'load' operation 16 bit ('store_forwarded_load', ../HS_hls/src/horn_schunck_hsl.cpp:38) on local variable 'store_forwarded'.
+Resolution: For help on HLS 200-880 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 56, Depth = 62, loop 'VITIS_LOOP_33_5'
+WARNING: [HLS 200-871] Estimated clock period (28.952 ns) exceeds the target (target clock period: 10.000 ns, clock uncertainty: 2.700 ns, effective delay budget: 7.300 ns).
+Resolution: For help on HLS 200-871 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-871.html
+WARNING: [HLS 200-1016] The critical path in module 'horn_schunck_64_Pipeline_VITIS_LOOP_33_5' consists of the following:
+	'sdiv' operation 53 bit ('sdiv_ln40', ../HS_hls/src/horn_schunck_hsl.cpp:40) [112]  (2.892 ns)
+	'mul' operation 26 bit of DSP[118] ('mul_ln43', ../HS_hls/src/horn_schunck_hsl.cpp:43) [117]  (2.840 ns)
+	'sub' operation 26 bit of DSP[118] ('sub_ln43', ../HS_hls/src/horn_schunck_hsl.cpp:43) [118]  (2.950 ns)
+	'store' operation ('store_forwarded3_write_ln43', ../HS_hls/src/horn_schunck_hsl.cpp:43) of variable 'trunc_ln', ../HS_hls/src/horn_schunck_hsl.cpp:43 16 bit on local variable 'store_forwarded3' [127]  (1.029 ns)
+	'load' operation 16 bit ('store_forwarded3_load', ../HS_hls/src/horn_schunck_hsl.cpp:37) on local variable 'store_forwarded3' [31]  (0.000 ns)
+	'add' operation 17 bit ('add_ln37_3', ../HS_hls/src/horn_schunck_hsl.cpp:37) [58]  (1.488 ns)
+	'add' operation 18 bit ('add_ln37_5', ../HS_hls/src/horn_schunck_hsl.cpp:37) [65]  (2.558 ns)
+	'sub' operation 18 bit ('sub_ln37', ../HS_hls/src/horn_schunck_hsl.cpp:37) [67]  (1.525 ns)
+	'sub' operation 16 bit ('sub_ln37_1', ../HS_hls/src/horn_schunck_hsl.cpp:37) [69]  (1.488 ns)
+	'select' operation 16 bit ('u_avg', ../HS_hls/src/horn_schunck_hsl.cpp:37) [71]  (0.549 ns)
+	'mul' operation 32 bit of DSP[102] ('mul_ln40', ../HS_hls/src/horn_schunck_hsl.cpp:40) [92]  (2.840 ns)
+	'add' operation 33 bit of DSP[102] ('add_ln40', ../HS_hls/src/horn_schunck_hsl.cpp:40) [102]  (2.950 ns)
+	'add' operation 33 bit of DSP[103] ('add_ln40_1', ../HS_hls/src/horn_schunck_hsl.cpp:40) [103]  (2.950 ns)
+	'sdiv' operation 53 bit ('sdiv_ln40', ../HS_hls/src/horn_schunck_hsl.cpp:40) [112]  (2.892 ns)
+
+Resolution: For help on HLS 200-1016 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1016.html
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 5.704 seconds; current allocated memory: 387.098 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.109 seconds; current allocated memory: 387.219 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'horn_schunck_64' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.098 seconds; current allocated memory: 387.336 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.053 seconds; current allocated memory: 387.336 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pyramidal_hs' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.077 seconds; current allocated memory: 387.816 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.092 seconds; current allocated memory: 388.199 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pyramidal_hs_Pipeline_VITIS_LOOP_6_1_VITIS_LOOP_7_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'pyramidal_hs_Pipeline_VITIS_LOOP_6_1_VITIS_LOOP_7_2' pipeline 'VITIS_LOOP_6_1_VITIS_LOOP_7_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_5ns_4ns_5ns_7_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_6ns_8ns_13_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_6ns_3ns_2_10_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pyramidal_hs_Pipeline_VITIS_LOOP_6_1_VITIS_LOOP_7_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.488 seconds; current allocated memory: 391.449 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pyramidal_hs_Pipeline_VITIS_LOOP_6_1_VITIS_LOOP_7_23' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'pyramidal_hs_Pipeline_VITIS_LOOP_6_1_VITIS_LOOP_7_23' pipeline 'VITIS_LOOP_6_1_VITIS_LOOP_7_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pyramidal_hs_Pipeline_VITIS_LOOP_6_1_VITIS_LOOP_7_23'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.574 seconds; current allocated memory: 394.836 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pyramidal_hs_Pipeline_VITIS_LOOP_17_1_VITIS_LOOP_18_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'pyramidal_hs_Pipeline_VITIS_LOOP_17_1_VITIS_LOOP_18_2' pipeline 'VITIS_LOOP_17_1_VITIS_LOOP_18_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_4ns_5ns_7_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_5ns_7ns_11_1_1': 6 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_16_1_1': 10 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_5ns_3ns_2_9_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pyramidal_hs_Pipeline_VITIS_LOOP_17_1_VITIS_LOOP_18_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 0.752 seconds; current allocated memory: 398.129 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pyramidal_hs_Pipeline_VITIS_LOOP_17_1_VITIS_LOOP_18_24' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'pyramidal_hs_Pipeline_VITIS_LOOP_17_1_VITIS_LOOP_18_24' pipeline 'VITIS_LOOP_17_1_VITIS_LOOP_18_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pyramidal_hs_Pipeline_VITIS_LOOP_17_1_VITIS_LOOP_18_24'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.062 seconds; current allocated memory: 403.488 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'compute_derivatives_16' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'compute_derivatives_16' pipeline 'VITIS_LOOP_70_1_VITIS_LOOP_71_2' pipeline type 'loop pipeline'
+WARNING: [RTGEN 206-101] RTL name 'sparsemux_7_2_16_1_1' is changed to 'sparsemux_7_2_16_1_1_x' due to conflict.
+INFO: [RTGEN 206-100] Generating core module 'mul_4ns_6ns_9_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_5ns_7ns_11_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_64ns_66ns_129_5_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_16_1_1': 10 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_16_1_1_x': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_5ns_3ns_2_9_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'compute_derivatives_16'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.622 seconds; current allocated memory: 406.242 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'horn_schunck_16_Pipeline_VITIS_LOOP_110_1_VITIS_LOOP_112_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'horn_schunck_16_Pipeline_VITIS_LOOP_110_1_VITIS_LOOP_112_2' pipeline 'VITIS_LOOP_110_1_VITIS_LOOP_112_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_5ns_7ns_11_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_5ns_3ns_2_9_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'horn_schunck_16_Pipeline_VITIS_LOOP_110_1_VITIS_LOOP_112_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 1.299 seconds; current allocated memory: 411.941 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'horn_schunck_16_Pipeline_VITIS_LOOP_123_4_VITIS_LOOP_125_5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'horn_schunck_16_Pipeline_VITIS_LOOP_123_4_VITIS_LOOP_125_5' pipeline 'VITIS_LOOP_123_4_VITIS_LOOP_125_5' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_21ns_32_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_26s_33_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_32s_33_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_33s_33_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_mulsub_16s_16s_26s_26_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_4ns_6ns_9_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sdiv_53ns_33s_53_57_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_16_1_1': 6 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_16_1_1_x': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_4ns_3ns_2_8_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'horn_schunck_16_Pipeline_VITIS_LOOP_123_4_VITIS_LOOP_125_5'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.789 seconds; current allocated memory: 415.668 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'horn_schunck_16' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'horn_schunck_16'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 1.344 seconds; current allocated memory: 422.516 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pyramidal_hs_Pipeline_VITIS_LOOP_29_1_VITIS_LOOP_30_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'pyramidal_hs_Pipeline_VITIS_LOOP_29_1_VITIS_LOOP_30_2' pipeline 'VITIS_LOOP_29_1_VITIS_LOOP_30_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_4ns_6ns_9_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_6ns_8ns_13_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_16_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_4ns_3ns_2_8_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_6ns_3ns_2_10_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pyramidal_hs_Pipeline_VITIS_LOOP_29_1_VITIS_LOOP_30_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.393 seconds; current allocated memory: 423.414 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pyramidal_hs_Pipeline_VITIS_LOOP_29_1_VITIS_LOOP_30_25' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'pyramidal_hs_Pipeline_VITIS_LOOP_29_1_VITIS_LOOP_30_25' pipeline 'VITIS_LOOP_29_1_VITIS_LOOP_30_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_4ns_6ns_9_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_6ns_8ns_13_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_16_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_4ns_3ns_2_8_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_6ns_3ns_2_10_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pyramidal_hs_Pipeline_VITIS_LOOP_29_1_VITIS_LOOP_30_25'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.522 seconds; current allocated memory: 426.148 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pyramidal_hs_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'pyramidal_hs_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2' pipeline 'VITIS_LOOP_41_1_VITIS_LOOP_43_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_6ns_8ns_13_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_15_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_6ns_3ns_2_10_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pyramidal_hs_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.524 seconds; current allocated memory: 429.074 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'compute_derivatives_32' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'compute_derivatives_32' pipeline 'VITIS_LOOP_46_1_VITIS_LOOP_47_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_5ns_4ns_5ns_7_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_7s_4ns_5ns_7_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_5ns_5ns_7_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_5ns_7ns_11_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_64ns_66ns_129_5_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_6ns_8ns_13_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_16_1_1': 10 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_16_1_1_x': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_6ns_3ns_2_10_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'compute_derivatives_32'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.807 seconds; current allocated memory: 433.328 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'horn_schunck_32_Pipeline_VITIS_LOOP_78_4_VITIS_LOOP_80_5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'horn_schunck_32_Pipeline_VITIS_LOOP_78_4_VITIS_LOOP_80_5' pipeline 'VITIS_LOOP_78_4_VITIS_LOOP_80_5' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_21ns_32_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_26s_33_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_32s_33_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_33s_33_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_mulsub_16s_16s_26s_26_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_5ns_7ns_11_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sdiv_53ns_33s_53_57_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_16_1_1': 6 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_16_1_1_x': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_5ns_3ns_2_9_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'horn_schunck_32_Pipeline_VITIS_LOOP_78_4_VITIS_LOOP_80_5'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 1.319 seconds; current allocated memory: 440.730 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'horn_schunck_32' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'horn_schunck_32'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.549 seconds; current allocated memory: 447.883 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pyramidal_hs_Pipeline_VITIS_LOOP_39_1_VITIS_LOOP_40_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'pyramidal_hs_Pipeline_VITIS_LOOP_39_1_VITIS_LOOP_40_2' pipeline 'VITIS_LOOP_39_1_VITIS_LOOP_40_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_5ns_7ns_11_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_16_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_5ns_3ns_2_9_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pyramidal_hs_Pipeline_VITIS_LOOP_39_1_VITIS_LOOP_40_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.317 seconds; current allocated memory: 449.637 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pyramidal_hs_Pipeline_VITIS_LOOP_39_1_VITIS_LOOP_40_26' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'pyramidal_hs_Pipeline_VITIS_LOOP_39_1_VITIS_LOOP_40_26' pipeline 'VITIS_LOOP_39_1_VITIS_LOOP_40_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_5ns_7ns_11_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_16_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_5ns_3ns_2_9_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pyramidal_hs_Pipeline_VITIS_LOOP_39_1_VITIS_LOOP_40_26'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.467 seconds; current allocated memory: 450.918 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pyramidal_hs_Pipeline_VITIS_LOOP_58_3_VITIS_LOOP_60_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'pyramidal_hs_Pipeline_VITIS_LOOP_58_3_VITIS_LOOP_60_4' pipeline 'VITIS_LOOP_58_3_VITIS_LOOP_60_4' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pyramidal_hs_Pipeline_VITIS_LOOP_58_3_VITIS_LOOP_60_4'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.453 seconds; current allocated memory: 453.973 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'compute_derivatives' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'compute_derivatives' pipeline 'VITIS_LOOP_12_1_VITIS_LOOP_13_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'compute_derivatives'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.343 seconds; current allocated memory: 454.707 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'horn_schunck_64_Pipeline_VITIS_LOOP_33_5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'horn_schunck_64_Pipeline_VITIS_LOOP_33_5' pipeline 'VITIS_LOOP_33_5' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_21ns_32_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_26s_33_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_32s_33_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_33s_33_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_mulsub_16s_16s_26s_26_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sdiv_53ns_33s_53_57_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'horn_schunck_64_Pipeline_VITIS_LOOP_33_5'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.721 seconds; current allocated memory: 457.402 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'horn_schunck_64' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'horn_schunck_64'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.849 seconds; current allocated memory: 461.281 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pyramidal_hs' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'pyramidal_hs/img1' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'pyramidal_hs/img2' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'pyramidal_hs/u' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'pyramidal_hs/v' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'pyramidal_hs' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_8_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Sbkb' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_7_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Scud' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_6_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SdEe' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_5_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SeOg' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_4_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SfYi' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_3_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Sg8j' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_2_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Shbi' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_1_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Sibs' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SjbC' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_17_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SkbM' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_16_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SlbW' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_15_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Smb6' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_14_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Sncg' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_13_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Socq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_12_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SpcA' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_11_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SqcK' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_10_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SrcU' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_9_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Ssc4' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_41_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Stde' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_29_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Sudo' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_40_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Svdy' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_28_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SwdI' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_39_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SxdS' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_27_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Syd2' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_38_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Szec' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_26_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SAem' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_37_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SBew' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_25_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SCeG' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_36_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SDeQ' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_24_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SEe0' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_35_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SFfa' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_34_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SGfk' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_33_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SHfu' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_32_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SIfE' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_31_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SJfO' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_30_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SKfY' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_23_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SLf8' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_22_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SMgi' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_21_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SNgs' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_20_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SOgC' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_19_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SPgM' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_S4_18_RAM_AUTO_1R1W' to 'p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SQgW' due to the length limit 80
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pyramidal_hs'.
+INFO: [RTMG 210-278] Implementing memory 'pyramidal_hs_p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Sbkb' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'pyramidal_hs_pyramidal_hs_ap_fixed_64_ap_fixed_64_ap_fixed_64_ap_fixed_64_1_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'pyramidal_hs_p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SkbM' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'pyramidal_hs_img2_16_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'pyramidal_hs_Ix16_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'pyramidal_hs_p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Stde' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'pyramidal_hs_p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_Svdy' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'pyramidal_hs_p_ZZ12pyramidal_hsPA64_8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_SFfa' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'pyramidal_hs_Ix32_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'pyramidal_hs_It32_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [RTMG 210-278] Implementing memory 'pyramidal_hs_Ix64_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.286 seconds; current allocated memory: 466.078 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 3.967 seconds; current allocated memory: 475.051 MB.
+INFO: [HLS 200-2225] Wrote inferred directives to file C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 2 seconds. CPU system time: 2 seconds. Elapsed time: 4.823 seconds; current allocated memory: 489.371 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for pyramidal_hs.
+INFO: [VLOG 209-307] Generating Verilog RTL for pyramidal_hs.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 34.54 MHz
+INFO: [HLS 200-112] Total CPU user time: 22 seconds. Total CPU system time: 15 seconds. Total elapsed time: 158.838 seconds; peak allocated memory: 489.434 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 2m 46s

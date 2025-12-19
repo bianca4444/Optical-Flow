@@ -1,0 +1,100 @@
+---
+MainSourceFile:  'C:/Alex/Facultate/AN_III/OpticalFlow/Optical-Flow/horn_schunck_hls/pyramidal_hs/hls/.autopilot/db/pyramidal_hs.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_676_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      676
+      Replacements:
+        - FilePath:        'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp'
+          Offset:          280480
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_676_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_690_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      690
+      Replacements:
+        - FilePath:        'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp'
+          Offset:          280951
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_690_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_704_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      704
+      Replacements:
+        - FilePath:        'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp'
+          Offset:          281423
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_704_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1251_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_fixed_base.h'
+      FileOffset:      1251
+      Replacements:
+        - FilePath:        'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp'
+          Offset:          626410
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1251_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_41_1:  '
+      FilePath:        'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\HS_hls\src\pyramidal_hs.cpp'
+      FileOffset:      41
+      Replacements:
+        - FilePath:        'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp'
+          Offset:          2231483
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_41_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_43_2:  '
+      FilePath:        'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\HS_hls\src\pyramidal_hs.cpp'
+      FileOffset:      43
+      Replacements:
+        - FilePath:        'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp'
+          Offset:          2231524
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_43_2: '
+    Level:           Remark
+    BuildDirectory:  'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_58_3:  '
+      FilePath:        'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\HS_hls\src\pyramidal_hs.cpp'
+      FileOffset:      58
+      Replacements:
+        - FilePath:        'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp'
+          Offset:          2231851
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_58_3: '
+    Level:           Remark
+    BuildDirectory:  'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_60_4:  '
+      FilePath:        'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\HS_hls\src\pyramidal_hs.cpp'
+      FileOffset:      60
+      Replacements:
+        - FilePath:        'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp'
+          Offset:          2231888
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_60_4: '
+    Level:           Remark
+    BuildDirectory:  'C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls'
+...

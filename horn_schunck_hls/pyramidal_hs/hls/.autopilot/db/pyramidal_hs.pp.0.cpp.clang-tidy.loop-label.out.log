@@ -1,0 +1,40 @@
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp:2273:5: remark: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_676_1: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp:2273:5: note: FIX-IT applied suggested code changes
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp:2287:5: remark: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_690_1: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp:2287:5: note: FIX-IT applied suggested code changes
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp:2301:5: remark: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^
+    VITIS_LOOP_704_1: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp:2301:5: note: FIX-IT applied suggested code changes
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp:5809:7: remark: Added loop label VITIS_LOOP_1251_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^
+      VITIS_LOOP_1251_1: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp:5809:7: note: FIX-IT applied suggested code changes
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp:49610:3: remark: Added loop label VITIS_LOOP_41_1:   [xilinx-label-all-loops]
+  for (int y = 0; y < 64 / 2; y++)
+  ^
+  VITIS_LOOP_41_1: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp:49610:3: note: FIX-IT applied suggested code changes
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp:49612:5: remark: Added loop label VITIS_LOOP_43_2:   [xilinx-label-all-loops]
+    for (int x = 0; x < 64 / 2; x++)
+    ^
+    VITIS_LOOP_43_2: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp:49612:5: note: FIX-IT applied suggested code changes
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp:49627:3: remark: Added loop label VITIS_LOOP_58_3:   [xilinx-label-all-loops]
+  for (int y = 0; y < 64; y++)
+  ^
+  VITIS_LOOP_58_3: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp:49627:3: note: FIX-IT applied suggested code changes
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp:49629:5: remark: Added loop label VITIS_LOOP_60_4:   [xilinx-label-all-loops]
+    for (int x = 0; x < 64; x++)
+    ^
+    VITIS_LOOP_60_4: 
+C:\Alex\Facultate\AN_III\OpticalFlow\Optical-Flow\horn_schunck_hls\pyramidal_hs\hls\.autopilot\db\pyramidal_hs.pp.0.cpp:49629:5: note: FIX-IT applied suggested code changes

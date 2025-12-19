@@ -6,11 +6,50 @@
       "--sysroot=C:\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
       "-fhls",
       "-hls-syn-headers-dir=C:\\AMDDesignTools\\2025.2\\Vitis\\common\\technology\\autopilot",
-      "-fhlstoplevel=horn_schunck_hls",
+      "-fhlstoplevel=pyramidal_hs",
       "-c",
-      "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\hsl\\src\\horn_schunck_hsl.cpp"
+      "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\horn_schunck_hsl.cpp"
     ],
-    "file": "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\hsl\\src\\horn_schunck_hsl.cpp"
+    "file": "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\horn_schunck_hsl.cpp"
+  },
+  {
+    "directory": "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls",
+    "arguments": [
+      "C:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\AMDDesignTools\\2025.2\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=pyramidal_hs",
+      "-c",
+      "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\pyramidal_hs.cpp"
+    ],
+    "file": "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\pyramidal_hs.cpp"
+  },
+  {
+    "directory": "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls",
+    "arguments": [
+      "C:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\AMDDesignTools\\2025.2\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=pyramidal_hs",
+      "-c",
+      "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\pyramid_hls.cpp"
+    ],
+    "file": "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\pyramid_hls.cpp"
+  },
+  {
+    "directory": "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls",
+    "arguments": [
+      "C:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\AMDDesignTools\\2025.2\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=pyramidal_hs",
+      "-c",
+      "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\derivatives_hls.cpp"
+    ],
+    "file": "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\derivatives_hls.cpp"
   },
   {
     "directory": "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\horn_schunck_hls",
@@ -20,8 +59,8 @@
       "-fhls-tb",
       "-hls-sim-headers-dir=C:\\AMDDesignTools\\2025.2\\Vitis\\include",
       "-c",
-      "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\hsl\\src\\main_tb.cpp"
+      "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\main_tb.cpp"
     ],
-    "file": "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\hsl\\src\\main_tb.cpp"
+    "file": "C:\\Alex\\Facultate\\AN_III\\OpticalFlow\\Optical-Flow\\HS_hls\\src\\main_tb.cpp"
   }
 ]

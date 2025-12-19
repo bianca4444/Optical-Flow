@@ -1,0 +1,470 @@
+{
+    "1": {
+        "name": "pyramidal_hs_Pipeline_VITIS_LOOP_58_3_VITIS_LOOP_60_4",
+        "file": "..\/HS_hls\/src\/pyramidal_hs.cpp",
+        "fileloc": "58",
+        "instructions": "41",
+        "total_instructions": "41",
+        "calls": "",
+        "basicblocks": "4",
+        "memory_accesses": "10",
+        "control_depth": "1",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "3",
+            "T": "2"
+        },
+        "stores": {
+            "L": "6",
+            "T": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "2": {
+        "name": "horn_schunck_16",
+        "file": "horn_schunck_hsl.cpp",
+        "fileloc": "97",
+        "instructions": "14",
+        "total_instructions": "366",
+        "calls": "5 8",
+        "basicblocks": "4",
+        "memory_accesses": "0",
+        "control_depth": "0",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "3": {
+        "name": "pyramidal_hs_Pipeline_VITIS_LOOP_29_1_VITIS_LOOP_30_25",
+        "file": "..\/HS_hls\/src\/pyramidal_hs.cpp",
+        "fileloc": "39",
+        "instructions": "86",
+        "total_instructions": "86",
+        "calls": "",
+        "basicblocks": "17",
+        "memory_accesses": "18",
+        "control_depth": "3",
+        "def_use_depth": "1",
+        "loads": {
+            "G": "6",
+            "L": "3"
+        },
+        "stores": {
+            "G": "6",
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "4": {
+        "name": "pyramidal_hs_Pipeline_VITIS_LOOP_29_1_VITIS_LOOP_30_2",
+        "file": "..\/HS_hls\/src\/pyramidal_hs.cpp",
+        "fileloc": "38",
+        "instructions": "86",
+        "total_instructions": "86",
+        "calls": "",
+        "basicblocks": "17",
+        "memory_accesses": "18",
+        "control_depth": "3",
+        "def_use_depth": "1",
+        "loads": {
+            "G": "6",
+            "L": "3"
+        },
+        "stores": {
+            "G": "6",
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "5": {
+        "name": "horn_schunck_16_Pipeline_VITIS_LOOP_110_1_VITIS_LOOP_112_2",
+        "file": "..\/HS_hls\/src\/horn_schunck_hsl.cpp",
+        "fileloc": "110",
+        "instructions": "72",
+        "total_instructions": "72",
+        "calls": "",
+        "basicblocks": "17",
+        "memory_accesses": "18",
+        "control_depth": "3",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "G": "12",
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "6": {
+        "name": "pyramidal_hs_Pipeline_VITIS_LOOP_39_1_VITIS_LOOP_40_2",
+        "file": "..\/HS_hls\/src\/pyramidal_hs.cpp",
+        "fileloc": "55",
+        "instructions": "60",
+        "total_instructions": "60",
+        "calls": "",
+        "basicblocks": "4",
+        "memory_accesses": "13",
+        "control_depth": "1",
+        "def_use_depth": "1",
+        "loads": {
+            "G": "6",
+            "L": "3"
+        },
+        "stores": {
+            "L": "6",
+            "T": "1"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "7": {
+        "name": "pyramidal_hs_Pipeline_VITIS_LOOP_39_1_VITIS_LOOP_40_26",
+        "file": "..\/HS_hls\/src\/pyramidal_hs.cpp",
+        "fileloc": "56",
+        "instructions": "60",
+        "total_instructions": "60",
+        "calls": "",
+        "basicblocks": "4",
+        "memory_accesses": "13",
+        "control_depth": "1",
+        "def_use_depth": "1",
+        "loads": {
+            "G": "6",
+            "L": "3"
+        },
+        "stores": {
+            "L": "6",
+            "T": "1"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "8": {
+        "name": "horn_schunck_16_Pipeline_VITIS_LOOP_123_4_VITIS_LOOP_125_5",
+        "file": "..\/HS_hls\/src\/horn_schunck_hsl.cpp",
+        "fileloc": "106",
+        "instructions": "280",
+        "total_instructions": "280",
+        "calls": "",
+        "basicblocks": "19",
+        "memory_accesses": "67",
+        "control_depth": "3",
+        "def_use_depth": "2",
+        "loads": {
+            "G": "45",
+            "L": "5"
+        },
+        "stores": {
+            "G": "12",
+            "L": "8"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "9": {
+        "name": "pyramidal_hs_Pipeline_VITIS_LOOP_17_1_VITIS_LOOP_18_2",
+        "file": "..\/HS_hls\/src\/pyramidal_hs.cpp",
+        "fileloc": "30",
+        "instructions": "212",
+        "total_instructions": "212",
+        "calls": "",
+        "basicblocks": "20",
+        "memory_accesses": "51",
+        "control_depth": "3",
+        "def_use_depth": "1",
+        "loads": {
+            "G": "36",
+            "L": "3"
+        },
+        "stores": {
+            "G": "9",
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "10": {
+        "name": "compute_derivatives_32",
+        "file": "derivatives_hls.cpp",
+        "fileloc": "38",
+        "instructions": "235",
+        "total_instructions": "235",
+        "calls": "",
+        "basicblocks": "7",
+        "memory_accesses": "58",
+        "control_depth": "2",
+        "def_use_depth": "1",
+        "loads": {
+            "G": "47",
+            "L": "3"
+        },
+        "stores": {
+            "G": "5",
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "11": {
+        "name": "pyramidal_hs_Pipeline_VITIS_LOOP_6_1_VITIS_LOOP_7_2",
+        "file": "..\/HS_hls\/src\/pyramidal_hs.cpp",
+        "fileloc": "28",
+        "instructions": "108",
+        "total_instructions": "108",
+        "calls": "",
+        "basicblocks": "20",
+        "memory_accesses": "19",
+        "control_depth": "3",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "3",
+            "T": "4"
+        },
+        "stores": {
+            "G": "9",
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "0": {
+        "name": "pyramidal_hs",
+        "file": "..\/HS_hls\/src\/pyramidal_hs.cpp",
+        "fileloc": "6",
+        "instructions": "26",
+        "total_instructions": "2297",
+        "calls": "11 20 9 17 15 2 4 3 18 10 13 6 7 1 12 14",
+        "basicblocks": "1",
+        "memory_accesses": "0",
+        "control_depth": "0",
+        "def_use_depth": "0"
+    },
+    "12": {
+        "name": "compute_derivatives",
+        "file": "..\/HS_hls\/src\/derivatives_hls.cpp",
+        "fileloc": "4",
+        "instructions": "101",
+        "total_instructions": "101",
+        "calls": "",
+        "basicblocks": "7",
+        "memory_accesses": "17",
+        "control_depth": "2",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "3",
+            "T": "6"
+        },
+        "stores": {
+            "G": "5",
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "13": {
+        "name": "horn_schunck_32",
+        "file": "horn_schunck_hsl.cpp",
+        "fileloc": "50",
+        "instructions": "13",
+        "total_instructions": "293",
+        "calls": "19",
+        "basicblocks": "4",
+        "memory_accesses": "0",
+        "control_depth": "0",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "14": {
+        "name": "horn_schunck_64",
+        "file": "..\/HS_hls\/src\/horn_schunck_hsl.cpp",
+        "fileloc": "7",
+        "instructions": "30",
+        "total_instructions": "149",
+        "calls": "16",
+        "basicblocks": "7",
+        "memory_accesses": "0",
+        "control_depth": "0",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "1",
+            "T": "2"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1",
+            "N": "1"
+        }
+    },
+    "15": {
+        "name": "compute_derivatives_16",
+        "file": "derivatives_hls.cpp",
+        "fileloc": "62",
+        "instructions": "237",
+        "total_instructions": "237",
+        "calls": "",
+        "basicblocks": "7",
+        "memory_accesses": "57",
+        "control_depth": "2",
+        "def_use_depth": "1",
+        "loads": {
+            "G": "46",
+            "L": "3"
+        },
+        "stores": {
+            "G": "5",
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "16": {
+        "name": "horn_schunck_64_Pipeline_VITIS_LOOP_33_5",
+        "file": "..\/HS_hls\/src\/horn_schunck_hsl.cpp",
+        "fileloc": "13",
+        "instructions": "119",
+        "total_instructions": "119",
+        "calls": "",
+        "basicblocks": "4",
+        "memory_accesses": "17",
+        "control_depth": "1",
+        "def_use_depth": "1",
+        "loads": {
+            "G": "3",
+            "L": "3",
+            "T": "6"
+        },
+        "stores": {
+            "L": "6",
+            "T": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "17": {
+        "name": "pyramidal_hs_Pipeline_VITIS_LOOP_17_1_VITIS_LOOP_18_24",
+        "file": "..\/HS_hls\/src\/pyramidal_hs.cpp",
+        "fileloc": "31",
+        "instructions": "61",
+        "total_instructions": "61",
+        "calls": "",
+        "basicblocks": "4",
+        "memory_accesses": "11",
+        "control_depth": "1",
+        "def_use_depth": "1",
+        "loads": {
+            "G": "4",
+            "L": "3"
+        },
+        "stores": {
+            "G": "1",
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "18": {
+        "name": "pyramidal_hs_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2",
+        "file": "..\/HS_hls\/src\/pyramidal_hs.cpp",
+        "fileloc": "41",
+        "instructions": "106",
+        "total_instructions": "106",
+        "calls": "",
+        "basicblocks": "17",
+        "memory_accesses": "30",
+        "control_depth": "3",
+        "def_use_depth": "1",
+        "loads": {
+            "G": "12",
+            "L": "3"
+        },
+        "stores": {
+            "G": "12",
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "19": {
+        "name": "horn_schunck_32_Pipeline_VITIS_LOOP_78_4_VITIS_LOOP_80_5",
+        "file": "..\/HS_hls\/src\/horn_schunck_hsl.cpp",
+        "fileloc": "60",
+        "instructions": "280",
+        "total_instructions": "280",
+        "calls": "",
+        "basicblocks": "19",
+        "memory_accesses": "67",
+        "control_depth": "3",
+        "def_use_depth": "2",
+        "loads": {
+            "G": "45",
+            "L": "5"
+        },
+        "stores": {
+            "G": "12",
+            "L": "8"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "20": {
+        "name": "pyramidal_hs_Pipeline_VITIS_LOOP_6_1_VITIS_LOOP_7_23",
+        "file": "..\/HS_hls\/src\/pyramidal_hs.cpp",
+        "fileloc": "29",
+        "instructions": "70",
+        "total_instructions": "70",
+        "calls": "",
+        "basicblocks": "7",
+        "memory_accesses": "12",
+        "control_depth": "2",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "3",
+            "T": "4"
+        },
+        "stores": {
+            "G": "2",
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}
