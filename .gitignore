@@ -1,21 +1,64 @@
-# Ignore build output directory
+# =========================
+# Build / Export
+# =========================
 /build
 /export
+/bin
 
-# Ignore object files and dependent files
-.o
-.d
+# =========================
+# Object & dependency files
+# =========================
+*.o
+*.d
 
-#Ignore logs folder and log files
-/logs
-.log
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+*.jou
+*.str
+*.rpt
 
-#Ignore lock files
-.lock
+# =========================
+# Lock / temp
+# =========================
+*.lock
+*.tmp
 
-.bin
-.pdi
+# =========================
+# Vitis / Vivado / HLS
+# =========================
+.Xil/
+.hls/
+.vitis/
+solution*/
+horn_schunck/
+
+horn_schunck_hls/
+lucas_kanade_hls/
+
+*.pb
+*.wdb
+*.dmp
+
+# =========================
+# Simulation output
+# =========================
+*.vcd
+*.wlf
+*.fsdb
+
+# =========================
+# Workspace / IDE
+# =========================
 .vitisWorkspace.json
+_ide/
+.vscode/
+.idea/
 
-_ide/logs
-_ide/.wsdata
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
